@@ -1,0 +1,240 @@
+/* CONTENTS
+/////////////////////////////////////
+*/
+// 00. LESS
+/*
+01. BASE
+02. LAYOUT
+03. MODULES
+04. STATE
+
+This stylesheet is a starting place. Include your own Base, Layout
+Modules, and State styles below.
+
+This style sheet organization is based on the SMACCS system. 
+Please visit the following website for more info: http://smacss.com/
+*/
+
+// Load LESS Library 
+//@import "components/_variables";
+//@import "components/_buttons";
+// Core variables and mixins
+@import "components/variables.less";
+@import "components/mixins.less";
+
+// Reset and dependencies
+@import "components/normalize.less";
+@import "components/print.less";
+@import "components/glyphicons.less";
+
+// Core CSS
+@import "components/scaffolding.less";
+@import "components/type.less";
+@import "components/code.less";
+@import "components/grid.less";
+@import "components/tables.less";
+@import "components/forms.less";
+@import "components/buttons.less";
+
+// Components
+@import "components/component-animations.less";
+@import "components/dropdowns.less";
+@import "components/button-groups.less";
+@import "components/input-groups.less";
+@import "components/navs.less";
+@import "components/navbar.less";
+@import "components/breadcrumbs.less";
+@import "components/pagination.less";
+@import "components/pager.less";
+@import "components/labels.less";
+@import "components/badges.less";
+@import "components/jumbotron.less";
+@import "components/thumbnails.less";
+@import "components/alerts.less";
+@import "components/progress-bars.less";
+@import "components/media.less";
+@import "components/list-group.less";
+@import "components/panels.less";
+@import "components/responsive-embed.less";
+@import "components/wells.less";
+@import "components/close.less";
+
+// Components w/ JavaScript
+@import "components/modals.less";
+@import "components/tooltip.less";
+@import "components/popovers.less";
+@import "components/carousel.less";
+
+// Utility classes
+@import "components/utilities.less";
+@import "components/responsive-utilities.less";
+
+/****************************
+/////////////////////////////
+
+01. BASE
+
+All base HTML tags that require styling
+
+/////////////////////////////
+****************************/
+
+body {
+  background: @body-bg;
+  font-family: @font-family-sans-serif;
+  font-size: @font-size-base;
+  line-height: @line-height-base;
+  color: @text-color; 
+}
+
+ul,
+ol {
+
+}
+
+li {
+
+}
+
+a, a:link, a:visited {
+
+}
+
+a:hover {
+
+}
+
+p {
+
+
+}
+
+hr {
+
+}
+
+/***************************
+////////////////////////////
+
+02. LAYOUT
+
+Styles specific to your layout or website
+
+////////////////////////////
+***************************/
+
+.header {
+	
+}
+
+.footer {
+
+}
+
+/***************************
+////////////////////////////
+
+03. MODULES
+
+Reusable classes or components
+
+////////////////////////////
+***************************/
+
+//@import "components/_colors.less";
+
+
+/*
+
+Potential modules you could replace...
+
+badges
+
+breadcrumb
+
+buttons
+
+button groups
+
+button dropdowns 
+
+carousel
+
+code 
+
+collapse
+
+colors
+
+dropdown
+
+forms
+
+icons
+
+input groups 
+
+images
+
+helpers
+
+jumbotron
+
+labels
+
+list group
+
+media object
+
+modal
+
+navs
+
+navbar
+
+pager
+
+page header
+
+pagination
+
+panels
+
+pills
+
+popover
+
+progress bars
+
+scrollspy
+
+tables
+
+tabs
+
+thumbnails
+
+tooltip
+
+typography
+
+well
+
+
+/***************************
+////////////////////////////
+
+04. STATES
+
+////////////////////////////
+***************************/
+
+/* 
+
+Potential states you could replace...
+
+alerts
+
+form validation
+
+*/
