@@ -1,11 +1,107 @@
 {
-	"index": {
-		"pageTitle": "Home"
+		"index": {
+		"pageTitle": "Create Your Grand Rounds Account"
 	},
-	"style-guide": {
+		"profile": {
+		"pageTitle": "Account Settings"
+	},
+		"signup-1": {
+		"pageTitle": "Create Your Account"
+	},
+		"signup-2": {
+		"pageTitle": "Create Your Account"
+	},
+		"dashboard-1": {
+		"pageTitle": "Welcome"
+	},
+		"dashboard-2": {
+		"pageTitle": "welcome"
+	},
+		"dashboard-3": {
+		"pageTitle": "welcome"
+	},
+		"opinion-1": {
+		"pageTitle": "opinion"
+	},
+		"opinion-2": {
+		"pageTitle": "opinion"
+	},
+		"opinion-3": {
+		"pageTitle": "opinion"
+	},
+		"opinion-4": {
+		"pageTitle": "opinion"
+	},
+		"opinion-5": {
+		"pageTitle": "opinion"
+	},
+		"opinion-6": {
+		"pageTitle": "opinion"
+	},
+		"opinion-7": {
+		"pageTitle": "opinion"
+	},
+		"opinion-8": {
+		"pageTitle": "opinion"
+	},
+		"opinion-9": {
+		"pageTitle": "opinion"
+	},
+		"opinion-10": {
+		"pageTitle": "opinion"
+	},
+		"opinion-11": {
+		"pageTitle": "opinion"
+	},
+		"opinion-12": {
+		"pageTitle": "opinion"
+	},
+		"opinion-13": {
+		"pageTitle": "opinion"
+	},
+		"opinion-14": {
+		"pageTitle": "opinion"
+	},
+		"visit-1": {
+		"pageTitle": "visit"
+	},
+		"visit-2": {
+		"pageTitle": "visit"
+	},
+		"visit-3": {
+		"pageTitle": "visit"
+	},
+		"visit-4": {
+		"pageTitle": "visit"
+	},
+		"visit-5": {
+		"pageTitle": "visit"
+	},
+		"visit-6": {
+		"pageTitle": "visit"
+	},
+		"visit-7": {
+		"pageTitle": "visit"
+	},
+		"visit-8": {
+		"pageTitle": "visit"
+	},
+		"visit-9": {
+		"pageTitle": "visit"
+	},
+		"visit-10": {
+		"pageTitle": "visit"
+	},
+		"visit-11": {
+		"pageTitle": "visit"
+	},
+		"visit-12": {
+		"pageTitle": "visit"
+	},
+		"style-guide": {
 		"pageTitle": "Style Guide"
 	},
-	"profile": {
-		"pageTitle": "Account Settings"
+		"sitemap": {
+		"pageTitle": "Site Map"
 	}
 }
