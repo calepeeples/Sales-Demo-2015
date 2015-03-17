@@ -20,6 +20,12 @@
 		"dashboard-3": {
 		"pageTitle": "welcome"
 	},
+		"medicalrecords-release1": {
+		"pageTitle": "medicalrecords-release"
+	},
+		"medicalrecords-req1": {
+		"pageTitle": "medicalrecords-request"
+	},
 		"opinion-1": {
 		"pageTitle": "opinion"
 	},
