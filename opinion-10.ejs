@@ -1,8 +1,25 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-lg-12">
-      <h1>Opinion 10 - Tell Us Who to Contact</h1>
-      	<p>Pick from the Drs you have seen</p>
-    </div>
-  </div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+		    <!-- Page Body Starts -->
+			<h3 class="page-header">[Name], tell us who to contact</h3>
+			<p>Because you live in [STATE], one of your treating physicians must provide permission for us to send you a second opinion. Please tell us which of your doctors we should contact to obtain this consent. The doctor selected will also receive a copy of your second opinion.</p>
+			
+			<div class="radio_buttons input optional control-group" id="case_consenting_physician_input">
+				<label class=" control-label" for="case_consenting_physician">Consenting physician</label>
+				<div class="controls">
+					<label class="choice radio" for="case_consenting_physician_2384">
+						<input id="case_consenting_physician_2384" name="case[consenting_physician]" type="radio" value="2384">[Dr Name, Hospital]
+					</label>
+					<label class="choice radio" for="case_consenting_physician_new">
+						<input id="case_consenting_physician_new" name="case[consenting_physician]" type="radio" value="new">Add a physician
+					</label>
+				</div>
+			</div>
+			
+			<p><a href="opinion-11" class="btn btn-primary" data-method="get">Select Consenting Physician</a></p>
+			
+			<!-- Page Body Ends -->
+		</div>
+	</div>
 </div>

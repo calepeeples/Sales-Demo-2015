@@ -32,7 +32,10 @@
 		"opinion-2": {
 		"pageTitle": "opinion"
 	},
-		"opinion-3": {
+		"opinion-3-Code": {
+		"pageTitle": "opinion"
+	},
+		"opinion-3-NoCode": {
 		"pageTitle": "opinion"
 	},
 		"opinion-4": {
@@ -105,9 +108,6 @@
 		"pageTitle": "visit"
 	},
 		"visit-12": {
-		"pageTitle": "visit"
-	},
-		"visit-13": {
 		"pageTitle": "visit"
 	},
 		"style-guide": {
