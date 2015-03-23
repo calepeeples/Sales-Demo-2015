@@ -12,7 +12,12 @@
 
     <div class="collapse navbar-collapse" id="navbar1">
       <ul class="nav navbar-nav navbar-right">
-				 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-comment fa-2x"></i></a>
+				 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+					 <span class="fa-stack ">
+						 <i class="fa fa-comment fa-2x fa-stack-2x"></i>
+					 	<span class="icon-fixed-width icon-light fa-stack-1x char-overlay">3</span>
+					</span>
+					 </a>
          <ul class="dropdown-menu" role="menu">
            <li><a href="profile.html"><b>No New Messages</b><br /><small>Messages from your Grand Rounds team will show up here</small></a></li>
            <li class="divider"></li>
@@ -20,7 +25,7 @@
 				 </ul>
 				 </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src="http://www.gravatar.com/avatar/f3f886df90b74d3f82f668f829a9e2e9.png?s=28"  class="avatar"/> Cale Peeples <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src= <%= gravatarImage %>  class="avatar"/> <%= firstName %> <%= lastName %> <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="profile.html"><b>Account Settings</b> <span class="label label-info">New</span><br /><small>Edit your password, email, sharing permissions, and insurance coverage</small></a></li>
             <li><a href="#"><b>Family Settings</b><br /><small>Manage your entire extended family and their Grand Rounds benefits</small></a></li>

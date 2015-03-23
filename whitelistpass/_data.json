@@ -2,5 +2,11 @@
 	"signup-1": {
 		"layout": "_account-layout",
 		"pageTitle": "Create Your Grand Rounds Account"
+	},
+	"dashboard-1": {
+		"layout": "_layout",
+		"pageTitle": "Welcome to Grand Rounds",
+		"firstName": "Jeremy",
+		"lastName": "Gross"
 	}
 }
