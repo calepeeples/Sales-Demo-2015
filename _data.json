@@ -5,6 +5,15 @@
 		"profile": {
 		"pageTitle": "Account Settings"
 	},
+		"profile-password": {
+		"pageTitle": "Account Settings"
+	},
+		"profile-medicalcoverage": {
+		"pageTitle": "Account Settings"
+	},
+		"profile-notifications": {
+		"pageTitle": "Account Settings"
+	},
 		"signup-1": {
 		"pageTitle": "Create Your Account"
 	},
