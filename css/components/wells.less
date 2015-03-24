@@ -12,10 +12,31 @@
   border: 1px solid @well-border;
   border-radius: @border-radius-base;
   .box-shadow(inset 0 1px 1px rgba(0,0,0,.05));
+	
   blockquote {
     border-color: #ddd;
     border-color: rgba(0,0,0,.15);
   }
+	
+	&.common-conditions {
+		background-color: lighten(@brand-primary, 40%);
+		.box-shadow(inset 0 0px 0px rgba(0,0,0,.05));
+		border: 0px solid @well-border;
+	}
+	
+	&.welcome-home {
+		background-color: @gr-orange;
+		width: auto;
+		color: white;
+	}
+	
+	&.checklist-info {
+		background-color: lighten(@brand-info, 25%);
+		.box-shadow(inset 0 0px 0px rgba(0,0,0,.05));
+		border: 0px solid @well-border;
+		border-left: 4px solid @brand-info;
+	}
+	
 }
 
 // Sizes
