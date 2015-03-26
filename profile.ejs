@@ -1,7 +1,7 @@
 <div class="container">
 	
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12 col-sm-12 col-xs-12">
 			
 			<section>
 				<header><h2>Account Settings</h2></header>
@@ -20,7 +20,7 @@
 	</div>
 	
 	<div class="row tab-content">
-		<div class="col-md-6">
+		<div class="col-md-6 col-sm-8">
 			<form class="" role="form">
 				
 				<div class="row">
@@ -121,7 +121,7 @@
 				<div class="row">
 					<div class="form-group has-feedback col-md-6">
 						<label for="phone">Phone Number</label>
-						<input class="form-control" id="phone" placeholder="(xxx) xxx-xxxx" type="text">
+						<input class="form-control" id="phone" placeholder="(XXX) XXX-XXXX" type="text">
 					</div>
 	
 					<div class="form-group has-feedback col-md-6">
@@ -141,17 +141,18 @@
 				</div>
 
 				<hr />
-
-				<div class="form-group has-feedback">
-					<label for="birthday">Birthday</label>
-					<input class="form-control" id="birthday" placeholder="MM / DD / YYYY" type="text">
-				</div>
-
-				<div class="form-group has-feedback">
-					<label for="ssn">Last 4 of SSN</label>
-					<div class="input-group">
-						<div class="input-group-addon">XXX - XX - </div>
-						<input class="form-control" id="ssn" placeholder="1234" type="text">
+				<div class="row">
+					<div class="form-group has-feedback col-md-6">
+						<label for="birthday">Birthday</label>
+						<input class="form-control" id="birthday" placeholder="MM / DD / YYYY" type="text">
+					</div>
+					
+					<div class="form-group has-feedback col-md-6">
+						<label for="ssn">Last 4 of SSN</label>
+						<div class="input-group">
+							<div class="input-group-addon">XXX - XX - </div>
+							<input class="form-control" id="ssn" placeholder="1234" type="text">
+						</div>
 					</div>
 				</div>
 				
@@ -161,22 +162,23 @@
 
 			</form>
 		</div>
-	
-		<div class="col-md-4 col-md-offset-2 well">
+
+		<div class="col-xs-offset-3 col-xs-6 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-4 well">
 			<h3>Profile Picture</h3>
-			<div class="center-block">
-				<span class="fa-stack fa-5x">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-user fa-stack-1x fa-inverse"></i>
-				</span>
-			</div>
-			<div class="caption">
-				<p>Add a picture for our Care Team...</p>
-				<p><a href="#" class="btn btn-default btn-block" role="button">Edit</a></p>
-				<!-- <p><a href="#" class="btn btn-danger btn-block" role="button">Remove</a></p> -->
-			</div>
+
+				<div class="picture">
+					<span class="fa-stack fa-5x">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-user fa-stack-1x fa-inverse"></i>
+					</span>
+				</div>
+
+				<div class="caption">
+					<p>Add a picture for our Care Team...</p>
+					<p><a href="#" class="btn btn-default btn-block" role="button">Edit</a></p>
+				</div>
 		</div>
-	
+
 	</div>
 
 </div>
