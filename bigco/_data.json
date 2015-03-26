@@ -1,0 +1,52 @@
+{
+	"signup-1": {
+		"layout": "_account-layout",
+		"pageTitle": "Create Your Grand Rounds Account"
+	},
+	"dashboard-1": {
+		"layout": "_layout",
+		"pageTitle": "Welcome to Grand Rounds",
+		"firstName": "Jeremy",
+		"lastName": "Gross"
+	},
+	"visit-1": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross"
+	},
+	"visit-2": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross",
+		"email": "jeremy.gross@grandrounds.com",
+		"company": "Grand Rounds"
+	},
+	"visit-3": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross",
+		"insuranceProvider": "Grand Rounds Health Plan",
+		"insuranceCarrier": "Blue Shield PPO"
+	},
+	"visit-4": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross"
+	},
+	"visit-5": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross"
+	},
+		"visit-casedashboard-1": {
+		"layout": "_layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross"
+	}
+}
