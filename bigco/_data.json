@@ -48,5 +48,18 @@
 		"pageTitle": "Start your Visit",
 		"firstName": "Jeremy",
 		"lastName": "Gross"
+	},
+	"medicalrecords-release1": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross",
+		"address": "360 3rd Street, Suite 425"
+	},
+		"visit-casedashboard-2": {
+		"layout": "_layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross"
 	}
 }

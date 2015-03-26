@@ -1,14 +1,15 @@
+	<div class="well welcome-home">
+		<div class="container">
+		<h2>Please select a specialist and we'll begin scheduling an appointment for you.</h2>
+		<p>We've found 3 leading physicians that are ready to meet with you.</p>	  
+	</div>
+	</div>
+
+
 <div class="container">
   <div class="row">
     <div class="col-lg-12">
     <!-- Page Body Starts -->
-		
-	<div class="well">
-		<h2>Please select a specialist and we'll begin scheduling an appointment for you.</h2>
-		<p>We've found 3 leading physicians that are ready to meet with you.</p>	  
-	</div>
-
-
 	<div class="well">
 		<div class="row">
 			<div class="col-md-4">
@@ -61,69 +62,74 @@
 		<div class="col-md-4">
 			<h3>Grand Rounds Team</h3>
 			
-			<ul>
-				
-				<li class="col-md-4">
-					<div>Image</div>
-					<div>
-						<h6>You ([name])</h6>
-						<small>[you]</small>
-					</div>
-				</li>
-
-				<li class="col-md-4">
-					<div>Image</div>
-					<div>
-						<h6>[Name]</h6>
-						<small>Care Coordinator</small>
-					</div>
-				</li>
-
-				<li class="col-md-4">
-					<div>Image</div>
-					<div>
-						<h6>[Name]</h6>
-						<small>Staff Physician</small>
-					</div>
-				</li>
-				
-			</ul>
-			
-			<div class="form-group">
-				<button type="button" class="btn btn-default btn-lg btn-block">Add A Team Member</button>
-				<button type="button" class="btn btn-default btn-lg btn-block">View Your Case Documents</button>
+			<div class="media">
+			  <div class="media-left">
+			    <a href="#"><img class="media-object" src="../assets/icon-user-patient.png" width="64" alt="Icon User Patient">
+			    </a>
+			  </div>
+			  <div class="media-body">
+			    <h4 class="media-heading">You</h4>
+			   <%= firstName %>
+			  </div>
+			</div>
+			<div class="media">
+			  <div class="media-left">
+			    <a href="#"><img class="media-object" src="../assets/icon-user-cc.png" width="64" alt="Icon User Patient">
+			    </a>
+			  </div>
+			  <div class="media-body">
+			    <h4 class="media-heading">Care Coordinator</h4>
+			   Erin Moore
+			  </div>
+			</div>
+			<div class="media">
+			  <div class="media-left">
+			    <a href="#"><img class="media-object" src="../assets/icon-user-sp.png" width="64" alt="Icon User Patient">
+			    </a>
+			  </div>
+			  <div class="media-body">
+			    <h4 class="media-heading">Staff Physician</h4>
+			   <span class="label label-info">Joining soon...</span>
+			  </div>
+			</div>
+			<div>
+				<hr>
+				<a href="#"> <i class="fa fa-plus-circle"></i> ADD A TEAM MEMBER</a>
+				<br>
+				<span class="small">
+					Invite a family member or caregiver to your team, but keep in mind that they will have access to your case history, medical records, and team messages.
+				</span>
 			</div>
 			
 		</div>
 		
 		<div class="col-md-7 col-md-offset-1">
 			<h3>Team Messages</h3>
-			
 			<div class="row">
-				<div class="col-md-7">
-		  			<textarea name="teammessagesnew" class="form-control" id="teammessagesnew" rows="3" placeholder="New Message..."></textarea>
-				</div>
-				
-				<div class="col-md-1">
-		  			<button type="button" class="btn btn-default">Send</button>
-				</div>
+				<div class="col-md-4 col-md-offset-8">
+				<button type="button" class="btn btn-info">New Message</button>
 			</div>
-			
-			
-			<ul>
-				<li>
-					<div>[avatar]</div>
-					<div>
-						<div>
-							<p>Message in the message center is here.</p>
-						</div>
-						<div>
-							<div>[names]</div>
-							<div>[date]</div>
-						</div>
-					</div>
-				</li>
-			</ul>
+			</div>
+	
+			<div class="media">
+			  <div class="media-left">
+			    <a href="#"><img class="media-object" src="../assets/icon-user-cc.png" width="32" alt="Icon User Patient">
+			    </a>
+			  </div>
+			  <div class="media-body">
+			    <h4 class="media-heading">Welcome to Grand Rounds!</h4>
+					<span class="small">Monday March 23rd, 2015</span> <span class="label label-danger">NEW</span> 
+			   	<p>Hi <%= firstName %>, I'm Erin the Care Coordinator for your visit and I'm excited to help you through the visit process.</p>
+					Here's what you can to expect to happen next:
+					<ul>
+						<li>We'll start collecting your medical records as soon as you <a href="#">sign your medical release form</a>.</li>
+						<li>One of our Staff Physicians will join your case</li>
+						<li>Within the next 24-48 hours, we'll locate a doctor in your area and send you a message</li>
+						<li>After you select your specialist we'll start scheduling appointment times</li>
+					</ul>
+					<a href="#"><i class="fa fa-reply"></i> Reply</a>
+			  </div>
+			</div>
 			
 		</div>
 	
