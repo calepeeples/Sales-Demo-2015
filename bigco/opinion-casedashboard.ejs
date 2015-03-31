@@ -1,0 +1,109 @@
+	<div class="well welcome-home">
+		<div class="container">
+		<h2>Grand Rounds is now collecting your records</h2>
+		<h4>We are now collecting your medical records from each of your medical records providers.</h4>  
+	</div>
+	</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+    <!-- Page Body Starts -->
+		<section>
+		<div class="prog">
+			<div class="notch" style="left: 50%;"></div>
+			<div class="bar">
+				<span class="l1">
+					<span class="fa fa-check"></span>
+					<div class="milestone">Case Started</div>
+				</span>
+				<span class="l2">
+					<span class="fa fa-check"></span>
+					<div class="milestone">Collecting Records</div>
+				</span>
+				<span class="l3">
+					<span class="fa circle"></span>
+					<div class="milestone">Expert Review</div>
+				</span>
+				<span class="l4">
+					<span class="fa circle"></span>
+					<div class="milestone">Expert Opinion</div>
+				</span>
+				<div class="state" data-n-point="50%" data-percent="50" style="width: 50%;"></div>
+			</div>
+		</div>
+	</section>
+		
+	<div class="well checklist-danger">
+		<div class="row">
+			<div class="col-md-1">
+				<div class="fa fa-exclamation-triangle fa-4x brand-warning"></div>
+			</div>
+			
+			<div class="col-md-7">
+				<h4>Choose a Consenting Physician</h4>
+				Because you live in CA, one of your treating physicians must provide permission for us to send you a second opinion. Please tell us which of your doctors we should contact to obtain this consent. The doctor selected will also receive a copy of your second opinion.
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+					    Dr. <%= drName %>
+					  </label>
+					</div>
+					<a href="#"> <i class="fa fa-plus-circle"></i> ADD A DIFFERENT CONSENTING PHYSICIAN</a>
+				
+			</div>
+			
+			<div class="col-md-4">
+				<a href="opinion-casedashboard-expertreview" class="btn btn-warning btn-block" data-method="get">SUBMIT</a>
+			</div>
+		</div>
+	</div>
+
+	
+<%- partial("../partial/_teamandmessages") %>
+	
+	<!-- Page Body Ends -->
+    </div>
+  </div>
+</div>
+
+    <script type="text/javascript">
+        function generate(type, text) {
+
+            var n = noty({
+                text        : '<div class="activity-item"> <i class="fa fa-heart"> Your Grand Rounds Second Opinion case has been started!</i> <div class="activity"> </div> </div>',
+                type        : type,
+                dismissQueue: true,
+                layout      : 'topCenter',
+								timeout     : 'true',
+                closeWith   : ['click'],
+                theme       : 'relax',
+                maxVisible  : 10,
+                animation   : {
+                    open  : 'animated bounceInLeft',
+                    close : 'animated bounceOutLeft',
+                    easing: 'swing',
+                    speed : 500
+                }
+            });
+            console.log('html: ' + n.options.id);
+        }
+
+        function generateAll() {
+            //generate('warning', notification_html[0]);
+            //generate('error', notification_html[1]);
+            generate('information', notification_html[2]);
+            //generate('success', notification_html[3]);
+//            generate('notification');
+//            generate('success');
+        }
+
+        $(document).ready(function () {
+
+            setTimeout(function() {
+                generateAll();
+            }, 500);
+
+        });
+
+    </script>

@@ -23,6 +23,21 @@
 		"email": "jeremy.gross@grandrounds.com",
 		"company": "Grand Rounds"
 	},
+	"visit-2-combined": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross",
+		"email": "jeremy.gross@grandrounds.com",
+		"company": "Big Co.",
+		"insuranceProvider": "Big Co. Health Plan",
+		"insuranceCarrier": "Blue Shield PPO",
+		"insuranceGroupNumber": "XXXXXX-2H154",
+		"insurancePolicyNumber": "XXXXXXXXXX-9814",
+		"address": "360 3rd Street, Suite 425",
+		"addressCityState": "San Francisco CA 94017",
+		"phone": "(425) 929-9266"
+	},
 	"visit-3": {
 		"layout": "_account-layout",
 		"pageTitle": "Start your Visit",
@@ -107,5 +122,84 @@
 		"drHospital": "Palo Alto Medical Foundation",
 		"drAddress": "300 Homer Avenue Palo Alto CA",
 		"drGoogleMap": "https://www.google.com/maps/place/Palo+Alto+Medical+Foundation:+Price+Erik+MD/@37.440111,-122.161179,15z/data=!4m6!1m3!3m2!1s0x0:0xfeab933af4c9dc5b!2sPalo+Alto+Medical+Foundation:+Price+Erik+MD!3m1!1s0x0:0xfeab933af4c9dc5b"
+	},
+	"opinion-1": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross"
+	},
+	"opinion-2-combined": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross",
+		"email": "jeremy.gross@grandrounds.com",
+		"company": "Big Co.",
+		"insuranceProvider": "Big Co. Health Plan",
+		"insuranceCarrier": "Blue Shield PPO",
+		"insuranceGroupNumber": "XXXXXX-2H154",
+		"insurancePolicyNumber": "XXXXXXXXXX-9814",
+		"address": "360 3rd Street, Suite 425",
+		"addressCityState": "San Francisco CA 94017",
+		"phone": "(425) 929-9266"
+	},
+	"opinion-4": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross"
+	},
+	"opinion-5": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross"
+	},
+	"medicalrecords-opinion-release": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross",
+		"address": "360 3rd Street, Suite 425"
+	},
+	"opinion-8": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross"
+	},
+		"opinion-casedashboard": {
+		"layout": "_layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross",
+		"drName": "Harvery Millard"
+	},
+		"opinion-casedashboard-expertreview": {
+		"layout": "_layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross",
+		"drName": "Harvery Millard",
+		"drImage": "GR_Portraits_lg_0015_Jeff-Wang.jpg",
+		"drFName": "Jeffery",
+		"drLName": "Wang",
+		"drSpecialty": "Thoracic Surgery",
+		"drHospital": "Palo Alto Medical Foundation",
+		"drAddress": "300 Homer Avenue Palo Alto CA"
+	},
+		"opinion-casedashboard-opiniondelivered": {
+		"layout": "_layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross",
+		"drName": "Harvery Millard",
+		"drImage": "GR_Portraits_lg_0015_Jeff-Wang.jpg",
+		"drFName": "Jeffery",
+		"drLName": "Wang",
+		"drSpecialty": "Thoracic Surgery",
+		"drHospital": "Palo Alto Medical Foundation",
+		"drAddress": "300 Homer Avenue Palo Alto CA"
 	}
 }
