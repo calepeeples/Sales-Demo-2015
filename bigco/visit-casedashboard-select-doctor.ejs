@@ -1,0 +1,40 @@
+<div class="well welcome-home">
+	<div class="container">
+		<h2>We found the perfect specialist for you.</h2>
+		<p>Please confirm you want to see this specialist and we'll start scheduling your appointment.</p>
+	</div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+    <!-- Page Body Starts -->
+	<div class="well select-doctor">
+		<div class="row">
+			<div class="col-md-3">
+				<section>
+				<p><img src="../images/<%= drImage %>" width="150" height="150" alt=""></p>
+				<p><strong>Dr. <%= drFName %> <%= drLName %></strong></p>
+				<%= drSpecialty %><br>
+				<%= drHospital %><br>
+				<%= drAddress %><br>
+				Google Map <a href="<%= drGoogleMap %>" target="new">MAP IT</a>
+			</section>
+			</div>
+				<div class="col-md-6">
+				<p><strong>About Dr. <%= drLName %></strong><br />
+					Dr. <%= drLName %> has been a trailblazer in educational outreach, co-founding the UCSF Thoracic Oncology Conference, an annual symposium that provided expert training for thousands of community surgeons for over a decade. He also was instrumental in establishing the China Clinical Trials Consortium to find more effective treatments for lung cancer, and to ameliorate the epidemic of lung cancer in China. In 2009, he led the effort to bring World Conference on Lung Cancer to San Francisco, the preeminent event in the field, in which he served as co-Chair.</p>
+				<p><a href="visit-casedashboard-scheduled" type="button" class="btn btn-primary btn-block btn-lg">Schedule with this Doctor</a></p>
+				
+			</div>
+		</div>
+	</div>
+	
+	<!-- Team & Messages -->
+	<%- partial("../partial/_teamandmessages") %>
+	<!-- /Team & Messages -->
+	
+	<!-- Page Body Ends -->
+    </div>
+  </div>
+</div>
