@@ -1,0 +1,308 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Start your Visit | Grand Rounds Sales Demo 2015</title>
+
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/theme.css">
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/animate.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+	<!-- javascript //-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/noty/packaged/jquery.noty.packaged.min.js"></script>
+	<script type="text/javascript" src="../js/notification_html.js"></script>
+  <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+  <script>
+    $(document).ready(function () {
+      // initalize tooltips
+      $('[data-toggle="tooltip"]').tooltip();
+      // initalize popovers
+      $('[data-toggle="popover"]').popover();
+    });
+  </script>
+    
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="dashboard-welcome" class="navbar-brand"><img src="../images/grlogo-white.png" height="32" alt="Grlogo White"></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar1">
+      <ul class="nav navbar-nav navbar-right">
+				<li class="dropdown"><a href="#" class="dropdown-toggle"><img src="../assets/logo-white.png" height="32" ></a></li>
+				 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+					 <span class="fa-stack ">
+						 <i class="fa fa-comment fa-2x fa-stack-2x"></i>
+					 	<span class="icon-fixed-width icon-light fa-stack-1x char-overlay">1</span>
+					</span>
+					 </a>
+         <ul class="dropdown-menu" role="menu">
+           <li><a href="profile.html"><b>No New Messages</b><br /><small>Messages from your Grand Rounds team will show up here</small></a></li>
+           <li class="divider"></li>
+           <li><a href="#">Message Center</a></li>
+				 </ul>
+				 </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src= http://www.gravatar.com/avatar/f3f886df90b74d3f82f668f829a9e2e9.png?s=28  class="avatar"/> Jeremy Gross <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="profile.html"><b>Account Settings</b> <span class="label label-info">New</span><br /><small>Edit your password, email, sharing permissions, and insurance coverage</small></a></li>
+            <li><a href="#"><b>Family Settings</b><br /><small>Manage your entire extended family and their Grand Rounds benefits</small></a></li>
+            <li><a href="#"><b>Team Sharing</b><br /><small>Choose who gets to see what and when</small></a></li>
+						<li><a href="style-guide.html"><b>Style Guide</b> <span class="label label-danger">Remove</span><br /><small>Sample page off all the styles that are being built</small></a></li>
+												<li><a href="sitemap.html"><b>Sitemap</b> <span class="label label-danger">Remove</span><br /><small>All the pages</small></a></li>
+            <li class="divider"></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+	<div class="well welcome-home">
+		<div class="container">
+		<h2>Grand Rounds is now collecting your records</h2>
+		<h4>We are now collecting your medical records from each of your medical records providers.</h4>  
+	</div>
+	</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+    <!-- Page Body Starts -->
+		<section>
+		<div class="prog">
+			<div class="notch" style="left: 50%"></div>
+			<div class="bar">
+				<span class="l1">
+					<span class="fa fa-check"></span>
+					<div class="milestone">Case Started</div>
+				</span>
+				<span class="l2">
+					<span class="fa fa-check"></span>
+					<div class="milestone">Collecting Records</div>
+				</span>
+				<span class="l3">
+					<span class="fa circle"></span>
+					<div class="milestone">Expert Review</div>
+				</span>
+				<span class="l4">
+					<span class="fa circle"></span>
+					<div class="milestone">Expert Opinion</div>
+				</span>
+				<div class="state" data-n-point="50%" data-percent="50" style="width: 50%"></div>
+			</div>
+		</div>
+	</section>
+		
+	<div class="well checklist-danger">
+		<div class="row">
+			<div class="col-md-1">
+				<div class="fa fa-exclamation-triangle fa-4x brand-warning"></div>
+			</div>
+			
+			<div class="col-md-7">
+				<h4>Choose a Consenting Physician</h4>
+				Because you live in CA, one of your treating physicians must provide permission for us to send you a second opinion. Please tell us which of your doctors we should contact to obtain this consent. The doctor selected will also receive a copy of your second opinion.
+					<div class="radio">
+					  <label>
+					    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="checked">
+					    Dr. Harvery Millard
+					  </label>
+					</div>
+					<a href="#"> <i class="fa fa-plus-circle"></i> ADD A DIFFERENT CONSENTING PHYSICIAN</a>
+				
+			</div>
+			
+			<div class="col-md-4">
+				<a href="opinion-casedashboard-expertreview.html" class="btn btn-warning btn-block" data-method="get">SUBMIT</a>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="row">
+	
+		<div class="col-md-4">
+			<h3>Grand Rounds Team</h3>
+			
+			<div class="media">
+			  <div class="media-left">
+			    <a href="#"><img class="media-object" src="../assets/icon-user-patient.png" width="64" alt="Icon User Patient">
+			    </a>
+			  </div>
+			  <div class="media-body">
+			    <h4 class="media-heading">You</h4>
+			   Jeremy
+			  </div>
+			</div>
+			<div class="media">
+			  <div class="media-left">
+			    <a href="#"><img class="media-object" src="../assets/icon-user-cc.png" width="64" alt="Icon User Patient">
+			    </a>
+			  </div>
+			  <div class="media-body">
+			    <h4 class="media-heading">Care Coordinator</h4>
+			   Erin Moore
+			  </div>
+			</div>
+			<div class="media">
+			  <div class="media-left">
+			    <a href="#"><img class="media-object" src="../assets/icon-user-sp.png" width="64" alt="Icon User Patient">
+			    </a>
+			  </div>
+			  <div class="media-body">
+			    <h4 class="media-heading">Staff Physician</h4>
+			   <span class="label label-info">Joining soon...</span>
+			  </div>
+			</div>
+			<div>
+				<hr>
+				<a href="#"> <i class="fa fa-plus-circle"></i> ADD A TEAM MEMBER</a>
+				<br>
+				<span class="small">
+					Invite a family member or caregiver to your team, but keep in mind that they will have access to your case history, medical records, and team messages.
+				</span>
+			</div>
+			
+		</div>
+		
+		<div class="col-md-7 col-md-offset-1">
+			<h3>Team Messages</h3>
+			<div class="row">
+				<div class="col-md-4 col-md-offset-8">
+				<button type="button" class="btn btn-info">New Message</button>
+			</div>
+			</div>
+	
+			<div class="media">
+			  <div class="media-left">
+			    <a href="#"><img class="media-object" src="../assets/icon-user-cc.png" width="32" alt="Icon User Patient">
+			    </a>
+			  </div>
+			  <div class="media-body">
+			    <h4 class="media-heading">Welcome to Grand Rounds!</h4>
+					<span class="small">Monday March 23rd, 2015</span> <span class="label label-danger">NEW</span> 
+			   	<p>Hi Jeremy, I'm Erin the Care Coordinator for your visit and I'm excited to help you through the visit process.</p>
+					Here's what you can to expect to happen next:
+					<ul>
+						<li>We'll start collecting your medical records as soon as you <a href="#">sign your medical release form</a>.</li>
+						<li>One of our Staff Physicians will join your case</li>
+						<li>Within the next 24-48 hours, we'll locate a doctor in your area and send you a message</li>
+						<li>After you select your specialist we'll start scheduling appointment times</li>
+					</ul>
+					<a href="#"><i class="fa fa-reply"></i> Reply</a>
+			  </div>
+			</div>
+			
+		</div>
+	
+	</div>
+	
+	<!-- Page Body Ends -->
+    </div>
+  </div>
+</div>
+
+    <script type="text/javascript">
+        function generate(type, text) {
+
+            var n = noty({
+                text        : '<div class="activity-item"> <i class="fa fa-heart"> Your Grand Rounds Second Opinion case has been started!</i> <div class="activity"> </div> </div>',
+                type        : type,
+                dismissQueue: true,
+                layout      : 'topCenter',
+								timeout     : 'true',
+                closeWith   : ['click'],
+                theme       : 'relax',
+                maxVisible  : 10,
+                animation   : {
+                    open  : 'animated bounceInLeft',
+                    close : 'animated bounceOutLeft',
+                    easing: 'swing',
+                    speed : 500
+                }
+            });
+            console.log('html: ' + n.options.id);
+        }
+
+        function generateAll() {
+            //generate('warning', notification_html[0]);
+            //generate('error', notification_html[1]);
+            generate('information', notification_html[2]);
+            //generate('success', notification_html[3]);
+//            generate('notification');
+//            generate('success');
+        }
+
+        $(document).ready(function () {
+
+            setTimeout(function() {
+                generateAll();
+            }, 500);
+
+        });
+
+    </script>
+
+	<!-- footer //
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="footer">
+				<hr>
+				Grand Rounds 2015
+			</div>
+		</div>
+	</div>
+</div>
+-->
+
+
+<!-- footer //-->
+<hr />
+<footer class="footer">
+	<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="nav nav-pills">
+						<li><a href="#">© Grand Rounds Health 2013-2015</a></li>
+						<li><a href="#">www.grandrounds.com</a></li>
+						<li><a href="#">Our Specialists</a></li>
+						<li><a href="#">Terms of Service</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div>
+	</div>
+</footer>
+<hr />
+<!-- \\ footer -->
+
+
+</body>
+</html>
