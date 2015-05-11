@@ -1,0 +1,76 @@
+	<div class="well welcome-home">
+		<div class="container">
+		<h2>Your case has started and we are researching specialists for you</h2>
+		<p>We will email you when your physician options are available. This process typically takes less than 24 hours.</p>	  
+	</div>
+	</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+    <!-- Page Body Starts -->
+	<div class="well checklist-danger">
+		<div class="row">
+			<div class="col-md-1">
+				<div class="fa fa-exclamation-triangle fa-4x brand-warning"></div>
+			</div>
+			
+			<div class="col-md-7">
+				<h4>Sign your Medical Records</h4>
+				Your specialist will need copies of your prior medical records. Please tell us who to contact to retrieve those records for your appointment.
+			</div>
+			
+			<div class="col-md-4">
+				<a href="medicalrecords-release.html" class="btn btn-warning btn-block" data-method="get">SIGN</a>
+			</div>
+		</div>
+	</div>
+
+	
+<%- partial("partial/_teamandmessages") %>
+	
+	<!-- Page Body Ends -->
+    </div>
+  </div>
+</div>
+
+    <script type="text/javascript">
+        function generate(type, text) {
+
+            var n = noty({
+                text        : text,
+                type        : type,
+                dismissQueue: true,
+                layout      : 'topCenter',
+								timeout     : 'true',
+                closeWith   : ['click'],
+                theme       : 'relax',
+                maxVisible  : 10,
+                animation   : {
+                    open  : 'animated bounceInLeft',
+                    close : 'animated bounceOutLeft',
+                    easing: 'swing',
+                    speed : 500
+                }
+            });
+            console.log('html: ' + n.options.id);
+        }
+
+        function generateAll() {
+            //generate('warning', notification_html[0]);
+            //generate('error', notification_html[1]);
+            generate('information', notification_html[2]);
+            //generate('success', notification_html[3]);
+//            generate('notification');
+//            generate('success');
+        }
+
+        $(document).ready(function () {
+
+            setTimeout(function() {
+                generateAll();
+            }, 500);
+
+        });
+
+    </script>
