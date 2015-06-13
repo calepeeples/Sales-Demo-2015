@@ -1,0 +1,40 @@
+<div class="well welcome-home">
+	<div class="container">
+		<h2>We found the perfect specialist for you.</h2>
+		<p>Please confirm you want to see this specialist and we'll start scheduling your appointment.</p>
+	</div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+    <!-- Page Body Starts -->
+	<div class="well select-doctor">
+		<div class="row">
+			<div class="col-md-3">
+				<section>
+				<p><img src="../images/<%= drImage %>" width="150" height="150" alt=""></p>
+				<p><strong>Dr. <%= drFName %> <%= drLName %></strong></p>
+				<%= drSpecialty %><br>
+				<%= drHospital %><br>
+				<%= drAddress %><br>
+				Google Map <a href="<%= drGoogleMap %>" target="new">MAP IT</a>
+			</section>
+			</div>
+				<div class="col-md-6">
+				<p><strong>About Dr. <%= drLName %></strong><br />
+					Dr. <%= drLName %> is a native of Northern California, born and raised in Carmel.  He attended Robert Louis Stevenson School, where he was a three sport varsity athlete (football, soccer, &amo; diving) and graduated Magna Cum Laude.  He was named the high school athlete of the year, and was a high school Academic All-American spring board diver.  Matt graduated from Stanford University with a degree in Human Biology with an area of concentration in sports medicine.  He was the captain of the Stanford men’s lacrosse team and a member of the WCLL All-Star team.  At Boston University School of Medicine he graduated Cum Laude and was elected to the AOA medical honor society.</p>
+				<p><a href="visit-casedashboard-scheduled.html" type="button" class="btn btn-primary btn-block btn-lg">Schedule with this Doctor</a></p>
+				
+			</div>
+		</div>
+	</div>
+	
+	<!-- Team & Messages -->
+	<%- partial("partial/_teamandmessages") %>
+	<!-- /Team & Messages -->
+	
+	<!-- Page Body Ends -->
+    </div>
+  </div>
+</div>

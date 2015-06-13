@@ -1,0 +1,242 @@
+{
+	"index": {
+		"layout": "_account-layout",
+		"pageTitle": "Create Your Grand Rounds Account"
+	},
+	"dashboard-welcome": {
+		"layout": "_layout",
+		"pageTitle": "Welcome to Grand Rounds",
+		"firstName": "Kelly",
+		"lastName": "Rafferty"
+	},
+	"visit-1": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty"
+	},
+	"visit-2": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty",
+		"email": "Kelly.Rafferty@grandrounds.com",
+		"company": "Adobe"
+	},
+	"visit-2-combined": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty",
+		"email": "Kelly.Rafferty@grandrounds.com",
+		"company": "Adobe",
+		"insuranceProvider": "Adobe Health Plan",
+		"insuranceCarrier": "Blue Shield PPO",
+		"insuranceGroupNumber": "XXXXXX-2H154",
+		"insurancePolicyNumber": "XXXXXXXXXX-9814",
+		"address": "360 3rd Street, Suite 425",
+		"addressCityState": "San Francisco CA 94017",
+		"phone": "(425) 929-9266"
+	},
+	"visit-3": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty",
+		"insuranceProvider": "Grand Rounds Health Plan",
+		"insuranceCarrier": "Blue Shield PPO"
+	},
+	"visit-4": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty"
+	},
+	"visit-5": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty"
+	},
+		"visit-casedashboard": {
+		"layout": "_layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty"
+	},
+	"medicalrecords-release": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty",
+		"address": "360 3rd Street, Suite 425"
+	},
+		"visit-casedashboard-select-doctor": {
+		"layout": "_layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty",
+		"drImage": "mmiller.jpg",
+		"drFName": "Matthew",
+		"drLName": "Miller",
+		"drSpecialty": "Orthopaedics",
+		"drHospital": "Stanford",
+		"drAddress": "555 Knowles Drive #211 Los Gatos, CA 95032",
+		"drGoogleMap": "https://www.google.com/maps/place/555+Knowles+Dr,+Los+Gatos,+CA+95032/@37.262081,-121.9663138,17z/data=!4m7!1m4!3m3!1s0x808e350b9572cc21:0x45b861c71077cbc7!2s555+Knowles+Dr,+Los+Gatos,+CA+95032!3b1!3m1!1s0x808e350b9572cc21:0x45b861c71077cbc7"
+	},
+		"visit-casedashboard-scheduled": {
+		"layout": "_layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty",
+		"drImage": "mmiller.jpg",
+		"drFName": "Matthew",
+		"drLName": "Miller",
+		"drSpecialty": "Orthopaedics",
+		"drHospital": "Stanford",
+		"drAddress": "555 Knowles Drive #211 Los Gatos, CA 95032",
+		"drGoogleMap": "https://www.google.com/maps/place/555+Knowles+Dr,+Los+Gatos,+CA+95032/@37.262081,-121.9663138,17z/data=!4m7!1m4!3m3!1s0x808e350b9572cc21:0x45b861c71077cbc7!2s555+Knowles+Dr,+Los+Gatos,+CA+95032!3b1!3m1!1s0x808e350b9572cc21:0x45b861c71077cbc7"
+	},
+		"visit-casedashboard-done": {
+		"layout": "_layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty",
+		"drImage": "mmiller.jpg",
+		"drFName": "Matthew",
+		"drLName": "Miller",
+		"drSpecialty": "Orthopaedics",
+		"drHospital": "Stanford",
+		"drAddress": "555 Knowles Drive #211 Los Gatos, CA 95032",
+		"drGoogleMap": "https://www.google.com/maps/place/555+Knowles+Dr,+Los+Gatos,+CA+95032/@37.262081,-121.9663138,17z/data=!4m7!1m4!3m3!1s0x808e350b9572cc21:0x45b861c71077cbc7!2s555+Knowles+Dr,+Los+Gatos,+CA+95032!3b1!3m1!1s0x808e350b9572cc21:0x45b861c71077cbc7"
+	},
+		"visit-casedashboard-postvisit": {
+		"layout": "_layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty",
+		"drImage": "mmiller.jpg",
+		"drFName": "Matthew",
+		"drLName": "Miller",
+		"drSpecialty": "Orthopaedics",
+		"drHospital": "Stanford",
+		"drAddress": "555 Knowles Drive #211 Los Gatos, CA 95032",
+		"drGoogleMap": "https://www.google.com/maps/place/555+Knowles+Dr,+Los+Gatos,+CA+95032/@37.262081,-121.9663138,17z/data=!4m7!1m4!3m3!1s0x808e350b9572cc21:0x45b861c71077cbc7!2s555+Knowles+Dr,+Los+Gatos,+CA+95032!3b1!3m1!1s0x808e350b9572cc21:0x45b861c71077cbc7"
+	},
+	"opinion-1": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty"
+	},
+	"opinion-2-combined": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty",
+		"email": "Kelly.Rafferty@grandrounds.com",
+		"company": "Adobe",
+		"insuranceProvider": "Adobe Health Plan",
+		"insuranceCarrier": "Blue Shield PPO",
+		"insuranceGroupNumber": "XXXXXX-2H154",
+		"insurancePolicyNumber": "XXXXXXXXXX-9814",
+		"address": "360 3rd Street, Suite 425",
+		"addressCityState": "San Francisco CA 94017",
+		"phone": "(425) 929-9266"
+	},
+	"opinion-4": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty"
+	},
+	"opinion-5": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty"
+	},
+	"medicalrecords-opinion-release": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty",
+		"address": "360 3rd Street, Suite 425"
+	},
+	"opinion-8": {
+		"layout": "_account-layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty"
+	},
+		"opinion-casedashboard": {
+		"layout": "_layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty",
+		"drName": "Harvery Millard"
+	},
+		"opinion-casedashboard-expertreview": {
+		"layout": "_layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty",
+		"drName": "Harvery Millard",
+		"drImage": "wang_jeffery.jpg",
+		"drFName": "Jeffery",
+		"drLName": "Wang",
+		"drSpecialty": "Orthopedic Surgery",
+		"drHospital": "USC",
+		"drAddress": "1500 San Pablo Street, Los Angeles, CA 90033"
+	},
+		"opinion-casedashboard-opiniondelivered": {
+		"layout": "_layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty",
+		"drName": "Harvery Millard",
+		"drImage": "wang_jeffery.jpg",
+		"drFName": "Jeffery",
+		"drLName": "Wang",
+		"drSpecialty": "Orthopedic Surgery",
+		"drHospital": "USC",
+		"drAddress": "1500 San Pablo Street, Los Angeles, CA 90033"
+	},
+		"opinion-read": {
+		"layout": "_layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Kelly",
+		"lastName": "Rafferty",
+		"drName": "Harvery Millard",
+		"drImage": "wang_jeffery.jpg",
+		"drFName": "Jeffery",
+		"drLName": "Wang",
+		"drSpecialty": "Orthopedic Surgery",
+		"drHospital": "USC",
+		"drAddress": "1500 San Pablo Street, Los Angeles, CA 90033"
+	},
+	"profile": {
+		"layout": "_layout",
+		"pageTitle": "Welcome to Grand Rounds",
+		"firstName": "Kelly",
+		"lastName": "Rafferty"
+	},
+	"profile-password": {
+		"layout": "_layout",
+		"pageTitle": "Welcome to Grand Rounds",
+		"firstName": "Kelly",
+		"lastName": "Rafferty"
+	},
+	"profile-notifications": {
+		"layout": "_layout",
+		"pageTitle": "Welcome to Grand Rounds",
+		"firstName": "Kelly",
+		"lastName": "Rafferty"
+	},
+	"profile-medicalcoverage": {
+		"layout": "_layout",
+		"pageTitle": "Welcome to Grand Rounds",
+		"firstName": "Kelly",
+		"lastName": "Rafferty"
+	}
+}
