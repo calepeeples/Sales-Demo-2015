@@ -1,213 +1,225 @@
 <div class="tabbable">
-<section class="nav-cases-container">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<ul class="nav nav-pills nav-justified nav-cases">
-				  <li class="active"><a href="#tab1" data-toggle="pill">Appointment</a></li>
-				  <li><a href="#tab2" data-toggle="pill">Messages</a></li>
-				  <li><a href="#tab3" data-toggle="pill">Case Documents</a></li>
-				</ul>
+	<section class="nav-cases-container">
+		<div class="container">		
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="nav nav-pills nav-justified nav-cases">
+					  <li class="active"><a href="#tab1" data-toggle="pill">Appointment</a></li>
+					  <li><a href="#tab2" data-toggle="pill">Messages</a></li>
+					  <li><a href="#tab3" data-toggle="pill">Case Documents</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
-	</div>
-</section>
-
-<div class="tab-content">	
-<div class="container" id="tab1">
-  <div class="row">
-    <div class="col-lg-12">
-    <!-- Page Body Starts -->
-	
-	<section>
-		<h2><%= firstName %>, we've scheduled your appointment</h2>
-		<p class="subtext">Please call your Grand Rounds Care Coordinator at (800) 926-0926 if you have any questions</p>
 	</section>
 
-	<div class="row well-green">
-		
-			<div class="col-md-2">
-				<img src="../images/<%= drImage %>" width="150" height="150" class="avatar img-responsive center-block pp-avatar">
-				<p class="text-center"><a href="#"><i class="fa fa-info-circle"></i> How we choose</a></p>
-			</div>
-			<div class="col-md-6">
-				<span class="h3">About <%= drFName %> <%= drLName %>, M.D.</span>
-				<p>Dr. <%= drLName %> is a great match for you because he specializes in <%= drSpecialty %>.  Dr. <%= drLName %> is well trained to perform <%= drSpecialty %> should that be necessary.</p>
-	
-				<table class="table table-condensed table-pp">
-					<tbody>
-						<tr>
-							<td class="col-md-4 subtext">Studied at</td>
-							<td>University of California, San Francisco, School of Medicine. Graduated in 1997</td>
-						</tr>
-						<tr>
-							<td class="col-md-4 subtext">Trained at</td>
-							<td>Stanford University Medical Center</td>
-						</tr>
-						<tr>
-							<td class="col-md-4 subtext">Board Certified in</td>
-							<td><%= drSpecialty %></td>
-						</tr>
-							<td class="col-md-4 subtext">Years of Experience</td>
-							<td>17 years</td>
-						</tr>
-					</tbody>
-				</table>
+	<div class="container">
+		<div class="tab-content">	
+			<!-- Tab 1 >> -->
+			<div id="tab1" class="tab-pane active">
+				<div class="row">
+				    <div class="col-lg-12">
+						<section>
+							<h2><%= firstName %>, we've scheduled your appointment</h2>
+							<p class="subtext">Please call your Grand Rounds Care Coordinator at (800) 926-0926 if you have any questions</p>
+						</section>
+						
+						<!-- PP Container >> -->
+						<div class="row well-green">		
+							
+							<div class="col-md-2">
+								<img src="../images/<%= drImage %>" width="150" height="150" class="avatar img-responsive center-block pp-avatar">
+								<p class="text-center"><a href="#"><i class="fa fa-info-circle"></i> How we choose</a></p>
+							</div>
+							
+							<div class="col-md-6">
+								<span class="h3">About <%= drFName %> <%= drLName %>, M.D.</span>
+								<p>Dr. <%= drLName %> is a great match for you because he specializes in <%= drSpecialty %>.  Dr. <%= drLName %> is well trained to perform <%= drSpecialty %> should that be necessary.</p>
+								<table class="table table-condensed table-pp">
+									<tbody>
+										<tr>
+											<td class="col-md-4 subtext">Studied at</td>
+											<td>University of California, San Francisco, School of Medicine. Graduated in 1997</td>
+										</tr>
+										<tr>
+											<td class="col-md-4 subtext">Trained at</td>
+											<td>Stanford University Medical Center</td>
+										</tr>
+										<tr>
+											<td class="col-md-4 subtext">Board Certified in</td>
+											<td><%= drSpecialty %></td>
+										</tr>
+											<td class="col-md-4 subtext">Years of Experience</td>
+											<td>17 years</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 			
-			</div>
-
-			<div class="col-md-4">
-				<section>
-				<span class="h4">Appointment</span>
-				<div class="media">
-					<div class="media-left">
-						<img src="../assets/visit-pp-calendar.png" alt="visit-pp-calendar" width="60" height="58" />
-					</div>
-					<div class="media-body">
-						<p class="media-heading">
-							<strong><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></strong>
-						</p>
-						<p class="subtext"><a href="#">Add to Calendar</a> | Cancel</p>
-					</div>
-				</div>			
-				</section>
-				
-				<section>
-				<span class="h4">Location</span>
-				<div class="media">
-					<div class="media-left">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.0672241329917!2d-71.0692277!3d42.3624066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x2e383d76dd5dc79f!2sMassachusetts+General+Hospital!5e0!3m2!1sen!2sus!4v1430416638857" width="60" height="60" frameborder="0" style="border:0" class="pull-left"></iframe>
-					</div>
-					<div class="media-body">
-						<p class="media-heading">
-							<strong><%= drHospital %></strong>
-						</p>
-						<p class="subtext">
-							<a href="#"><%= drAddress %></a> <br /> 4.4 miles away
-						</p>
-					</div>
-				</div>
-				</section>
-				
-				<p class="subtext">I'd like to see a different physician</p>			
+							<div class="col-md-4">
+								<section>
+									<span class="h4">Appointment</span>
+									<div class="media">
+										<div class="media-left">
+											<img src="../assets/visit-pp-calendar.png" alt="visit-pp-calendar" width="60" height="58" />
+										</div>
+										<div class="media-body">
+											<p class="media-heading">
+												<strong><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></strong>
+											</p>
+											<p class="subtext"><a href="#">Add to Calendar</a> | Cancel</p>
+										</div>
+									</div>			
+								</section>
+								
+								<section>
+									<span class="h4">Location</span>
+									<div class="media">
+										<div class="media-left">
+											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.0672241329917!2d-71.0692277!3d42.3624066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x2e383d76dd5dc79f!2sMassachusetts+General+Hospital!5e0!3m2!1sen!2sus!4v1430416638857" width="60" height="60" frameborder="0" style="border:0" class="pull-left"></iframe>
+										</div>
+										<div class="media-body">
+											<p class="media-heading">
+												<strong><%= drHospital %></strong>
+											</p>
+											<p class="subtext">
+												<a href="#"><%= drAddress %></a> <br /> 4.4 miles away
+											</p>
+										</div>
+									</div>
+								</section>
+								
+								<section class="subtext">
+									I'd like to see a different physician
+								</section>			
+							
+							</div>
+							
+						</div><!-- << PP Container -->
+					
+						
+						<div class="row">
+							<!-- Guide to a Better Visit >> -->
+							<div class="col-md-6">
+								<section class="">
+									<h3>Guide to better doctor's visit</h3>
+									<div class="media">
+									  <div class="media-left">
+									    <a href="#">
+									      <img src="../assets/visit-pp-medications.png" width="50" alt="Visit Pp Medications" class="media-object">
+									    </a>
+									  </div>
+									  <div class="media-body">
+									    <h4 class="media-heading">Bring an updated medication list</h4>
+									    This allows your doctor to check for drug interactions before writing new prescriptions.
+									  </div>
+									</div>
+									<div class="media">
+									  <div class="media-left">
+									    <a href="#">
+									      <img src="../assets/visit-pp-bringquestion.png" width="50" alt="Visit Pp Medications" class="media-object">
+									    </a>
+									  </div>
+									  <div class="media-body">
+									    <h4 class="media-heading">Ask questions</h4>
+									   Get the most out of your visit by asking the questions you need answers to.
+									  </div>
+									</div>
+									<div class="media">
+									  <div class="media-left">
+									    <a href="#">
+									      <img src="../assets/visit-pp-notes.png" width="50" alt="Visit Pp Medications" class="media-object">
+									    </a>
+									  </div>
+									  <div class="media-body">
+									    <h4 class="media-heading">Take notes</h4>
+										  Write down key takeaways and answers to your questions so you have them after your visit.
+									  </div>
+									</div>
+									<div class="media">
+									  <div class="media-left">
+									    <a href="#">
+									      <img src="../assets/visit-pp-app.png" width="50" alt="Visit Pp Medications" class="media-object">
+									    </a>
+									  </div>
+									  <div class="media-body">
+									    <h4 class="media-heading">Get the mobile app</h4>
+										  Access your appointment details and connect with your Care Team on the go. Available on <a href="#"> Google Play</a> and <a href="#">Apple App Store</a>.
+									  </div>
+									</div>
+								</section>
+							</div><!-- << Guide to a Better Visit -->
+							
+							<!-- Questions >> -->
+							<div class="col-md-6">
+								<section class="">
+									<h3>Guide to better doctor's visit</h3>
+									<div class="media">
+									  <div class="media-left">
+									    <a href="#">
+									      <img src="../assets/visit-pp-questionmark.png" width="50" alt="Visit Pp Medications" class="media-object">
+									    </a>
+									  </div>
+									  <div class="media-body">
+									    <h4 class="media-heading">What is causing my symptoms/condition?</h4>
+									  </div>
+									</div>
+									<div class="media">
+									  <div class="media-left">
+									    <a href="#">
+									      <img src="../assets/visit-pp-questionmark.png" width="50" alt="Visit Pp Medications" class="media-object">
+									    </a>
+									  </div>
+									  <div class="media-body">
+									    <h4 class="media-heading">What are the different treatment options, and which is best for me? Why?</h4>
+									  </div>
+									</div>
+									<div class="media">
+									  <div class="media-left">
+									    <a href="#">
+									      <img src="../assets/visit-pp-questionmark.png" width="50" alt="Visit Pp Medications" class="media-object">
+									    </a>
+									  </div>
+									  <div class="media-body">
+									    <h4 class="media-heading">How will my condition affect my overall health?</h4>
+									  </div>
+									</div>
+									<div class="media">
+									  <div class="media-left">
+									    <a href="#">
+									      <img src="../assets/visit-pp-questionmark.png" width="50" alt="Visit Pp Medications" class="media-object">
+									    </a>
+									  </div>
+									  <div class="media-body">
+									    <h4 class="media-heading">What should I expect in the short and long term?</h4>
+									  </div>
+									</div>
+									<div class="media">
+									  <div class="media-left">
+									    <a href="#">
+									      <img src="../assets/visit-pp-questionmark.png" width="50" alt="Visit Pp Medications" class="media-object">
+									    </a>
+									  </div>
+									  <div class="media-body">
+									    <h4 class="media-heading">What may I do to help optimize my condition?</h4>
+									  </div>
+									</div>
+								</section>
+							</div><!-- << Questions -->
+						</div><!-- << Row -->			
+					</div><!-- << Col-lg-12 -->		
+				</div><!-- << Row -->
+			</div><!-- << Tab 1 -->
+			
+			<!-- Tab 2 >> -->
+			<div id="tab2" class="tab-pane">
+				<%- partial("partial/_teamandmessages") %>
+			</div><!-- << Tab 2 -->
+		    
+		    <div id="tab3" class="tab-pane">
+			    nothing here yet
+		    </div>
+		</div><!-- << Tab Content -->
 	
-			</div>
-	</div>	
-	
-	<!-- Guide to a Better Visit -->
-	<div class="row">
-		<div class="col-md-6">
-			<section class="">
-				<h3>Guide to better doctor's visit</h3>
-				<div class="media">
-				  <div class="media-left">
-				    <a href="#">
-				      <img src="../assets/visit-pp-medications.png" width="50" alt="Visit Pp Medications" class="media-object">
-				    </a>
-				  </div>
-				  <div class="media-body">
-				    <h4 class="media-heading">Bring an updated medication list</h4>
-				    This allows your doctor to check for drug interactions before writing new prescriptions.
-				  </div>
-				</div>
-				<div class="media">
-				  <div class="media-left">
-				    <a href="#">
-				      <img src="../assets/visit-pp-bringquestion.png" width="50" alt="Visit Pp Medications" class="media-object">
-				    </a>
-				  </div>
-				  <div class="media-body">
-				    <h4 class="media-heading">Ask questions</h4>
-				   Get the most out of your visit by asking the questions you need answers to.
-				  </div>
-				</div>
-				<div class="media">
-				  <div class="media-left">
-				    <a href="#">
-				      <img src="../assets/visit-pp-notes.png" width="50" alt="Visit Pp Medications" class="media-object">
-				    </a>
-				  </div>
-				  <div class="media-body">
-				    <h4 class="media-heading">Take notes</h4>
-					  Write down key takeaways and answers to your questions so you have them after your visit.
-				  </div>
-				</div>
-				<div class="media">
-				  <div class="media-left">
-				    <a href="#">
-				      <img src="../assets/visit-pp-app.png" width="50" alt="Visit Pp Medications" class="media-object">
-				    </a>
-				  </div>
-				  <div class="media-body">
-				    <h4 class="media-heading">Get the mobile app</h4>
-					  Access your appointment details and connect with your Care Team on the go. Available on <a href="#"> Google Play</a> and <a href="#">Apple App Store</a>.
-				  </div>
-				</div>
-			</section>
-		</div>
-		
-		<!-- Questions -->
-		<div class="col-md-6">
-			<section class="">
-				<h3>Guide to better doctor's visit</h3>
-				<div class="media">
-				  <div class="media-left">
-				    <a href="#">
-				      <img src="../assets/visit-pp-questionmark.png" width="50" alt="Visit Pp Medications" class="media-object">
-				    </a>
-				  </div>
-				  <div class="media-body">
-				    <h4 class="media-heading">What is causing my symptoms/condition?</h4>
-				  </div>
-				</div>
-				<div class="media">
-				  <div class="media-left">
-				    <a href="#">
-				      <img src="../assets/visit-pp-questionmark.png" width="50" alt="Visit Pp Medications" class="media-object">
-				    </a>
-				  </div>
-				  <div class="media-body">
-				    <h4 class="media-heading">What are the different treatment options, and which is best for me? Why?</h4>
-				  </div>
-				</div>
-				<div class="media">
-				  <div class="media-left">
-				    <a href="#">
-				      <img src="../assets/visit-pp-questionmark.png" width="50" alt="Visit Pp Medications" class="media-object">
-				    </a>
-				  </div>
-				  <div class="media-body">
-				    <h4 class="media-heading">How will my condition affect my overall health?</h4>
-				  </div>
-				</div>
-				<div class="media">
-				  <div class="media-left">
-				    <a href="#">
-				      <img src="../assets/visit-pp-questionmark.png" width="50" alt="Visit Pp Medications" class="media-object">
-				    </a>
-				  </div>
-				  <div class="media-body">
-				    <h4 class="media-heading">What should I expect in the short and long term?</h4>
-				  </div>
-				</div>
-				<div class="media">
-				  <div class="media-left">
-				    <a href="#">
-				      <img src="../assets/visit-pp-questionmark.png" width="50" alt="Visit Pp Medications" class="media-object">
-				    </a>
-				  </div>
-				  <div class="media-body">
-				    <h4 class="media-heading">What may I do to help optimize my condition?</h4>
-				  </div>
-				</div>
-			</section>
-		</div>
-	</div>
-	
-<%- partial("partial/_teamandmessages") %>
-	<!-- Page Body Ends -->
-    </div>
-  </div>
-</div>
-</div>
-</div>
+	</div><!-- << Tabbable -->
+</div><!-- << Page Container -->
