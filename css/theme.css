@@ -7020,3 +7020,12 @@ a:hover {
 	color: #AAAAAA;
 }
 
+/* Wells */
+
+.well-team {
+	background-color: transparent;
+	border: 1px solid #F0F0F0;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	border-radius: 4px;
+}
