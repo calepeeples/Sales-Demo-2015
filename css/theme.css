@@ -6952,3 +6952,71 @@ a:hover {
   border: 1px solid #eeeeee;
   padding: .5em 4em;
 }
+
+/* Prepared Pateitn */
+
+.subtext {
+	color: #A3A3A7;
+}
+
+.media {
+	padding-bottom: 1.5rem;
+}
+
+.media-body {
+	padding-left: 1rem;
+}
+
+.table-pp th, .table-pp td { 
+     border-top: none !important; 
+ }
+
+.pp-avatar {
+	padding-bottom: 1em;
+}
+	
+.well-green {
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 20px;
+	background-color: #F2F5E4;
+	border: 0;
+	border-radius: 6px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.nav-pills > li + li {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.nav-pills > li > a {
+	color: #A3A3A7;
+}
+
+.nav-pills > li > a:hover, .nav-pills > li > a:focus {
+	background-color: transparent;
+	color: #333;
+}
+				
+.nav-cases .active {
+	border-bottom: 3px solid #85D0CB;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	color: #333;
+	background-color: transparent;
+	border-bottom: 0;
+}
+
+.nav-cases-container {
+	background-color: #F0F0F0;
+}
+
+/* Footer */
+
+.footer-gr {
+	color: #AAAAAA;
+}
+
