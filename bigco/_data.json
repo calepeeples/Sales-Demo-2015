@@ -9,6 +9,12 @@
 		"firstName": "Jeremy",
 		"lastName": "Gross"
 	},
+	"visit-1 v2": {
+		"layout": "_layout",
+		"pageTitle": "Start your Visit",
+		"firstName": "Jeremy",
+		"lastName": "Gross"
+	},
 	"visit-1": {
 		"layout": "_account-layout",
 		"pageTitle": "Start your Visit",

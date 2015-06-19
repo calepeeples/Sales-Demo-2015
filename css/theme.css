@@ -7079,3 +7079,30 @@ a:hover {
 	border-bottom: none;
 }
 
+/* Visit Case Creation */
+.cc-progress-bar {
+	background-color: #F0F0F0;
+	margin: 1rem auto 3rem auto;
+	padding: 3rem 0 3rem 0;
+	width: 100%;
+	color: #D5D5D7;
+}
+
+.cc-progress-bar-active {
+	color: #333;
+}
+
+.cc-section-header {
+	padding-bottom: 3rem;
+}
+
+.cc-input-headings {
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: #333;
+}
+
+.cc-continue {
+	margin: 6em auto 3em auto;
+}
+
