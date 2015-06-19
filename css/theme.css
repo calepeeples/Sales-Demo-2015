@@ -6953,7 +6953,26 @@ a:hover {
   padding: .5em 4em;
 }
 
-/* Prepared Pateitn */
+/* Prepared Patient */
+
+.pp-container-green {
+	background-color: #F2F5E4;
+	border-radius: 4px 0px 0px 4px;
+	min-height: 420px;
+	height: 100%;
+	margin-bottom: 2rem;
+}
+
+.pp-container-green-inside {
+	padding: 2rem;
+}
+
+.pp-container-grey {
+	background-color: #FBFBFB;
+	border-radius: 0px 4px 4px 0px;
+	min-height: 420px;
+	padding: 2rem;
+}
 
 .subtext {
 	color: #A3A3A7;
