@@ -29,7 +29,7 @@
 							
 							<div class="col-md-2">
 								<img src="../images/<%= drImage %>" width="150" height="150" class="avatar img-responsive center-block pp-avatar">
-								<p class="text-center"><a href="#"><i class="fa fa-info-circle"></i> How we choose</a></p>
+								<p class="text-center"><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-info-circle"></i> How we choose</a></p>
 							</div>
 							
 							<div class="col-md-6">
@@ -269,3 +269,40 @@
 	
 	</div><!-- << Tabbable -->
 </div><!-- << Page Container -->
+
+
+<!-- How We Choose Modal >> -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content modal-howwechoose">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h1 class="modal-title text-center" id="myModalLabel">How we choose</h1>
+			</div>
+			<div class="modal-body">
+				<div class="containter-fluid">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="well well-icon text-center">
+								<img src="../assets/icon_hwc-step1.png" alt="icon_hwc-step1" width="170" height="170" class="img-responsive center-block"/>
+								<p>We rate all physicians based on factors that demonstrate clinical excellence such as patient outcomes, training, research, hospital affiliation, and procedure volumes.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="well well-icon text-center">
+								<img src="../assets/icon_hwc-step2.png" alt="icon_hwc-step2" width="170" height="170" class="img-responsive center-block"/>
+								<p>We then find the top physicians that are located near you, accept your insurance, and satisfy any personal preferences.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="well well-icon text-center">
+								<img src="../assets/icon_hwc-step3.png" alt="icon_hwc-step3" width="170" height="170" class="img-responsive center-block"/>
+								<p>Finally, your Staff Physician, a licensed doctor, will hand pick the specialist that best matches your needs.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
