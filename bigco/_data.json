@@ -95,7 +95,16 @@
 		"drSpecialty": "Oncology",
 		"drHospital": "Massachusetts General Hospital",
 		"drAddress": "355 Fruit Street # 148, Boston, MA 02114",
-		"drGoogleMap": "https://www.google.com/maps/place/Palo+Alto+Medical+Foundation:+Price+Erik+MD/@37.440111,-122.161179,15z/data=!4m6!1m3!3m2!1s0x0:0xfeab933af4c9dc5b!2sPalo+Alto+Medical+Foundation:+Price+Erik+MD!3m1!1s0x0:0xfeab933af4c9dc5b"
+		"drGoogleMap": "https://www.google.com/maps/place/Palo+Alto+Medical+Foundation:+Price+Erik+MD/@37.440111,-122.161179,15z/data=!4m6!1m3!3m2!1s0x0:0xfeab933af4c9dc5b!2sPalo+Alto+Medical+Foundation:+Price+Erik+MD!3m1!1s0x0:0xfeab933af4c9dc5b",
+		"ppFootQ1": "What findings will you be looking for when you examine my foot? What do each of these findings mean?",
+		"ppFootQ2": "What are my non-surgical options?",
+		"ppFootQ3": "Are there any lifestyle changes I should make? Should I be wearing or avoiding certain footwear?",
+		"ppFootQ4": "What are the different treatment options, and which is best for me? Why?",
+		"ppFootQ5": "Do you think I need a foot x-ray or any imaging?",
+		"ppFootQ6": "Are there certain symptoms for which I should seek immediate medical attention?",
+		"ppOrthQ1": "What are my treatment options for improving my symptoms? Are there non-surgical techniques that could be as effective as surgery?",
+		"ppOrthQ2": "If you are recommending a surgery or procedure, how strong is the evidence that this surgery will improve my symptoms? Does it work better than a conservative treatment?",
+		"ppOrthQ3": "What are the risks of the surgery?"		
 	},
 		"visit-casedashboard-done": {
 		"layout": "_layout",
