@@ -7097,6 +7097,7 @@ a:hover {
 }
 
 .cc-input-headings {
+	padding-top: 2rem;
 	font-size: 1.6rem;
 	font-weight: 400;
 	color: #333;
@@ -7104,5 +7105,15 @@ a:hover {
 
 .cc-continue {
 	margin: 6em auto 3em auto;
+}
+
+.cc-dropdown {
+	height: 4em;
+	border: 1px solid #C9C9CB;
+	border-radius: 3px;
+}
+
+.cc-dropdown option:first-child {
+	display: none;
 }
 
