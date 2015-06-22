@@ -49,7 +49,7 @@
 
     <div class="collapse navbar-collapse" id="navbar1">
       <ul class="nav navbar-nav navbar-right">
-				<li class="dropdown"><a href="#" class="dropdown-toggle"><img src="../assets/Adobe_logo1.png" height="36" ></a></li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle"><img src="../assets/logo-white.png" height="32" ></a></li>
 				 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
 					 <span class="fa-stack ">
 						 <i class="fa fa-comment fa-2x fa-stack-2x"></i>
@@ -63,7 +63,7 @@
 				 </ul>
 				 </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src= http://www.gravatar.com/avatar/f3f886df90b74d3f82f668f829a9e2e9.png?s=28  class="avatar"/> Kelly Rafferty <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src= http://www.gravatar.com/avatar/f3f886df90b74d3f82f668f829a9e2e9.png?s=28  class="avatar"/> Jeremy Gross <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="profile.html"><b>Account Settings</b> <span class="label label-info">New</span><br /><small>Edit your password, email, sharing permissions, and insurance coverage</small></a></li>
             <li><a href="#"><b>Family Settings</b><br /><small>Manage your entire extended family and their Grand Rounds benefits</small></a></li>
@@ -83,156 +83,252 @@
 
 
 
-	<div class="well welcome-home">
-		<div class="container">
-		<h2>How was your visit?</h2>
-	</div>
-</div>
-
-<div class="container">
-  <div class="row">
-    <div class="col-lg-12">
-    <!-- Page Body Starts -->
-
-	<!-- Appointment info, Map, about Dr. -->
-	<div class="well">
-		<div class="row">
-			<div class="col-md-4">
-				Appointment information / calendar icon				
-			</div>
-			
-			<div class="col-md-4">
-				Map & Address info
-			</div>
-			
-			<div class="col-md-4">
-				About the Dr.
-			</div>
-		</div>
-	</div>
-	
-	<!-- Prepared Patient info -->
-	<div class="row">
-		<div class="col-md-4">
-			<section class="well">What GR does next</section>
-		</div>
-		
-		<div class="col-md-7 col-md-offset-1">
-			<section class="well">Guide to better visit</section>
-			<section class="well">Questions to Ask</section>
-		</div>
-			
-	</div>
-	
-	<div class="row">
-	
-		<div class="col-md-4">
-			<h3>Grand Rounds Team</h3>
-			
-			<div class="media">
-			  <div class="media-left">
-			    <a href="#"><img class="media-object avatar" src="http://www.gravatar.com/avatar/f3f886df90b74d3f82f668f829a9e2e9.png?s=64" width="64" alt="Icon User Patient">
-			    </a>
-			  </div>
-			  <div class="media-body">
-			    <h4 class="media-heading">You</h4>
-			   Kelly
-			  </div>
-			</div>
-			<div class="media">
-			  <div class="media-left">
-			    <a href="#"><img class="media-object" src="../assets/icon-user-cc.png" width="64" alt="Icon User Patient">
-			    </a>
-			  </div>
-			  <div class="media-body">
-			    <h4 class="media-heading">Care Coordinator</h4>
-			   Erin Moore
-			  </div>
-			</div>
-			<div class="media">
-			  <div class="media-left">
-			    <a href="#"><img class="media-object" src="../assets/icon-user-sp.png" width="64" alt="Icon User Patient">
-			    </a>
-			  </div>
-			  <div class="media-body">
-			    <h4 class="media-heading">Staff Physician</h4>
-			   <span class="label label-info">Joining soon...</span>
-			  </div>
-			</div>
-			<div>
-				<hr>
-				<a href="#"> <i class="fa fa-plus-circle"></i> ADD A TEAM MEMBER</a>
-				<br>
-				<span class="small">
-					Invite a family member or caregiver to your team, but keep in mind that they will have access to your case history, medical records, and team messages.
-				</span>
-			</div>
-			
-		</div>
-		
-		<div class="col-md-7 col-md-offset-1">
-			<h3>Team Messages</h3>
+	<div class="tabbable">
+	<section class="nav-cases-container">
+		<div class="container">		
 			<div class="row">
-				<div class="col-md-4 col-md-offset-8">
-				<button type="button" class="btn btn-info">New Message</button>
-			</div>
-			</div>
-	
-			<div class="media">
-			  <div class="media-left">
-			    <a href="#"><img class="media-object" src="../assets/icon-user-cc.png" width="32" alt="Icon User Patient">
-			    </a>
-			  </div>
-			  <div class="media-body">
-			    <h4 class="media-heading">Welcome to Grand Rounds!</h4>
-					<span class="small">Monday March 23rd, 2015</span> <span class="label label-danger">NEW</span> 
-			   	<p>Hi Kelly, I'm Erin the Care Coordinator for your visit and I'm excited to help you through the visit process.</p>
-					Here's what you can to expect to happen next:
-					<ul>
-						<li>We'll start collecting your medical records as soon as you <a href="#">sign your medical release form</a>.</li>
-						<li>One of our Staff Physicians will join your case</li>
-						<li>Within the next 24-48 hours, we'll locate a doctor in your area and send you a message</li>
-						<li>After you select your specialist we'll start scheduling appointment times</li>
+				<div class="col-md-12">
+					<ul class="nav nav-pills nav-justified nav-cases">
+					  <li class="active"><a href="#tab1" data-toggle="pill">Appointment</a></li>
+					  <li><a href="#tab2" data-toggle="pill">Messages</a></li>
+					  <li><a href="#tab3" data-toggle="pill">Medical Documents</a></li>
 					</ul>
-					<a href="#"><i class="fa fa-reply"></i> Reply</a>
-			  </div>
+				</div>
 			</div>
+		</div>
+	</section>
+
+	<div class="container">
+		<div class="tab-content">	
+			<!-- Tab 1 >> -->
+			<div id="tab1" class="tab-pane active">
+				<div class="row">
+				    <div class="col-lg-12">
+						<section>
+							<h2>Jeremy, how was your visit?</h2>
+							<p class="subtext">Please call your Grand Rounds Care Coordinator at (800) 926-0926 if you have any questions</p>
+						</section>
+
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="row pp-container-green">
+										
+										<div class="col-md-2 pp-container-green-inside">
+											<img src="../images/Lidia-Schapira.jpg" width="150" height="150" class="avatar img-responsive center-block pp-avatar">
+											<p class="text-center"><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-info-circle"></i> How we choose</a></p>			
+										</div>
+										
+										<div class="col-md-6 pp-container-green-inside">
+											<span class="h3">About Lidia Schapira, M.D.</span>
+											<p>Dr. Schapira is a great match for you because she specializes in Oncology.  Dr. Schapira is well trained to perform Oncology should that be necessary.</p>
+											<table class="table table-condensed table-pp">
+												<tbody>
+													<tr>
+														<td class="col-md-4 subtext">Studied at</td>
+														<td>University of California, San Francisco, School of Medicine. Graduated in 1997</td>
+													</tr>
+													<tr>
+														<td class="col-md-4 subtext">Trained at</td>
+														<td>Stanford University Medical Center</td>
+													</tr>
+													<tr>
+														<td class="col-md-4 subtext">Board Certified in</td>
+														<td>Oncology</td>
+													</tr>
+														<td class="col-md-4 subtext">Years of Experience</td>
+														<td>17 years</td>
+													
+												</tbody>
+											</table>
+										</div>
+										
+										<div class="col-md-4 pp-container-grey">
+											<section>
+												<span class="h4">Appointment</span>
+												<div class="media">
+													<div class="media-left">
+														<img src="../assets/visit-pp-calendar.png" alt="visit-pp-calendar" width="60" height="58">
+													</div>
+													<div class="media-body">
+														<p class="media-heading">
+															<strong><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></strong>
+														</p>
+														<p class="subtext"><a href="#">Add to Calendar</a> | Cancel</p>
+													</div>
+												</div>			
+											</section>
+											
+											<section>
+												<span class="h4">Location</span>
+												<div class="media">
+													<div class="media-left">
+														<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.0672241329917!2d-71.0692277!3d42.3624066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x2e383d76dd5dc79f!2sMassachusetts+General+Hospital!5e0!3m2!1sen!2sus!4v1430416638857" width="60" height="60" frameborder="0" style="border:0" class="pull-left"></iframe>
+													</div>
+													<div class="media-body">
+														<p class="media-heading">
+															<strong>Massachusetts General Hospital</strong>
+														</p>
+														<p class="subtext">
+															<a href="#">355 Fruit Street # 148, Boston, MA 02114</a> <br> 4.4 miles away
+														</p>
+													</div>
+												</div>
+											</section>
+											
+											<section class="subtext">
+												I'd like to see a different physician
+											</section>			
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!-- << Col-lg-12 -->		
+				</div><!-- << Row -->
+			</div><!-- << Tab 1 -->
 			
+			<!-- Tab 2 >> -->
+			<div id="tab2" class="tab-pane">
+				<div class="row">
+	<div class="col-md-4 well well-team">
+		<h4>Grand Rounds Team</h4>
+		
+		<div class="media">
+			<div class="media-left">
+				<a href="#"><img class="media-object" src="../assets/icon-user-cc.png" width="64" alt="Icon User Patient"></a>
+			</div>
+			<div class="media-body">
+				<h4 class="media-heading">Joining Soon...</h4>
+				<small class="subtext">Care Coordinator</small>
+				<p class="small">Your Care Coordinator is a trained professional that is here to understand your condition, preferences and concerns, and take care of the logistics to save you time.</p>
+			</div>
+		</div>
+		
+		<div class="media">
+			<div class="media-left">
+				<a href="#"><img class="media-object" src="../assets/icon-user-sp.png" width="64" alt="Icon User Patient"></a>
+			</div>
+			<div class="media-body">
+				<h4 class="media-heading">Joining Soon...</h4>
+				<small class="subtext">Staff Physician</small>
+				<p class="small">Your Staff Physician is a licensed physician that helps select an excellent doctor that is a great fit for your needs.</p>
+			</div>
+		</div>
+
+		<div>
+			<hr>
+			<a href="#"> <i class="fa fa-plus-circle"></i> ADD A TEAM MEMBER</a>
+			<br>
+			<span class="small subtext">
+				Invite a family member or caregiver to your team, but keep in mind that they will have access to your case history, medical records, and team messages.
+			</span>
 		</div>
 	
 	</div>
 	
-	<!-- Page Body Ends -->
-    </div>
-  </div>
-</div>
+	<div class="col-md-7 col-md-offset-1">
+		<h3>Messages</h3>
 
-	<!-- footer //
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-lg-12">
-			<div class="footer">
-				<hr>
-				Grand Rounds 2015
+		<div class="media">
+			<div class="media-left">
+			    <img class="media-object" src="../assets/icon-user-patient.png" width="32" alt="Icon User Patient">
+			</div>
+
+			<div class="media-body">
+				<div class="input-group col-md-9 pull-left">
+					<input type="text" class="form-control" aria-descibedby="basic-addon2" placeholder="New message...">
+						<span class="input-group-addon" id="basic-addon2"><a href="#"><i class="fa fa-paperclip"></i></a></span>
+				</div>
+				<div class="form-group col-md-3">
+					<a href="#" class="btn btn-primary btn-sm pull-right">SUBMIT</a>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="media">
+			<div class="media-left">
+			    <a href="#"><img class="media-object" src="../assets/icon-user-cc.png" width="32" alt="Icon User Patient"></a>
+			</div>
+
+			<div class="media-body">
+			    <h4 class="media-heading">Welcome to Grand Rounds, Jeremy!</h4>
+			   	
+			   	<p>Thanks for starting your Office Visit. We'll take it from here. We'll start by selecting a top-quality local physician that fits your needs. Then we'll schedule an appointment for you based on the availability that you've provided. Finally, we'll help you prepare so you can get the most out of your visit.</p>
+			   	<p>Your Care Coordinator and Staff Physician will be joining soon. They'll keep you updated throughout the process and will answer any questions you may have. Feel free to contact them through this secure message center at any time.</p>
+
+				<p>Best,<br>
+				Your Grand Rounds Team</p>
+				<span class="small subtext">Monday March 23rd, 2015</span> 
+			</div>
+		</div>
+		
+	</div>
+
+</div>
+			</div><!-- << Tab 2 -->
+		    
+		    <div id="tab3" class="tab-pane">
+			    nothing here yet
+		    </div>
+		</div><!-- << Tab Content -->
+	
+	</div><!-- << Tabbable -->
+</div><!-- << Page Container -->
+
+
+<!-- How We Choose Modal >> -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content modal-howwechoose">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h1 class="modal-title text-center" id="myModalLabel">How we choose</h1>
+			</div>
+			<div class="modal-body">
+				<div class="containter-fluid">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="well well-icon text-center">
+								<img src="../assets/icon_hwc-step1.png" alt="icon_hwc-step1" width="170" height="170" class="img-responsive center-block">
+								<p>We rate all physicians based on factors that demonstrate clinical excellence such as patient outcomes, training, research, hospital affiliation, and procedure volumes.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="well well-icon text-center">
+								<img src="../assets/icon_hwc-step2.png" alt="icon_hwc-step2" width="170" height="170" class="img-responsive center-block">
+								<p>We then find the top physicians that are located near you, accept your insurance, and satisfy any personal preferences.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="well well-icon text-center">
+								<img src="../assets/icon_hwc-step3.png" alt="icon_hwc-step3" width="170" height="170" class="img-responsive center-block">
+								<p>Finally, your Staff Physician, a licensed doctor, will hand pick the specialist that best matches your needs.</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
--->
 
-
-<!-- footer //-->
+	<!-- footer //-->
 <hr />
 <footer class="footer">
 	<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<ul class="nav nav-pills">
-						<li><a href="#">© Grand Rounds Health 2013-2015</a></li>
-						<li><a href="#">www.grandrounds.com</a></li>
-						<li><a href="#">Our Specialists</a></li>
-						<li><a href="#">Terms of Service</a></li>
-						<li><a href="#">Privacy Policy</a></li>
+					<ul class="list-inline pull-left footer-gr">
+						<li>© Grand Rounds Health 2013-2015</li>
+					</ul>
+					<ul class="list-inline pull-right footer-gr">
+						<li><a href="#" class="subtext">Terms of Service</a></li>
+						<li><a href="#" class="subtext">Privacy Policy</a></li>
+						<li>Need Help? (800) 929-0926</li>
 					</ul>
 				</div>
 			</div>
