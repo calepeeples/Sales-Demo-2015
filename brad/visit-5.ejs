@@ -1,0 +1,130 @@
+<link rel="stylesheet" type="text/css" href="css/../css/signature-pad.css">
+
+<div class="container cc-progress-bar">
+	<div class="row">
+		<div class="col-xs-2 col-xs-offset-1 text-center"><i class="fa fa-check-circle"></i> <span class="hidden-xs hidden-sm">Getting Started</span></div>
+		<div class="col-xs-2 text-center"><i class="fa fa-check-circle"></i> <span class="hidden-xs hidden-sm">Condition</span></div>
+		<div class="col-xs-2 text-center"><i class="fa fa-check-circle"></i> <span class="hidden-xs hidden-sm">About You</span></div>
+		<div class="col-xs-2 text-center"><i class="fa fa-check-circle"></i> <span class="hidden-xs hidden-sm">Records</span></div>
+		<div class="col-xs-2 text-center cc-progress-bar-active"><i class="fa fa-circle-o"></i> <span class="hidden-xs hidden-sm">Record Release Form</span></div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			<section class="cc-section-header">
+				<img src="../assets/icon_cc-04.png" alt="icon_cc-04" width="170" height="170" class="img-responsive center-block" />
+				<h2 class="text-center">Sign the Medical Release</h2>
+				<h4 class="text-center subtext">As part of our commitment to your privacy, we need your approval before we can collect your records. Please review and sign the form below, and we’ll get your case started immediately.</h4>
+			</section>
+				
+			<form role="form">
+				<section>
+					<p class="lead">Patient Authorization for Release of Medical Records for Continuity of Care</p>
+					<table class="table table-condensed table-pp">
+						<tr>
+							<td class="subtext">Name</td>
+							<td><%= firstName %> <%= lastName %></td>
+						</tr>
+						<tr>
+							<td class="subtext">Address</td>
+							<td><%= addressStreet %> <%= addressCityState %></td>
+						</tr>
+						<tr>
+							<td class="subtext">Date of Birth</td>
+							<td>06-01-1980</td>
+						</tr>
+						<tr>
+							<td class="subtext">SNN</td>
+							<td>XXX-XXXX-1234</td>
+						</tr>
+					</table>
+					<p>I, or my authorized representative, request that health information regarding my care and treatment be released as set forth on this form. In accordance with the Health Insurance Portability and Accountability Act of 1996 (“HIPAA”), I hereby authorize the providers in Exhibit A to RELEASE and DISCLOSE my entire medical record, including but not limited to patient histories, office notes, test results, radiology studies, films, referrals, consults, billing records, insurance records, and records sent to you by other healthcare providers, to Grand Rounds, Inc. my healthcare provider that requires these records to continue my care and provide me with treatment, review, or consultation.</p>
+					<p>I authorize the release of medical records containing any of the following checked items:</p>		
+
+					<div class="form-group">
+						<div class="checkbox checkbox-success">
+							<input type="checkbox" id="checkbox1" checked>
+							<label for="checkbox1">Substance Abuse Information</label>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="checkbox checkbox-success">
+							<input type="checkbox" id="checkbox2" checked>
+							<label for="checkbox2">Psychiatric / Mental Health Information</label>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="checkbox checkbox-success">
+							<input type="checkbox" id="checkbox3" checked>
+							<label for="checkbox3">HIV / AIDS Information</label>
+						</div>
+					</div>
+					
+					<p>I understand that my healthcare provider may not condition treatment or payment upon execution of this authorization. However, if I refuse to sign this authorization, then my healthcare provider may not be able to obtain my medical information. I understand that the information may be re-disclosed by the recipient and may no longer be protected by law. I hereby release my above listed healthcare provider and any of their HIPAA Business Associates involved in collecting my records from any legal liability that may arise out of the collection, gathering, scanning, digitizing, and release of the information requested. By signing below I express my intent to be bound by this authorization. I understand that I may revoke this authorization at any time except to the extent that action based on this authorization has been taken. Cancellation of this authorization must be made in writing and faxed to 310-362-8480. This authorization expires one (1) year from the date it has been signed.</p>
+					
+					<p class="lead">Exhibit A: Patient Authorization for Release of Medical Records for Continuity of Care</p>
+					
+					<p>I, or my authorized representative, request that health information regarding my care and treatment be released as set forth on this form. In accordance with the Health Insurance Portability and Accountability Act of 1996 (“HIPAA”), I hereby authorize the below providers to RELEASE and DISCLOSE my entire medical record, including but not limited to patient histories, office notes, test results, radiology studies, films, referrals, consults, billing records, insurance records, and records sent to you by other healthcare providers, to Grand Rounds, Inc. my healthcare provider that requires these records to continue my care and provide me with treatment, review, or consultation:</p>
+					
+					<table class="table table-condensed table-striped">
+						<thead>
+							<tr>
+								<td>Provider Name</td>
+								<td>Location</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Dr. Smith, Kaiser Permanente</td>
+								<td>Walnut Creek, CA</td>
+							</tr>
+							<tr>
+								<td>Dr. Smith, Kaiser Permanente</td>
+								<td>Walnut Creek, CA</td>
+							</tr>
+							<tr>
+								<td>Dr. Smith, Kaiser Permanente</td>
+								<td>Walnut Creek, CA</td>
+							</tr>
+							<tr>
+								<td>Dr. Smith, Kaiser Permanente</td>
+								<td>Walnut Creek, CA</td>
+							</tr>
+							<tr>
+								<td>Dr. Smith, Kaiser Permanente</td>
+								<td>Walnut Creek, CA</td>
+							</tr>
+						</tbody>
+					</table>							
+					
+			    </section>
+				
+				<section>
+
+					<div class="x-sigPad sigPad">	
+						<div class="sigNav row">
+							<div id="signature-pad" class="m-signature-pad">
+								<div class="m-signature-pad--body">
+									<canvas></canvas>
+								</div>
+							</div>
+							<script src="../js/signature_pad/signature_pad.js"></script>
+							<script src="../js/signature_pad/signature_pad_app.js"></script>
+						</div>
+
+					</div>		
+				</section>
+
+				<section class="cc-continue">
+					<hr />
+					<p><a href="visit-casedashboard.html" type="button" class="btn btn-primary btn-block btn-md">Continue</a></p>
+				</section>
+			</form>
+
+		</div><!-- column -->
+	</div><!-- << row -->
+</div><!-- << Container -->

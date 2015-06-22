@@ -1,0 +1,164 @@
+<div class="tabbable">
+	<section class="nav-cases-container">
+		<div class="container">		
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="nav nav-pills nav-justified nav-cases">
+					  <li class="active"><a href="#tab1" data-toggle="pill">Appointment</a></li>
+					  <li><a href="#tab2" data-toggle="pill">Messages</a></li>
+					  <li><a href="#tab3" data-toggle="pill">Medical Documents</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="container">
+		<div class="tab-content">	
+			
+			<!-- Tab 1 >> -->
+			<div id="tab1" class="tab-pane active">
+				
+				<!-- Page Header >> -->
+				<div class="row">
+				    <div class="col-md-8">
+						<h2><%= firstName %>, we'll take it from here</h2>
+						<p class="subtext">We will be in touch within 24 hours with an email update</p>
+					</div>
+					<div class="col-md-4">
+						<div class="well well-help text-center">
+							<p class="h4">Have Questions?</p>
+							<p>Please <a href="#tab2" data-toggle="pill">send a message</a> or call us at<br /><strong>(800) 929-0926</strong> if you have any questions.</p>
+						</div>
+					</div>
+				</div><!-- << Page Header -->
+				
+				<!-- 3 Next Steps >> -->
+				<div class="row">
+					<div class="col-md-4">
+						<div class="well well-icon text-center">
+							<img src="../assets/icon_visit-finding-doctors.png" alt="icon_visit-finding-doctors" width="160" height="161" class="img-responsive center-block" />
+							<h3>We're selecting a top-quality physician</h3>
+							<span class="small"><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-info-circle"></i> How we choose</a></span>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="well well-icon text-center">
+							<img src="../assets/icon_find-appointment.png" alt="icon_visit-find-appointment" width="160" height="161" class="img-responsive center-block" />
+							<h3>We'll schedule your appointment</h3>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="well well-icon text-center">
+							<img src="../assets/icon_help-prepare.png" alt="icon_visit-help-prepare" width="160" height="161" class="img-responsive center-block" />
+							<h3>We'll help you prepare</h3>
+						</div>
+					</div>
+
+				</div><!-- << 3 Next Steps -->
+				
+				<!-- Advance to Scheduled >> -->
+				<div class="row">
+					<div class="col-md-12">
+						<p class="small pull-right"><a href="visit-casedashboard-scheduled.html">Advance to next step <i class="fa fa-arrow-circle-o-right"></i></a></p>
+					</div>
+				</div>
+				
+			</div><!-- << Tab 1 -->
+			
+			<!-- Tab 2 >> -->
+			<div id="tab2" class="tab-pane">
+				<%- partial("partial/_teamandmessages") %>
+			</div><!-- << Tab 2 -->
+		    
+		    <div id="tab3" class="tab-pane">
+			    nothing here yet
+		    </div>
+		</div><!-- << Tab Content -->
+	
+	</div><!-- << Tabbable -->
+</div><!-- << Page Container -->
+
+
+
+<!-- How We Choose Modal >> -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content modal-howwechoose">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h1 class="modal-title text-center" id="myModalLabel">How we choose</h1>
+			</div>
+			<div class="modal-body">
+				<div class="containter-fluid">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="well well-icon text-center">
+								<img src="../assets/icon_hwc-step1.png" alt="icon_hwc-step1" width="170" height="170" class="img-responsive center-block"/>
+								<p>We rate all physicians based on factors that demonstrate clinical excellence such as patient outcomes, training, research, hospital affiliation, and procedure volumes.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="well well-icon text-center">
+								<img src="../assets/icon_hwc-step2.png" alt="icon_hwc-step2" width="170" height="170" class="img-responsive center-block"/>
+								<p>We then find the top physicians that are located near you, accept your insurance, and satisfy any personal preferences.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="well well-icon text-center">
+								<img src="../assets/icon_hwc-step3.png" alt="icon_hwc-step3" width="170" height="170" class="img-responsive center-block"/>
+								<p>Finally, your Staff Physician, a licensed doctor, will hand pick the specialist that best matches your needs.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- Notfication Script >> 
+<script type="text/javascript">
+    function generate(type, text) {
+
+        var n = noty({
+            text        : text,
+            type        : type,
+            dismissQueue: true,
+            layout      : 'topCenter',
+							timeout     : 'true',
+            closeWith   : ['click'],
+            theme       : 'relax',
+            maxVisible  : 10,
+            animation   : {
+                open  : 'animated bounceInLeft',
+                close : 'animated bounceOutLeft',
+                easing: 'swing',
+                speed : 500
+            }
+        });
+        console.log('html: ' + n.options.id);
+    }
+
+    function generateAll() {
+        //generate('warning', notification_html[0]);
+        //generate('error', notification_html[1]);
+        generate('information', notification_html[2]);
+        //generate('success', notification_html[3]);
+//            generate('notification');
+//            generate('success');
+    }
+
+    $(document).ready(function () {
+
+        setTimeout(function() {
+            generateAll();
+        }, 500);
+
+    });
+</script>
+-->
