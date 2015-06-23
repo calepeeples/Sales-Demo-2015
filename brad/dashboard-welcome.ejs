@@ -1,90 +1,69 @@
-	<div class="well welcome-home">
-		<div class="container">
-			<h1>We're here to help</h4>
-			<h4>You may now start a case and connect with the Grand Rounds care team.</h4>
-		</div>
-	</div>
-	
+<header class="center-block text-center hidden-md hidden-sm hidden-xs">
+	<img src="../assets/img_dashboard-team.jpg" alt="img_dashboard-team" height="150" class="center-block img-responsive" />
+</header>
+
 <div class="container">
-  <div class="row">
-    <div class="col-md-12">
-    <!-- Page Body Starts -->
-	<section>
-		<header><h3>How can we help you, <%= firstName %>?</h3></header>
-		<div class="row">
-			<div class="col-md-6">
-				<p><a href="visit-1.html" class="btn btn-primary btn-block btn-image visit btn-lg"><span class="image"></span>I want to visit a specialist in person</a></p>
-			</div>
-			<div class="col-md-6">
-				<p><a href="opinion-1.html" class="btn btn-primary btn-block btn-image opinion btn-lg"><span class="image"></span>I want an expert second opinion</a></p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6">
-				<p><a href="#" class="btn btn-primary btn-block btn-image stat btn-lg"><span class="image"></span>I'm in the hospital and I need help</a></p>
-			</div>
-			<div class="col-md-6">
-				<p><a href="visit-1" class="btn btn-primary btn-block btn-image pcp btn-lg"><span class="image"></span>I need a new primary care doctor</a></p>
-			</div>
-		</div>
-	</section>	  
-
-	<!-- Add family members -->
-	<section>
-		<div class="well checklist-info">
-			<div class="row check-list-item v-centered dismissable">
-				<div class="col-md-1">
-					<div class="icon fa fa-flag-o fa-4x brand-info"></div>
-				</div>
-				<div class="col-md-7">
-					<div><strong>Invite your Family Members to Grand Rounds.</strong></div>
-					<div>Grand Rounds is excited to offer Grand Rounds benefits to your extended family. Simply add family members to your account and we'll send them an invitation.</div>
-				</div>
-				<div class="col-md-4">
-					<a href="#" class="btn btn-info" data-method="get">Add family members</a>
-				</div>		
-			</div>
-		</div>
-	</section>
-	  
-	  <!-- Open Cases table GOES HERE-->
-	  <!-- Open Cases table ENDS HERE-->
-	  
 	<div class="row">
-		<div class="col-md-7">
-			
-			<!-- Learn More -->
-			<section>
-				
-				<section>
-					<p>
-						<img src="../assets/logo-blue.png" alt="Banner Grlogo" width="200" class="center-block">
-					<p>
-					<p class="text-center">
-						Grand Rounds integrates with your existing benefits to provide your employees and their families expedited access to top physicians so they can achieve better health outcomes.
-					</p>
-				</section>
+		<!-- Page Header >> -->
+		<div class="col-md-12">
+			<h1 class="text-center">We're here to help</h1>
+			<p class="h4 text-center subtext">Welcome to Grand Rounds, <%= firstName %>. Whenever you need us, we're ready to help.</p>
+		</div>
+	</div><!-- << Page Header -->
+		
+	<!-- Primary CTA Buttons >> -->
+	<section>
+		<div class="row">
+			<div class="col-md-12">
+				<p class="h2 center-text">How can we help you, <%= firstName %>?</p>
+			</div>
+			<div class="col-md-6">
+				<a href="visit-1.html" class="btn btn-primary btn-block btn-image btn-lg"><span class="image"></span>I want to visit a specialist in person</a>
+			</div>
+			<div class="col-md-6">
+				<a href="opinion-1.html" class="btn btn-primary btn-block btn-image btn-lg"><span class="image"></span>I want an expert second opinion</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<a href="#" class="btn btn-primary btn-block btn-image btn-lg"><span class="image"></span>I'm in the hospital and I need help</a>
+			</div>
+			<div class="col-md-6">
+				<a href="visit-1" class="btn btn-primary btn-block btn-image btn-lg"><span class="image"></span>I need a new primary care doctor</a>
+			</div>
+		</div><!-- << Primary CTA Buttons -->
+	</section>
 
-				<h3>Learn more</h3>
-				<div class="products row">
-					<a href="#" class="col-xs-12 service-label icon-l visit">
-						<h4 class="heavy">Grand Rounds Visits</h4>
-						<p>An in-person appointment with a leading specialist</p>
-					</a>
-					<a href="#" class="col-xs-12 service-label icon-l opinion">
-						<h4 class="heavy">Grand Rounds Opinions</h4>
-						<p>A world leading expert reviews your diagnosis</p>
-					</a>
-					<a href="#" class="col-xs-12 service-label icon-l stat">
-						<h4 class="heavy">Grand Rounds STAT</h4>
-						<p>Talk through serious medical concerns in real-time with our staff physicians</p>
-					</a>
+	<div class="row">
+		
+		<!-- Left Column >> -->
+		<div class="col-md-7">
+			<!-- Co Branding >> -->
+			<section>
+				<img src="../assets/logo-blue.png" alt="Banner Grlogo" width="200" class="center-block img-responsive">
+				<p class="h3">BigCo just got you the best medical care in the world.</p>
+				<p>As a part of our commitment to our employees, BigCo, is excited to provide these Grand Rounds benefits to your and your entire family at no charge (office co-pay rates may still apply.)</p>
+			</section><!-- << Co Branding -->
+		
+			<!-- Add family Members >> -->
+			<section>
+				<div class="well well-team">
+					<div class="row check-list-item v-centered dismissable">
+						<div class="col-md-8">
+							<p><strong>Invite your Family Members to Grand Rounds.</strong></p>
+							<p>Grand Rounds is excited to offer Grand Rounds benefits to your extended family. Simply add family members to your account and we'll send them an invitation.</p>
+						</div>
+						<div class="col-md-4">
+							<a href="#" class="btn btn-default btn-block" data-method="get">Add Family</a>
+						</div>		
+					</div>
 				</div>
 			</section>
-
-			<!-- FAQs -->
+			<!-- << Add family Members -->
+		
+			<!-- FAQs >> -->		
 			<section>
-				<h3>Frequently Asked Questions</h3>
+				<p class="h3">Frequently Asked Questions</p>
 				<div class="faq">
 					<h4>Should I get an Expert Opinion?</h4>
 					<p>An accurate diagnosis is critical to getting the best treatment. That’s why doctors suggest getting a second opinion before almost all non-emergency surgeries, long term treatments and major operations. If you are unsure or just want to confirm your current course of treatment, a second opinion can help give you confidence that you are getting the most appropriate treatment.</p>
@@ -128,61 +107,63 @@
 					</div>
 				</div>
 				<div>
-					<span data-target=".x-faqs" data-toggle="collapse" class="faq">More Grand Rounds F.A.Q.s</span>
+					<a href="#" data-target=".x-faqs" data-toggle="collapse" class="faq">More Grand Rounds F.A.Q.s <i class="fa fa-caret-down"></i></a>
 				</div>
-			</section>
-		</div>
+			</section><!-- << FAQs -->
 		
-		<!-- Common Conditions -->
+		</div><!-- << Left Column -->
+		
+		<!-- Right Column >> -->
 		<div class="col-md-4 col-md-offset-1">
-			<section class="gr-widget common-conditions well">
-				<div class="callout">
-					<h4 class="text-center">Some common conditions we help our patients with</h4>
-						<ul class="checked">
-							<li>Sports injuries</li>
-							<li>Chronic headaches/migraine</li>
-							<li>Cardiac issues</li>
-							<li>Neck or back pain</li>
-							<li>Breast cancer</li>
-							<li>Ulcerative colitis</li>
-							<li>Colon cancer</li>
-							<li>Pregnancy complications</li>
-							<li>Pediatric care</li>
-							<li>Thyroid disorders</li>
-							<li>Peripheral vascular disease</li>
-							<li>Parkinson’s disease</li>
-							<li>Rheumatoid arthritis</li>
-						</ul>
-						<p class="text-center">Our Care Team can help you understand if Grand Rounds is right for you.</p>
-						<p class="text-center">Call anytime at <a href="tel:800-929-0926"><strong>800-929-0926</strong></a></p>
+			
+			<!-- Common Conditions >> -->
+			<section class="well well-green">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">				
+						<p class="h5 text-center">Some common conditions we help our patients with</p>
+							<ul class="list-unstyled common-list">
+								<li><i class="fa fa-check check-success"></i> Sports injuries</li>
+								<li><i class="fa fa-check check-success"></i> Chronic headaches/migraine</li>
+								<li><i class="fa fa-check check-success"></i> Cardiac issues</li>
+								<li><i class="fa fa-check check-success"></i> Neck or back pain</li>
+								<li><i class="fa fa-check check-success"></i> Breast cancer</li>
+								<li><i class="fa fa-check check-success"></i> Ulcerative colitis</li>
+								<li><i class="fa fa-check check-success"></i> Colon cancer</li>
+								<li><i class="fa fa-check check-success"></i> Pregnancy complications</li>
+								<li><i class="fa fa-check check-success"></i> Pediatric care</li>
+								<li><i class="fa fa-check check-success"></i> Thyroid disorders</li>
+								<li><i class="fa fa-check check-success"></i> Peripheral vascular disease</li>
+								<li><i class="fa fa-check check-success"></i> Parkinson’s disease</li>
+								<li><i class="fa fa-check check-success"></i> Rheumatoid arthritis</li>
+							</ul>
+							<p class="text-center">Our Care Team can help you understand if Grand Rounds is right for you.</p>
+							<p class="text-center">Call anytime at <a href="tel:800-929-0926"><strong>800-929-0926</strong></a></p>
+					</div>
 				</div>
-			</section>
+			</section><!-- << Common Conditions -->
 			
-			
-			<!-- Download the App -->
+			<!-- Download the App >> -->
 			<section>
-				<p class="text-right">
-					<a href="https://play.google.com/store/apps/details?id=com.grandroundshealth.m" target="_blank">
-						<img src="../images/get-it-on-google-play-store-logo.png" alt="Grand Rounds on Google Play" width="150">
-					</a>
-				</p>
-			</section>
-			<section>
-				<p class="text-right">
-					<a href="https://itunes.apple.com/us/app/grand-rounds/id907304333?ls=1&amp;mt=8" target="_blank">
-						<img src="../images/apple-store-badge.png" alt="Grand Rounds on iTunes" width="150">
-					</a>
-				</p>
-			</section>
-		</div>
-	</div>	  
+				<div class="well well-gettheapp">
+					<img src="../assets/img-gettheapp.png" alt="img-gettheapp" width="192" height="200" class="center-block img-responsive"/>
+					<p class="h4 text-center">Get the app</p>
+					<p class="text-center">Download the free Grand Rounds mobile app and stay connected with your care team on the go.</p>
+					<div class="row">
+						<div class="col-md-6">
+							<a href="https://play.google.com/store/apps/details?id=com.grandroundshealth.m" target="_blank">
+								<img src="../images/get-it-on-google-play-store-logo.png" alt="Grand Rounds on Google Play" width="150">
+							</a>
+						</div>
+						<div class="col-md-6">
+							<a href="https://itunes.apple.com/us/app/grand-rounds/id907304333?ls=1&amp;mt=8" target="_blank">
+								<img src="../images/apple-store-badge.png" alt="Grand Rounds on iTunes" width="150">
+							</a>
+						</div>						
+					</div>
+				</div>
+			</section><!-- << Download the App -->
 
-	  
-	  
-	  
-	  
-	
-	<!-- Page Body Ends -->
-    </div>
-  </div>
-</div>
+		</div><!-- << Right Column -->
+		
+	</div><!-- << Row -->
+</div><!-- << Container -->
