@@ -1151,16 +1151,21 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6,
 .h1,
 .h2,
 .h3,
-.h4,
+.h4 {
+  font-family: inherit;
+  font-weight: 300;
+  line-height: 1.35;
+  color: inherit;
+}
+h5,
+h6,
 .h5,
 .h6 {
   font-family: inherit;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.35;
   color: inherit;
 }
@@ -2213,7 +2218,8 @@ pre code {
   }
 }
 table {
-  background-color: transparent;
+	background-color: #fff;
+/*   background-color: transparent; */
 }
 caption {
   padding-top: 8px;
@@ -2408,6 +2414,34 @@ table th[class*="col-"] {
   min-height: 0.01%;
 }
 @media screen and (max-width: 767px) {
+  	h1,
+	.h1 {
+	  font-size: 24px;
+	}
+	h2,
+	.h2 {
+	  font-size: 23px;
+	}
+	h3,
+	.h3 {
+	  font-size: 22px;
+	}
+	h4,
+	.h4 {
+	  font-size: 18px;
+	}
+	h5,
+	.h5 {
+	  font-size: 17px;
+	}
+	h6,
+	.h6 {
+	  font-size: 16px;
+	}
+	p {
+	  font-size: 14px;
+	  margin: 0 0 11px;
+	}
   .table-responsive {
     width: 100%;
     margin-bottom: 16.5px;
@@ -4132,7 +4166,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-top {
   top: 0;
-  border-width: 0 0 1px;
+/*   border-width: 0 0 1px; */
 }
 .navbar-fixed-bottom {
   bottom: 0;
@@ -4364,11 +4398,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #fdc553;
 }
 .navbar-default .navbar-brand {
-  color: white;
+  color: #fff;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #ffffff;
+  color: #fff;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
@@ -4395,11 +4429,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #dddddd;
+	color: #fff;
+	border: 0;
+	background-color: #F78305;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #dddddd;
+	color: #fff;
+	background-color: #C56804;
+	border: 0;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888888;
@@ -7002,6 +7040,11 @@ a:hover {
 .pp-avatar {
 	padding-bottom: 1em;
 }
+
+.nav-pills li {
+    display:table-cell !important;
+    width: 1%;
+}
 	
 .nav-pills > li > a {
 	color: #A3A3A7;
@@ -7055,7 +7098,7 @@ a:hover {
 }
 
 .well-team {
-	background-color: transparent;
+	background-color: #fff;
 	border: 1px solid #F0F0F0;
 	box-shadow: none;
 	-webkit-box-shadow: none;
@@ -7114,13 +7157,6 @@ a:hover {
 	padding-bottom: 3rem;
 }
 
-.cc-input-headings {
-	padding-top: 2rem;
-	font-size: 1.6rem;
-	font-weight: 400;
-	color: #333;
-}
-
 .cc-continue {
 	margin: 6em auto 3em auto;
 }
@@ -7162,8 +7198,23 @@ ul.checked {
 	box-shadow: inset 60px 0px 0px 0px rgba(0,0,0,0.20), inset 0px -2px 0px 0px rgba(0,0,0,0.20);
 }
 
-span.btn-image-visit {
-	background-image: url(../assets/icon_btn-visit.png);
-	height: 100px;
-	position: absolute;
+.btn-tertiary {
+	color: #fff;
+	background: #A3A3A7;
+	border: none;
+	box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.20);
+}
+.btn-tertiary:hover,
+.btn-tertiary:focus,
+.btn-tertiary.focus,
+.btn-tertiary:active,
+.btn-tertiary.active,
+.open > .dropdown-toggle.btn-tertiary {
+	color: #fff;
+	background-color: #828285;
+	border: none;
+}
+
+section.dashboard {
+	padding: 2rem 0 2rem 0;
 }

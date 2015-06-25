@@ -214,8 +214,15 @@
 	"profile": {
 		"layout": "_layout",
 		"pageTitle": "Welcome to Grand Rounds",
+		"gender": "Male",
 		"firstName": "Jeremy",
-		"lastName": "Gross"
+		"lastName": "Gross",
+		"addressStreet": "360 3rd Street, Suite 425",
+		"addressCity": "San Francisco",
+		"addressState": "CA",
+		"addressZIP": "94017",
+		"email": "jeremy.gross@grandrounds.com",
+		"phone": "(425) 929-9266"
 	},
 	"profile-password": {
 		"layout": "_layout",

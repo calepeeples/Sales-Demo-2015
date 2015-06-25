@@ -4,20 +4,21 @@
 			<div class="row">
 				<div class="col-md-12">
 					<ul class="nav nav-pills nav-justified nav-cases">
-					  <li class="active"><a href="#tab1" data-toggle="pill">Appointment</a></li>
-					  <li><a href="#tab2" data-toggle="pill">Messages</a></li>
-					  <li><a href="#tab3" data-toggle="pill">Medical Documents</a></li>
+					  <li class="active"><a href="#tab1" data-toggle="pill"><i class="fa fa-calendar-o hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Appointment</span></a></li>
+					  <li><a href="#tab2" data-toggle="pill"><i class="fa fa-envelope-o hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Messages</span> <div class="badge primary">1</div></a></li>
+					  <li><a href="#tab3" data-toggle="pill"><i class="fa fa-file-text-o hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Medical Documents</span></a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
 
+
 	<div class="container">
 		<div class="tab-content">	
 			
 			<!-- Tab 1 >> -->
-			<div id="tab1" class="tab-pane active">
+			<div id="tab1" class="tab-pane fade in active">
 				
 				<!-- Page Header >> -->
 				<div class="row">
@@ -69,12 +70,12 @@
 			</div><!-- << Tab 1 -->
 			
 			<!-- Tab 2 >> -->
-			<div id="tab2" class="tab-pane">
+			<div id="tab2" class="tab-pane fade">
 				<%- partial("partial/_teamandmessages") %>
 			</div><!-- << Tab 2 -->
 		    
-		    <div id="tab3" class="tab-pane">
-			    nothing here yet
+		    <div id="tab3" class="tab-pane fade">
+			    <%- partial("partial/_medicaldocuments") %>
 		    </div>
 		</div><!-- << Tab Content -->
 	
@@ -118,47 +119,3 @@
 		</div>
 	</div>
 </div>
-
-
-
-<!-- Notfication Script >> 
-<script type="text/javascript">
-    function generate(type, text) {
-
-        var n = noty({
-            text        : text,
-            type        : type,
-            dismissQueue: true,
-            layout      : 'topCenter',
-							timeout     : 'true',
-            closeWith   : ['click'],
-            theme       : 'relax',
-            maxVisible  : 10,
-            animation   : {
-                open  : 'animated bounceInLeft',
-                close : 'animated bounceOutLeft',
-                easing: 'swing',
-                speed : 500
-            }
-        });
-        console.log('html: ' + n.options.id);
-    }
-
-    function generateAll() {
-        //generate('warning', notification_html[0]);
-        //generate('error', notification_html[1]);
-        generate('information', notification_html[2]);
-        //generate('success', notification_html[3]);
-//            generate('notification');
-//            generate('success');
-    }
-
-    $(document).ready(function () {
-
-        setTimeout(function() {
-            generateAll();
-        }, 500);
-
-    });
-</script>
--->

@@ -5,10 +5,10 @@
 		
 		<div class="media">
 			<div class="media-left">
-				<a href="#"><img class="media-object" src="../assets/icon-user-cc.png" width="64" alt="Icon User Patient"></a>
+				<a href="#"><img src="../assets/img_cc-percy.jpg" alt="img_cc-percy" width="64" class="media-object avatar"/></a>
 			</div>
 			<div class="media-body">
-				<h4 class="media-heading">Erin Moore</h4>
+				<h4 class="media-heading">Steve Stevenson</h4>
 				<small class="subtext">Care Coordinator</small>
 				<p class="small">Your Care Coordinator is a trained professional that is here to understand your condition, preferences and concerns, and take care of the logistics to save you time.</p>
 			</div>
@@ -40,34 +40,40 @@
 	<!-- Messages Column >> -->
 	<div class="col-md-7 col-md-offset-1">
 		<h3>Messages</h3>
-
-		<div class="media">
-			<div class="media-left">
-			    <img class="media-object" src="../assets/icon-user-patient.png" width="32" alt="Icon User Patient">
-			</div>
-
-			<div class="media-body">
-				<div class="input-group col-md-9 pull-left">
-					<input type="text" class="form-control" aria-descibedby="basic-addon2" placeholder="New message...">
-						<span class="input-group-addon" id="basic-addon2"><a href="#"><i class="fa fa-paperclip"></i></a></span>
+		
+		<!-- Create New Message >> -->
+		<div class="row">
+			<form role="form">
+				<div class="col-md-1 col-sm-1 hidden-xs">
+					<img class="avatar" src="../assets/icon-user-patient.png" width="32" alt="Icon User Patient">
 				</div>
-				<div class="form-group col-md-3">
-					<a href="#" class="btn btn-primary btn-sm pull-right">SUBMIT</a>
+				<div class="col-md-8 col-sm-8">
+					<div class="form-group">
+						<div class="input-group">
+							<input type="text" class="form-control" aria-descibedby="basic-addon2" placeholder="New message...">
+							<span class="input-group-addon" id="basic-addon2"><a href="#"><i class="fa fa-paperclip"></i></a></span>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
+				<div class="col-md-3 col-sm-3">
+					<div class="form-group">
+						<a href="#" class="btn btn-primary btn-sm btn-block">SUBMIT</a>
+					</div>
+				</div>
+			</form>
+		</div><!-- << Create New Message -->
 
 		<!-- Messages Received >> -->
 		<div class="media">
 			<div class="media-left">
-			    <img class="media-object avatar" src="../assets/icon-user-cc.png" width="32" alt="Icon User Patient">
+			    <img class="media-object avatar" src="../assets/img_cc-percy.jpg" width="32" alt="Icon User Patient">
 			</div>
 
 			<div class="media-body">
 			    <h4 class="media-heading">Hello, <%= firstName %>!</h4>
 			   	<p>Your appointment with Dr. <%= drLName %> has been scheduled. If for any reason you cannot make this time or need to reschedule, please let me know. Also, for your visit, make sure to bring a valid photo ID (license, passport) and your insurance card. Thank you again for trusting Grand Rounds with your care.</p>
 				<p>Best regards,<br />
-				Erin Moore</p>
+				Steve Stevenson</p>
 				<span class="small subtext">Monday March 23rd, 2015</span> 
 			</div>
 		</div>

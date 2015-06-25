@@ -1,184 +1,215 @@
-<div class="container">
-	
-	<div class="row">
-		<div class="col-md-12 col-sm-12 col-xs-12">
-			
-			<section>
-				<header><h2>Account Settings</h2></header>
-			</section>
-			
-			<section>
-				<ul class="nav nav-tabs">
-					<li role="presentation" class="active"><a href="profile.html">Profile</a></li>
-					<li role="presentation"><a href="profile-password.html">Password</a></li>
-					<li role="presentation"><a href="profile-medicalcoverage.html">Medical Coverage</a></li>
-					<li role="presentation"><a href="profile-notifications.html">Notification Settings</a></li>
-				</ul>
-			</section>
-			
+<div class="tabbable">
+	<section class="nav-cases-container">
+		<div class="container">		
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="nav nav-pills nav-justified nav-cases">
+					  <li class="active"><a href="#tab1" data-toggle="pill"><i class="fa fa-calendar-o hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Profile</span></a></li>
+					  <li><a href="#tab2" data-toggle="pill"><i class="fa fa-envelope-o hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Password</span></a></li>
+					  <li><a href="#tab3" data-toggle="pill"><i class="fa fa-file-text-o hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Coverage</span></a></li>
+					  <li><a href="#tab4" data-toggle="pill"><i class="fa fa-file-text-o hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Health Records</span></a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
-	</div>
-	
-	<div class="row tab-content">
-		<div class="col-md-6 col-sm-8">
-			<form class="" role="form">
-				
-				<div class="row">
-					<div class="form-group has-feedback col-md-6">	
-						<label for="name-first">First Name</label>
-						<input class="form-control" id="name-first" placeholder="First Name" type="text">
-					</div>
-					
-					<div class="form-group has-feedback col-md-6">
-						<label for="name-last">Last Name</label>
-						<input class="form-control" id="name-last" placeholder="Last Name" type="text">
-					</div>
-				</div>
-				
-				<div class="form-group has-feedback">
-					<label for="address-street-1">Street</label>
-					<input class="form-control" id="address-street-1" placeholder="Street Address" type="text">
-				</div>
-
-				<div class="row">
-					<div class="form-group has-feedback col-md-6">
-						<label for="address-city">City</label>
-						<input class="form-control" id="address-city" placeholder="City" type="text">
-					</div>
-					
-					<div class="form-group has-feedback col-md-3">
-						<label for="address-state">State</label>
-						<select class="form-control input-lg">
-							<option value="Select">Select</option>
-							<option value="AL">Alabama</option>
-							<option value="AK">Alaska</option>
-							<option value="AZ">Arizona</option>
-							<option value="AR">Arkansas</option>
-							<option value="CA">California</option>
-							<option value="CO">Colorado</option>
-							<option value="CT">Connecticut</option>
-							<option value="DE">Delaware</option>
-							<option value="DC">District Of Columbia</option>
-							<option value="FL">Florida</option>
-							<option value="GA">Georgia</option>
-							<option value="HI">Hawaii</option>
-							<option value="ID">Idaho</option>
-							<option value="IL">Illinois</option>
-							<option value="IN">Indiana</option>
-							<option value="IA">Iowa</option>
-							<option value="KS">Kansas</option>
-							<option value="KY">Kentucky</option>
-							<option value="LA">Louisiana</option>
-							<option value="ME">Maine</option>
-							<option value="MD">Maryland</option>
-							<option value="MA">Massachusetts</option>
-							<option value="MI">Michigan</option>
-							<option value="MN">Minnesota</option>
-							<option value="MS">Mississippi</option>
-							<option value="MO">Missouri</option>
-							<option value="MT">Montana</option>
-							<option value="NE">Nebraska</option>
-							<option value="NV">Nevada</option>
-							<option value="NH">New Hampshire</option>
-							<option value="NJ">New Jersey</option>
-							<option value="NM">New Mexico</option>
-							<option value="NY">New York</option>
-							<option value="NC">North Carolina</option>
-							<option value="ND">North Dakota</option>
-							<option value="OH">Ohio</option>
-							<option value="OK">Oklahoma</option>
-							<option value="OR">Oregon</option>
-							<option value="PA">Pennsylvania</option>
-							<option value="RI">Rhode Island</option>
-							<option value="SC">South Carolina</option>
-							<option value="SD">South Dakota</option>
-							<option value="TN">Tennessee</option>
-							<option value="TX">Texas</option>
-							<option value="UT">Utah</option>
-							<option value="VT">Vermont</option>
-							<option value="VA">Virginia</option>
-							<option value="WA">Washington</option>
-							<option value="WV">West Virginia</option>
-							<option value="WI">Wisconsin</option>
-							<option value="WY">Wyoming</option>
-						</select>
-					</div>
-					
-					<div class="form-group has-feedback col-md-3">
-						<label for="address-zip">ZIP</label>
-						<input class="form-control" id="address-zip" placeholder="ZIP Code" type="text">
-					</div>
-				</div>
-				
-				<hr />
-				
-				<div class="form-group has-feedback">
-					<label for="email-1">Email Address</label>
-					<input class="form-control" id="email-1" placeholder="Email Address" type="email">
-				</div>
+	</section>
 
 
-				<div class="row">
-					<div class="form-group has-feedback col-md-6">
-						<label for="phone">Phone Number</label>
-						<input class="form-control" id="phone" placeholder="(XXX) XXX-XXXX" type="text">
-					</div>
-	
-					<div class="form-group has-feedback col-md-6">
-						<label for="phone-type">Phone Type</label>
-						<select class="form-control input-lg">
-							<option>Select</option>
-							<option>Mobile</option>
-							<option>Home</option>
-						</select>
-				  	</div>
-				</div>
+	<div class="container">
+		<div class="tab-content">	
+			
+			<!-- Tab 1 >> -->
+			<div id="tab1" class="tab-pane fade in active">
 				
-				<div class="form-group has-feedback">
-					<label class="checkbox-inline">
-						<input type="checkbox" id="inlineCheckbox1" value="option1"> Text me case updates &amp; other helpful messages
-					</label>
+				<div class="col-md-4">
+					<div class="well well-team text-center">
+						<img src="../assets/icon-user-patient.png" alt="icon-user-patient" width="128" height="128" class="img-repsonsive" />
+						<a href="#" class="btn btn-default">Add a Photo</a>
+					</div>
 				</div>
 
-				<hr />
-				<div class="row">
-					<div class="form-group has-feedback col-md-6">
-						<label for="birthday">Birthday</label>
-						<input class="form-control" id="birthday" placeholder="MM / DD / YYYY" type="text">
-					</div>
-					
-					<div class="form-group has-feedback col-md-6">
-						<label for="ssn">Last 4 of SSN</label>
-						<div class="input-group">
-							<div class="input-group-addon">XXX - XX - </div>
-							<input class="form-control" id="ssn" placeholder="1234" type="text">
+				
+				<div class="col-md-6 col-md-offset-1">
+					<form role="form">
+						
+						<div class="row">					
+							<div class="form-group col-sm-6">
+								<p class="h6">Gender</p>
+								<select class="form-control cc-dropdown" id="gender">
+									<option selected disabled><%= gender %></option>
+									<option value="Female">Female</option>
+									<option value="Male">Male</option>
+								</select>
+							</div>
 						</div>
-					</div>
+						
+						<div class="form-group">
+							<div class="row">
+								<div class="form-group col-sm-6">					
+									<p class="h6">First Name</p>
+									<input type="text" class="form-control" id="patientFirstName" value="<%= firstName %>">
+								</div>
+								<div class="form-group col-sm-6">
+									<p class="h6">Last Name</p>
+									<input type="text" class="form-control" id="patientLastName" value="<%= lastName %>">
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<p class="h6">Street</p>
+							<input type="text" class="form-control" id="patientstreet" value="<%= addressStreet %>">
+						</div>				
+						
+						<div class="row">
+							<div class="form-group col-md-7 col-sm-7">
+								<p class="h6">City</p>
+								<input type="text" class="form-control" id="patientcity" value="<%= addressCity %>">						
+							</div>
+							<div class="form-group col-md-2 col-sm-2 col-xs-6">
+								<p class="h6">State</p>
+								<select class="form-control cc-dropdown" id="state">
+									<option selected disabled><%= addressState %></option>
+									<option value="AL">AL</option>
+									<option value="AK">AK</option>
+									<option value="AZ">AZ</option>
+									<option value="AR">AR</option>
+									<option value="CA">CA</option>
+									<option value="CO">CO</option>
+									<option value="CT">CT</option>
+									<option value="DE">DE</option>
+									<option value="DC">DC</option>
+									<option value="FL">FL</option>
+									<option value="GA">GA</option>
+									<option value="HI">HI</option>
+									<option value="ID">ID</option>
+									<option value="IL">IL</option>
+									<option value="IN">IN</option>
+									<option value="IA">IA</option>
+									<option value="KS">KS</option>
+									<option value="KY">KY</option>
+									<option value="LA">LA</option>
+									<option value="ME">ME</option>
+									<option value="MD">MD</option>
+									<option value="MA">MA</option>
+									<option value="MI">MI</option>
+									<option value="MN">MN</option>
+									<option value="MS">MS</option>
+									<option value="MO">MO</option>
+									<option value="MT">MT</option>
+									<option value="NE">NE</option>
+									<option value="NV">NV</option>
+									<option value="NH">NH</option>
+									<option value="NJ">NJ</option>
+									<option value="NM">NM</option>
+									<option value="NY">NY</option>
+									<option value="NC">NC</option>
+									<option value="ND">ND</option>
+									<option value="OH">OH</option>
+									<option value="OK">OK</option>
+									<option value="OR">OR</option>
+									<option value="PA">PA</option>
+									<option value="RI">RI</option>
+									<option value="SC">SC</option>
+									<option value="SD">SD</option>
+									<option value="TN">TN</option>
+									<option value="TX">TX</option>
+									<option value="UT">UT</option>
+									<option value="VT">VT</option>
+									<option value="VA">VA</option>
+									<option value="WA">WA</option>
+									<option value="WV">WV</option>
+									<option value="WI">WI</option>
+									<option value="WY">WY</option>
+								</select>
+							</div>
+							<div class="form-group col-md-3 col-sm-3 col-xs-6">
+								<p class="h6">ZIP Code</p>
+								<input type="text" class="form-control" id="patientzip" value="<%= addressZIP %>">
+							</div>
+						</div>
+
+						<hr />
+						
+						<div class="form-group">
+							<p class="h6">Email</p>
+							<input type="email" class="form-control" id="patientemail" value="<%= email %>">
+						</div>				
+								
+						<div class="form-group">
+							<p class="h6">Phone Number</p>
+							<div class="row">
+								<div class="form-group col-sm-8 col-xs-8">					
+									<input type="text" class="form-control" id="patientphone" value="<%= phone %>">
+								</div>
+								<div class="form-group col-sm-4 col-xs-4">
+									<select class="form-control cc-dropdown" id="patientphonetype">
+										<option selected disabled>Mobile</option>
+										<option>Mobile</option>
+										<option>Home</option>
+										<option>Work</option>
+										<option>Other</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="checkbox checkbox-success">
+									<input type="checkbox" id="textmessages" checked>
+									<label for="textmessages">Text me case updates & other helpful messages</label>
+								</div>
+							</div>
+						</div>
+						
+						<hr />
+						
+						<div class="form-group">
+							<div class="row">
+								<div class="col-sm-4 col-md-4 col-lg-4">
+									<div class="form-group">
+										<p class="h6">Birthday</p>
+										<input type="email" class="form-control" id="patientbirthday" value="01/01/1970">
+									</div>				
+								</div>
+								<div class="col-sm-8 col-md-8 col-lg-7 col-lg-offset-1">
+									<div class="form-group">
+										<p class="h6">Last 4 digits of <span class="hidden-md">Social Security Number</span><span class="hidden-xs hidden-sm hidden-lg">SSN</span></p>
+										<div class="input-group">
+											<span class="input-group-addon" id="basic-addon1">XXX-XX-</span>
+											<input type="text" class="form-control" id="patientssn" value="1234" aria-describedby="basic-addon1">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>		
+		
+						<section>
+							<hr />
+							<p><a href="#" type="button" class="btn btn-primary btn-block btn-lg">Save Changes</a></p>
+						</section>
+					
+					</form>
+					
 				</div>
 				
-				<hr />
 				
-				<button type="submit" class="btn btn-primary btn-block">Save Changes</button>
-
-			</form>
-		</div>
-
-		<div class="col-xs-offset-3 col-xs-6 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-4 well">
-			<h3>Profile Picture</h3>
-
-				<div class="picture">
-					<span class="fa-stack fa-5x">
-						<i class="fa fa-circle fa-stack-2x"></i>
-						<i class="fa fa-user fa-stack-1x fa-inverse"></i>
-					</span>
-				</div>
-
-				<div class="caption">
-					<p>Add a picture for our Care Team...</p>
-					<p><a href="#" class="btn btn-default btn-block" role="button">Edit</a></p>
-				</div>
-		</div>
-
-	</div>
-
-</div>
+			</div><!-- << Tab 1 -->
+			
+			<!-- Tab 2 >> -->
+			<div id="tab2" class="tab-pane fade">
+				
+			</div><!-- << Tab 2 -->
+		    
+		    <!-- Tab 3 >> -->
+		    <div id="tab3" class="tab-pane fade">
+			    
+		    </div><!-- << Tab 3 -->
+		    
+		    <!-- Tab 4 >> -->
+		    <div id="tab4" class="tab-pane fade">
+			    
+		    </div><!-- << Tab 4 -->
+		    
+		</div><!-- << Tab Content -->
+	
+	</div><!-- << Tabbable -->
+</div><!-- << Page Container -->
