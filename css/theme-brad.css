@@ -1104,7 +1104,7 @@ img {
   height: auto;
 }
 .img-rounded {
-  border-radius: 0px;
+  border-radius: 4px;
 }
 .img-thumbnail {
   padding: 4px;
@@ -2218,8 +2218,7 @@ pre code {
   }
 }
 table {
-	background-color: #fff;
-/*   background-color: transparent; */
+  background-color: transparent;
 }
 caption {
   padding-top: 8px;
@@ -7072,7 +7071,15 @@ a:hover {
 
 /* Footer */
 
+.footer {
+	min-height: 14rem;
+	height: auto;
+	margin-top: 2rem;
+	border-top: 1px solid #eee;
+}
+
 .footer-gr {
+	padding-top: 4rem;
 	color: #AAAAAA;
 }
 
@@ -7217,4 +7224,19 @@ ul.checked {
 
 section.dashboard {
 	padding: 2rem 0 2rem 0;
+}
+
+
+/* Messages Badge */
+.badge-messages {
+  color: #fff;
+  background-color: #F78305;
+}
+
+
+
+/* Case Documents */
+
+.table-documents {
+	background-color: #fff !important;
 }
