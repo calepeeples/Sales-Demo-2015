@@ -59,7 +59,7 @@
 		"layout": "_layout",
 		"pageTitle": "Start your Visit",
 		"firstName": "Jeremy",
-		"lastName": "Gross",
+		"lastName": "Gross",		
 		"drImage": "Lidia-Schapira.jpg",
 		"drFName": "Lidia",
 		"drLName": "Schapira",
@@ -76,32 +76,6 @@
 		"ppOrthQ1": "What are my treatment options for improving my symptoms? Are there non-surgical techniques that could be as effective as surgery?",
 		"ppOrthQ2": "If you are recommending a surgery or procedure, how strong is the evidence that this surgery will improve my symptoms? Does it work better than a conservative treatment?",
 		"ppOrthQ3": "What are the risks of the surgery?"		
-	},
-	"visit-casedashboard-done": {
-		"layout": "_layout",
-		"pageTitle": "Start your Visit",
-		"firstName": "Jeremy",
-		"lastName": "Gross",
-		"drImage": "Lidia-Schapira.jpg",
-		"drFName": "Lidia",
-		"drLName": "Schapira",
-		"drSpecialty": "Oncology",
-		"drHospital": "Massachusetts General Hospital",
-		"drAddress": "355 Fruit Street # 148, Boston, MA 02114",
-		"drGoogleMap": "https://www.google.com/maps/place/Palo+Alto+Medical+Foundation:+Price+Erik+MD/@37.440111,-122.161179,15z/data=!4m6!1m3!3m2!1s0x0:0xfeab933af4c9dc5b!2sPalo+Alto+Medical+Foundation:+Price+Erik+MD!3m1!1s0x0:0xfeab933af4c9dc5b"
-	},
-	"visit-casedashboard-postvisit": {
-		"layout": "_layout",
-		"pageTitle": "Start your Visit",
-		"firstName": "Jeremy",
-		"lastName": "Gross",
-		"drImage": "Lidia-Schapira.jpg",
-		"drFName": "Lidia",
-		"drLName": "Schapira",
-		"drSpecialty": "Oncology",
-		"drHospital": "Massachusetts General Hospital",
-		"drAddress": "355 Fruit Street # 148, Boston, MA 02114",
-		"drGoogleMap": "https://www.google.com/maps/place/Palo+Alto+Medical+Foundation:+Price+Erik+MD/@37.440111,-122.161179,15z/data=!4m6!1m3!3m2!1s0x0:0xfeab933af4c9dc5b!2sPalo+Alto+Medical+Foundation:+Price+Erik+MD!3m1!1s0x0:0xfeab933af4c9dc5b"
 	},
 	"opinion-1": {
 		"layout": "_account-layout",
@@ -209,24 +183,6 @@
 		"phone": "(425) 929-9266",
 		"drFName": "Lidia",
 		"drLName": "Schapira"	
-	},
-	"profile-password": {
-		"layout": "_layout",
-		"pageTitle": "Welcome to Grand Rounds",
-		"firstName": "Jeremy",
-		"lastName": "Gross"
-	},
-	"profile-notifications": {
-		"layout": "_layout",
-		"pageTitle": "Welcome to Grand Rounds",
-		"firstName": "Jeremy",
-		"lastName": "Gross"
-	},
-	"profile-medicalcoverage": {
-		"layout": "_layout",
-		"pageTitle": "Welcome to Grand Rounds",
-		"firstName": "Jeremy",
-		"lastName": "Gross"
 	},
 	"medicalrecords-release": {
 		"layout": "_account-layout",
