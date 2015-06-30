@@ -124,7 +124,7 @@
 		"lastName": "Gross"
 	},
 	"opinion-casedashboard": {
-		"layout": "_layout",
+		"layout": "_layout-nocases",
 		"pageTitle": "Start your Visit",
 		"firstName": "Jeremy",
 		"lastName": "Gross",
