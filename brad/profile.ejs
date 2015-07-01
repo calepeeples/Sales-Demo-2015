@@ -7,7 +7,7 @@
 					  <li class="active"><a href="#tab1" data-toggle="pill"><i class="fa fa-user hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Profile</span></a></li>
 					  <li><a href="#tab2" data-toggle="pill"><i class="fa fa-lock hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Password</span></a></li>
 					  <li><a href="#tab3" data-toggle="pill"><i class="fa fa-file-text-o hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Coverage</span></a></li>
-					  <li><a href="#tab4" data-toggle="pill"><i class="fa fa-file-text-o hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Health Records</span></a></li>
+					  <li><a href="#tab4" data-toggle="pill"><i class="fa fa-file-text-o hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Medical Documents</span></a></li>
 					</ul>
 				</div>
 			</div>
@@ -25,10 +25,10 @@
 				</header>
 				<div class="col-sm-4 col-md-5">
 					<div class="well well-team text-center">
-						<img src="../assets/icon-user-patient.png" alt="icon-user-patient" width="128" height="128" class="img-repsonsive" />
 						<section>
-							<a href="#" class="btn btn-default btn-sm">Add a Photo</a>
+							<img src="<%= gravatarImage %>" width="134" alt="patient" class="img-circle img-repsonsive" />
 						</section>
+							<a href="#" class="btn btn-default btn-sm">Add a Photo</a>
 					</div>
 				</div>
 
@@ -236,7 +236,7 @@
 				<div class="row">
 					<div class="col-md-7">
 						<h2>Your family is covered</h2>
-						<h4 class="subtext">BigCo is providing valuable Grand Rounds benefits to your entire family</h4>
+						<h4 class="subtext"><%= company %> is providing valuable Grand Rounds benefits to your entire family</h4>
 						<section>
 							<img src="../assets/icon_family.png" alt="icon_family" width="440" height="200" class="img-responsive center-block"/>
 						</section>
@@ -250,8 +250,8 @@
 							<section>
 								<img src="../assets/logo_bigco-blue.png" alt="BigCo Logo Blue" width="338" height="157" class="center-block img-responsive">
 							</section>
-							<p class="subtext">BigCo HR<br />
-							<a href="#">hr@bigco.com</a><br />
+							<p class="subtext"><%= company %> HR<br />
+							<a href="#">hr<%= companyEmail %></a><br />
 							(800) 555-1234 x56789
 							</p>
 							<p class="subtext">Grand Rounds Support<br />
@@ -259,12 +259,12 @@
 								(800) 929-0926</p>
 							
 							<p class="h6">Insurance Provider</p>
-							<p>Health Company</p>							
+							<p><%= insuranceCarrier %></p>							
 							
 							<div class="form-group">
 								<p class="h6">Group Number</p>
 								<div class="input-group">
-									<input type="text" class="form-control" id="groupnumber" value="7277M275151" aria-describedby="basic-addon1" disabled>
+									<input type="text" class="form-control" id="groupnumber" value="<%= insuranceGroupNumber %>" aria-describedby="basic-addon1" disabled>
 									<span class="input-group-addon" id="basic-addon2"><i class="fa fa-lock"></i></span>
 								</div>
 							</div>
@@ -272,7 +272,7 @@
 							<div class="form-group">
 								<p class="h6">Member ID</p>
 								<div class="input-group">
-									<input type="text" class="form-control disabled" id="memberid" value="YZY993A24293" aria-describedby="basic-addon1" disabled>
+									<input type="text" class="form-control disabled" id="memberid" value="<%= insurancePolicyNumber %>" aria-describedby="basic-addon1" disabled>
 									<span class="input-group-addon" id="basic-addon2"><i class="fa fa-lock"></i></span>
 								</div>
 							</div>

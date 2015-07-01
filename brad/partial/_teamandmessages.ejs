@@ -1,43 +1,10 @@
+<style>
+
+</style>
+
 <div class="row">
-	<!-- GR Team >> -->
-	<div class="col-md-4 well well-team">
-		<h4>Grand Rounds Team</h4>
-		
-		<div class="media">
-			<div class="media-left">
-				<a href="#"><img src="../assets/img_cc-percy.jpg" alt="img_cc-percy" width="64" class="media-object avatar"/></a>
-			</div>
-			<div class="media-body">
-				<h4 class="media-heading">Steve Stevenson</h4>
-				<small class="subtext">Care Coordinator</small>
-				<p class="small">Your Care Coordinator is a trained professional that is here to understand your condition, preferences and concerns, and take care of the logistics to save you time.</p>
-			</div>
-		</div>
-
-		<div class="media">
-			<div class="media-left">
-				<a href="#"><img class="media-object avatar" src="../images/GR_Leadership__0007_8.-Shaundra-Eichstadt.jpg" width="64" alt="Icon User Patient"></a>
-			</div>
-			<div class="media-body">
-				<h4 class="media-heading">Dr. Shaundra Eichstadt</h4>
-				<small class="subtext">Staff Physician</small>
-				<p class="small">Your Staff Physician is a licensed physician that helps select an excellent doctor that is a great fit for your needs.</p>
-			</div>
-		</div>
-
-		<div>
-			<hr />
-			<a href="#"> <i class="fa fa-plus-circle"></i> ADD A TEAM MEMBER</a>
-			<br />
-			<span class="small subtext">
-				Invite a family member or caregiver to your team, but keep in mind that they will have access to your case history, medical records, and team messages.
-			</span>
-		</div>
-	
-	</div><!-- << GR Team -->
-
 	<!-- Messages >> -->	
-	<div class="col-md-7 col-md-offset-1">
+	<div class="col-md-7">
 		<h3>Messages</h3>
 
 		<!-- Create New Message >> -->
@@ -64,7 +31,7 @@
 		
 		<div class="media">
 			<div class="media-left">
-			    <a href="#"><img class="media-object" src="../assets/icon-user-cc.png" width="32" alt="Icon User Patient"></a>
+			    <img src="../../assets/icon-user-gr.png" width="32" alt="GR Icon" class="media-object" />
 			</div>
 
 			<div class="media-body">
@@ -80,5 +47,45 @@
 		</div>
 		
 	</div><!-- << Messages -->
+
+	<!-- GR Team >> -->
+	<div class="col-md-4 col-md-offset-1">
+		<div class="well well-transparent">
+			<h4>Grand Rounds Team</h4>
+			
+			<div class="media">
+				<div class="media-left">
+					<img src="<%= ccImage %>" alt="CC" width="64" class="media-object img-circle" />
+				</div>
+				<div class="media-body">
+					<h5 class="media-heading"><%= ccFirstName %> <%= ccLastName %></h5>
+					<small class="subtext">Care Coordinator</small>
+					<p class="small">Your Care Coordinator is a trained professional that is here to understand your condition, preferences and concerns, and take care of the logistics to save you time.</p>
+				</div>
+			</div>
+	
+			<div class="media">
+				<div class="media-left">
+					<img src="<%= spImage %>" width="64" alt="SP" class="media-object img-circle" />
+				</div>
+				<div class="media-body">
+					<h5 class="media-heading">Dr. <%= spFirstName %> <%= spLastName %></h5>
+					<small class="subtext">Staff Physician</small>
+					<p class="small">Your Staff Physician is a licensed physician that helps select an excellent doctor that is a great fit for your needs.</p>
+				</div>
+			</div>
+	
+			<div>
+				<hr />
+				<a href="#"> <i class="fa fa-plus-circle"></i> ADD A TEAM MEMBER</a>
+				<br />
+				<span class="small subtext">
+					Invite a family member or caregiver to your team, but keep in mind that they will have access to your case history, medical records, and team messages.
+				</span>
+			</div>
+		</div>
+	</div><!-- << GR Team -->
+
+
 
 </div>

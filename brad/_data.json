@@ -57,16 +57,7 @@
 	},
 	"visit-casedashboard-scheduled": {
 		"layout": "_layout",
-		"pageTitle": "Start your Visit",
-		"firstName": "Jeremy",
-		"lastName": "Gross",		
-		"drImage": "Lidia-Schapira.jpg",
-		"drFName": "Lidia",
-		"drLName": "Schapira",
-		"drSpecialty": "Oncology",
-		"drHospital": "Massachusetts General Hospital",
-		"drAddress": "355 Fruit Street # 148, Boston, MA 02114",
-		"drGoogleMap": "https://goo.gl/maps/VeJtB",
+		"pageTitle": "Appointment Scheduled",
 		"ppFootQ1": "What findings will you be looking for when you examine my foot? What do each of these findings mean?",
 		"ppFootQ2": "What are my non-surgical options?",
 		"ppFootQ3": "Are there any lifestyle changes I should make? Should I be wearing or avoiding certain footwear?",
@@ -79,60 +70,44 @@
 	},
 	"opinion-1": {
 		"layout": "_account-layout",
-		"pageTitle": "Start your Visit",
-		"firstName": "Jeremy",
-		"lastName": "Gross"
+		"pageTitle": "Start your Opinion"
 	},
 	"opinion-2-combined": {
 		"layout": "_account-layout",
-		"pageTitle": "Start your Visit",
-		"firstName": "Jeremy",
-		"lastName": "Gross",
-		"email": "jeremy.gross@grandrounds.com",
-		"company": "Big Co.",
-		"insuranceProvider": "Big Co. Health Plan",
-		"insuranceCarrier": "Blue Shield PPO",
-		"insuranceGroupNumber": "XXXXXX-2H154",
-		"insurancePolicyNumber": "XXXXXXXXXX-9814",
-		"address": "360 3rd Street, Suite 425",
-		"addressCityState": "San Francisco CA 94017",
-		"phone": "(425) 929-9266"
+		"pageTitle": "Start your Opinion"
 	},
 	"opinion-4": {
 		"layout": "_account-layout",
-		"pageTitle": "Start your Visit",
+		"pageTitle": "Start your Opinion",
 		"firstName": "Jeremy",
 		"lastName": "Gross"
 	},
 	"opinion-5": {
 		"layout": "_account-layout",
-		"pageTitle": "Start your Visit",
+		"pageTitle": "Start your Opinion",
 		"firstName": "Jeremy",
 		"lastName": "Gross"
 	},
 	"medicalrecords-opinion-release": {
 		"layout": "_account-layout",
-		"pageTitle": "Start your Visit",
-		"firstName": "Jeremy",
-		"lastName": "Gross",
-		"address": "360 3rd Street, Suite 425"
+		"pageTitle": "Medical Records Release"
 	},
 	"opinion-8": {
 		"layout": "_account-layout",
-		"pageTitle": "Start your Visit",
+		"pageTitle": "Start your Opinion",
 		"firstName": "Jeremy",
 		"lastName": "Gross"
 	},
 	"opinion-casedashboard": {
 		"layout": "_layout-nocases",
-		"pageTitle": "Start your Visit",
+		"pageTitle": "Start your Opinion",
 		"firstName": "Jeremy",
 		"lastName": "Gross",
 		"drName": "Harvery Millard"
 	},
 	"opinion-casedashboard-expertreview": {
 		"layout": "_layout",
-		"pageTitle": "Start your Visit",
+		"pageTitle": "Expert Review",
 		"firstName": "Jeremy",
 		"lastName": "Gross",
 		"drName": "Harvery Millard",
@@ -145,7 +120,7 @@
 	},
 	"opinion-casedashboard-opiniondelivered": {
 		"layout": "_layout",
-		"pageTitle": "Start your Visit",
+		"pageTitle": "Opinion Delivered",
 		"firstName": "Jeremy",
 		"lastName": "Gross",
 		"drName": "Harvery Millard",
@@ -158,7 +133,7 @@
 	},
 	"opinion-read": {
 		"layout": "_layout",
-		"pageTitle": "Start your Visit",
+		"pageTitle": "Opinion",
 		"firstName": "Jeremy",
 		"lastName": "Gross",
 		"drName": "Harvery Millard",
@@ -171,22 +146,11 @@
 	},
 	"profile": {
 		"layout": "_layout",
-		"pageTitle": "Welcome to Grand Rounds",
-		"gender": "Male",
-		"firstName": "Jeremy",
-		"lastName": "Gross",
-		"addressStreet": "360 3rd Street, Suite 425",
-		"addressCity": "San Francisco",
-		"addressState": "CA",
-		"addressZIP": "94017",
-		"email": "jeremy.gross@grandrounds.com",
-		"phone": "(425) 929-9266",
-		"drFName": "Lidia",
-		"drLName": "Schapira"	
+		"pageTitle": "Profile"
 	},
 	"medicalrecords-release": {
 		"layout": "_account-layout",
-		"pageTitle": "Start your Visit",
+		"pageTitle": "Medical Records Release",
 		"firstName": "Jeremy",
 		"lastName": "Gross",
 		"address": "360 3rd Street, Suite 425"

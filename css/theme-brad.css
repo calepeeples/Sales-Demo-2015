@@ -5103,7 +5103,7 @@ a.thumbnail.active {
 }
 .media-left,
 .media > .pull-left {
-  padding-right: 10px;
+/*   padding-right: 10px; */
 }
 .media-left,
 .media-right,
@@ -7037,7 +7037,7 @@ a:hover {
  }
 
 .pp-avatar {
-	padding-bottom: 1em;
+	padding: 1em;
 }
 
 .nav-pills li {
@@ -7068,6 +7068,19 @@ a:hover {
 .nav-cases-container {
 	background-color: #F0F0F0;
 }
+
+/* Retina JS Fix */
+.tab-content>.tab-pane {
+   display: block;
+   height: 0px;
+   overflow: hidden;
+}
+.tab-content>.active {
+    height: auto;
+    overflow: auto;
+}
+
+
 
 /* Footer */
 
@@ -7102,6 +7115,14 @@ a:hover {
 
 .well-icon p {
 	padding-top: 1.5rem;
+}
+
+.well-transparent {
+	background-color: transparent;
+	border: 1px solid #F0F0F0;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	border-radius: 4px;
 }
 
 .well-team {
