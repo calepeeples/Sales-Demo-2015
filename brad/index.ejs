@@ -50,7 +50,7 @@
 		<div class="col-md-6 col-md-offset-1">
 			<section>
 				<h3>Create your Grand Rounds account</h3>
-				<small>Already have an account? <a href="#">Sign In</a></small>
+				<small>Already have an account? <a href="#" data-toggle="modal" data-target="#SignIn">Sign In</a></small>
 			</section>
 			<form role="form">
 				
@@ -145,3 +145,58 @@
 		</div>
 	</div>
 </div>
+
+
+<!-- Sign In Modal >> -->
+<div class="modal fade" id="SignIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog modal-md" role="document">
+		<div class="modal-content modal-howwechoose">
+
+			<div class="modal-header modal-header-signin">
+				<h3 class="modal-title" id="myModalLabel">Sign In</h3>
+			</div>
+
+
+			<div class="modal-body">
+				<div class="containter">
+					<div class="row">
+						<div class="col-md-12">
+							
+							<form role="form">
+
+								<div class="form-group has-success">
+									<p class="h6">Email</p>
+									<div class="input-group">
+										<span class="input-group-addon" id="basic-addon1"><i class="fa fa-envelope fa-fw"></i></span>
+										<input type="email" class="form-control" id="patientemail" placeholder="Email address" value="<%= email %>" aria-describedby="basic-addon1">
+									</div>
+								</div>
+
+
+								<div class="form-group has-success">
+									<p class="h6">Password</p>
+									<div class="input-group">
+										<span class="input-group-addon" id="basic-addon1"><i class="fa fa-lock fa-fw"></i></span>
+										<input type="password" class="form-control" id="patientpassword" placeholder="Password" value="password1234" aria-describedby="basic-addon1">																	</div>
+									<small><a href="#" class="subtext">Forgot your password?</a></small>
+								</div>
+
+
+								<section>
+									<hr />
+									<p><a href="dashboard-welcome.html" type="button" class="btn btn-primary btn-block btn-lg">Sign In</a></p>
+								</section>
+												
+							</form>							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- << Sign In Modal -->
+
+
+
+

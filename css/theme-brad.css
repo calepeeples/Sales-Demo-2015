@@ -7167,6 +7167,12 @@ a:hover {
 	border-bottom: none;
 }
 
+.modal-header-signin {
+	color: white;
+	background-color: #fdba32;
+}
+
+
 /* Visit Case Creation */
 .cc-progress-bar {
 	background-color: #F0F0F0;
