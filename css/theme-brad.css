@@ -7077,9 +7077,8 @@ a:hover {
 }
 .tab-content>.active {
     height: auto;
-    overflow: auto;
+/*     overflow: auto; */
 }
-
 
 
 /* Footer */

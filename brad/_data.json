@@ -1,10 +1,12 @@
 {
 	"index": {
 		"layout": "_account-layout",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Create Your Grand Rounds Account"
 	},
 	"dashboard-welcome": {
 		"layout": "_layout-nocases",
+		"siteTitle": "Grand Rounds Sales Demo 2015",
 		"pageTitle": "Welcome to Grand Rounds",
 		"firstName": "Jeremy",
 		"lastName": "Gross",
@@ -13,12 +15,14 @@
 	},
 	"visit-1": {
 		"layout": "_layout-nocases",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Getting Started",
 		"firstName": "Jeremy",
 		"lastName": "Gross"
 	},
 	"visit-2": {
 		"layout": "_layout-nocases",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Condition",
 		"firstName": "Jeremy",
 		"lastName": "Gross",
@@ -27,6 +31,7 @@
 	},
 	"visit-3": {
 		"layout": "_layout-nocases",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "About You",
 		"firstName": "Jeremy",
 		"lastName": "Gross",
@@ -35,12 +40,14 @@
 	},
 	"visit-4": {
 		"layout": "_layout-nocases",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Records",
 		"firstName": "Jeremy",
 		"lastName": "Gross"
 	},
 	"visit-5": {
 		"layout": "_layout-nocases",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Record Release Form",
 		"firstName": "Jeremy",
 		"lastName": "Gross",
@@ -49,6 +56,7 @@
 	},
 	"visit-casedashboard": {
 		"layout": "_layout-visitstarted",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "We'll Take It From Here",
 		"firstName": "Jeremy",
 		"lastName": "Gross",
@@ -57,6 +65,7 @@
 	},
 	"visit-casedashboard-scheduled": {
 		"layout": "_layout",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Appointment Scheduled",
 		"ppFootQ1": "What findings will you be looking for when you examine my foot? What do each of these findings mean?",
 		"ppFootQ2": "What are my non-surgical options?",
@@ -70,36 +79,43 @@
 	},
 	"opinion-1": {
 		"layout": "_account-layout",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Start your Opinion"
 	},
 	"opinion-2-combined": {
 		"layout": "_account-layout",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Start your Opinion"
 	},
 	"opinion-4": {
 		"layout": "_account-layout",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Start your Opinion",
 		"firstName": "Jeremy",
 		"lastName": "Gross"
 	},
 	"opinion-5": {
 		"layout": "_account-layout",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Start your Opinion",
 		"firstName": "Jeremy",
 		"lastName": "Gross"
 	},
 	"medicalrecords-opinion-release": {
 		"layout": "_account-layout",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Medical Records Release"
 	},
 	"opinion-8": {
 		"layout": "_account-layout",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Start your Opinion",
 		"firstName": "Jeremy",
 		"lastName": "Gross"
 	},
 	"opinion-casedashboard": {
 		"layout": "_layout-nocases",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Start your Opinion",
 		"firstName": "Jeremy",
 		"lastName": "Gross",
@@ -107,6 +123,7 @@
 	},
 	"opinion-casedashboard-expertreview": {
 		"layout": "_layout",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Expert Review",
 		"firstName": "Jeremy",
 		"lastName": "Gross",
@@ -120,6 +137,7 @@
 	},
 	"opinion-casedashboard-opiniondelivered": {
 		"layout": "_layout",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Opinion Delivered",
 		"firstName": "Jeremy",
 		"lastName": "Gross",
@@ -133,6 +151,7 @@
 	},
 	"opinion-read": {
 		"layout": "_layout",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Opinion",
 		"firstName": "Jeremy",
 		"lastName": "Gross",
@@ -146,10 +165,12 @@
 	},
 	"profile": {
 		"layout": "_layout",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Profile"
 	},
 	"medicalrecords-release": {
 		"layout": "_account-layout",
+		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Medical Records Release",
 		"firstName": "Jeremy",
 		"lastName": "Gross",
