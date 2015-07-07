@@ -49,7 +49,7 @@ abbr[title] {
 }
 b,
 strong {
-  font-weight: 400;
+  font-weight: 600;
 }
 dfn {
   font-style: italic;
@@ -7307,4 +7307,10 @@ section.dashboard {
 
 .table-documents {
 	background-color: #fff !important;
+}
+
+.indent {
+	border-left: 1px solid #eee;
+	padding: 0 2.5rem 0 2.5rem;
+	margin: 0 0 2.5rem 0;
 }

@@ -1,71 +1,38 @@
 {
 	"index": {
 		"layout": "_account-layout",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Create Your Grand Rounds Account"
 	},
 	"dashboard-welcome": {
 		"layout": "_layout-nocases",
-		"siteTitle": "Grand Rounds Sales Demo 2015",
-		"pageTitle": "Welcome to Grand Rounds",
-		"firstName": "Jeremy",
-		"lastName": "Gross",
-		"drFName": "Lidia",
-		"drLName": "Schapira"
+		"pageTitle": "Welcome to Grand Rounds"
 	},
 	"visit-1": {
 		"layout": "_layout-nocases",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "Getting Started",
-		"firstName": "Jeremy",
-		"lastName": "Gross"
+		"pageTitle": "Getting Started"
 	},
 	"visit-2": {
 		"layout": "_layout-nocases",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "Condition",
-		"firstName": "Jeremy",
-		"lastName": "Gross",
-		"email": "jeremy.gross@grandrounds.com",
-		"company": "Big Co."
+		"pageTitle": "Condition"
 	},
 	"visit-3": {
 		"layout": "_layout-nocases",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "About You",
-		"firstName": "Jeremy",
-		"lastName": "Gross",
-		"insuranceProvider": "Grand Rounds Health Plan",
-		"insuranceCarrier": "Blue Shield PPO"
+		"pageTitle": "About You"
 	},
 	"visit-4": {
 		"layout": "_layout-nocases",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "Records",
-		"firstName": "Jeremy",
-		"lastName": "Gross"
+		"pageTitle": "Records"
 	},
 	"visit-5": {
 		"layout": "_layout-nocases",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "Record Release Form",
-		"firstName": "Jeremy",
-		"lastName": "Gross",
-		"addressStreet": "360 3rd Street, Suite 425",
-		"addressCityState": "San Francisco, CA 94017"
+		"pageTitle": "Record Release Form"
 	},
 	"visit-casedashboard": {
 		"layout": "_layout-visitstarted",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "We'll Take It From Here",
-		"firstName": "Jeremy",
-		"lastName": "Gross",
-		"drFName": "Lidia",
-		"drLName": "Schapira"		
+		"pageTitle": "We'll Take It From Here"		
 	},
 	"visit-casedashboard-scheduled": {
 		"layout": "_layout",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Appointment Scheduled",
 		"ppFootQ1": "What findings will you be looking for when you examine my foot? What do each of these findings mean?",
 		"ppFootQ2": "What are my non-surgical options?",
@@ -107,21 +74,10 @@
 	},
 	"opinion-read": {
 		"layout": "_layout",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "Opinion",
-		"firstName": "Jeremy",
-		"lastName": "Gross",
-		"drName": "Harvery Millard",
-		"drImage": "wang_jeffery.jpg",
-		"drFName": "Jeffery",
-		"drLName": "Wang",
-		"drSpecialty": "Orthopedic Surgery",
-		"drHospital": "USC",
-		"drAddress": "1500 San Pablo Street, Los Angeles, CA 90033"
+		"pageTitle": "Opinion"
 	},
 	"profile": {
 		"layout": "_layout",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Profile"
 	}
 }
