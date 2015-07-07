@@ -6920,6 +6920,10 @@ a:hover {
 .faq p {
   padding-bottom: 2em;
 }
+
+
+/* Opinion Progress Bar */
+
 .prog {
   margin-top: 4px;
   margin-bottom: 3em;
@@ -6930,7 +6934,7 @@ a:hover {
   height: 48px;
   position: relative;
   background-color: #fff;
-  border: 4px solid #fdba32;
+  border: 4px solid #eee; /* #fdba32; */
   border-radius: 20px;
   background-clip: padding-box;
 }
@@ -6971,7 +6975,7 @@ a:hover {
   width: 25px;
   height: 25px;
   background-color: #fff;
-  color: #fdba32;
+  color: #eee; /* #fdba32; */
   border-radius: 50%;
   display: inline-block;
 }
@@ -6981,8 +6985,8 @@ a:hover {
   width: 25px;
   height: 25px;
   background-color: #fff;
-  border: 4px solid #fdba32;
-  color: #fdba32;
+  border: 4px solid #eee; /* #fdba32; */
+  color: #eee; /* #fdba32; */
   border-radius: 50%;
   display: inline-block;
 }
@@ -6993,7 +6997,7 @@ a:hover {
   overflow: hidden;
 }
 .prog .bar .state {
-  background-color: #fdba32;
+  background-color: #eee; /* #fdba32; */
   height: 100%;
   border-radius: 14px;
   background-clip: padding-box;
