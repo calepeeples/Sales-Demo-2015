@@ -24,15 +24,15 @@
 				<div class="row">
 				    <div class="col-md-12">
 						<section>
-							<h2><%= firstName %>, we're now collecting your records</h2>
-							<p class="subtext">We will be in touch within 24 hours with an email update</p>
+							<h2><%= firstName %>, Dr <%= dr2LName %> is now reviewing your records</h2>
+							<p class="subtext">We will be in touch within 72 hours with an email update</p>
 						</section>
 					</div>
 				</div><!-- << Page Header -->
 				
-				<!-- Progress >> 
+				<!-- Progress >>
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12 hidden-xs">
 						<div class="prog">
 							<div class="notch" style="left: 50%;"></div>
 							<div class="bar">
@@ -45,54 +45,54 @@
 									<div class="milestone milestone-checked">Collecting Records</div>
 								</span>
 								<span class="l3">
-									<span class="fa circle fa-fw"></span>
-									<div class="milestone">Expert Review</div>
+									<span class="fa fa-check fa-fw"></span>
+									<div class="milestone milestone-checked">Expert Review</div>
 								</span>
 								<span class="l4">
 									<span class="fa circle fa-fw"></span>
-									<div class="milestone">Expert Opinion</div>
+									<div class="milestone"><a href="opinion-casedashboard-delivered.html">Expert Opinion</a></div>
 								</span>
-								<div class="state" data-n-point="50%" data-percent="50" style="width: 50%;"></div>
+								<div class="state" data-n-point="75%" data-percent="75" style="width: 75%;"></div>
 							</div>
 						</div>
 					</div>
 				</div> << Progress -->
 				
-
-				<!-- Choose Consenting Physician >> -->
-				<section class="dashboard">
-					<div class="well well-danger">
-						<div class="row">
-							<div class="col-md-1">
-								<i class="fa fa-exclamation-triangle fa-4x brand-warning"></i>
-							</div>
-							<div class="col-md-11">
-								<p class="h4">Choose a consenting physician</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-8 col-md-offset-1">						
-								<p>Because you live in <%= addressState %>, one of your treating physicians must provide permission for us to send you a second opinion. Please tell us which of your doctors we should contact to obtain this consent. The doctor selected will also receive a copy of your second opinion.</p>
-								<form role="form">
-									<div class="radio radio-success">
-				                        <input type="radio" id="inlineRadio1" value="option1" name="radioInline" checked="yes">
-				                        <label for="inlineRadio1"><% drFName %> <%= drLName %>, M.D.</label>
-				                    </div>
-				
-									<div class="radio radio-success">
-				                        <input type="radio" id="inlineRadio2" value="option2" name="radioInline">
-				                        <label for="inlineRadio2">Add another consenting physician</label>
-				                    </div>
-								</form>
-							</div>
-							
-							<div class="col-md-3">
-								<a href="opinion-casedashboard-expert.html" class="btn btn-warning btn-block" data-method="get">Submit</a>
-							</div>		
-						</div>
+				<!-- Expert Container >> -->
+				<div class="row well well-green">		
+					<div class="col-md-2">
+						<img src="<%= dr2Image %>" width="150" class="center-block img-circle pp-avatar">
 					</div>
-				</section>
-				<!-- << Choose Consenting Physician -->
+						
+					<div class="col-md-10">
+						<span class="h3">About <%= dr2FName %> <%= dr2LName %>, M.D.</span>
+						<p><%= dr2Bio %></p>
+						<table class="table table-condensed table-pp">
+							<tbody>
+								<tr>
+									<td class="col-md-4 subtext">Medical School</td>
+									<td>Tulane University School of Medicine (MD)</td>
+								</tr>
+								<tr>
+									<td class="col-md-4 subtext">Residency</td>
+									<td>Beth Israel Deaconess Medical Center</td>
+								</tr>
+								<tr>
+									<td class="col-md-4 subtext">Fellowship</td>
+									<td>Beth Israel Deaconess Medical Center</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div><!-- << Expert Container -->
+
+				<!-- Advance to Opinion Ready >> -->
+				<div class="row">
+					<div class="col-md-12">
+						<p class="small pull-right"><a href="opinion-casedashboard-delivered.html">Advance to Opinion Ready <i class="fa fa-arrow-circle-o-right"></i></a></p>
+					</div>
+				</div>
+
 
 				
 			</div><!-- << Tab 1 -->

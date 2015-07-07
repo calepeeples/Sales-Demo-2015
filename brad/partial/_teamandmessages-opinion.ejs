@@ -1,13 +1,13 @@
-<div class="row">	
-	<!-- Messages Column >> -->
+<div class="row">
+	<!-- Messages >> -->	
 	<div class="col-md-7">
 		<h3>Messages</h3>
-		
+
 		<!-- Create New Message >> -->
 		<div class="row">
 			<form role="form">
 				<div class="col-md-1 col-sm-1 hidden-xs">
-					<img class="avatar" src="<%= gravatarImage %>" width="32" alt="Icon User Patient">
+					<img class="avatar" src="../assets/icon-user-patient.png" width="32" alt="Icon User Patient">
 				</div>
 				<div class="col-md-8 col-sm-8">
 					<div class="form-group">
@@ -24,38 +24,7 @@
 				</div>
 			</form>
 		</div><!-- << Create New Message -->
-
-		<!-- Messages Received >> -->
-		<div class="media">
-			<div class="media-left">
-			    <img class="media-object avatar" src="<%= ccImage %>" width="32" alt="Icon User Patient">
-			</div>
-
-			<div class="media-body">
-			    <h4 class="media-heading">Hello, <%= firstName %>!</h4>
-			   	<p>Your appointment with Dr. <%= drLName %> has been scheduled. If for any reason you cannot make this time or need to reschedule, please let me know. Also, for your visit, make sure to bring a valid photo ID (license, passport) and your insurance card. Thank you again for trusting Grand Rounds with your care.</p>
-				<p>Best regards,<br />
-				<%= ccFirstName %> <%= ccLastName %></p>
-				<span class="small subtext">Monday March 23rd, 2015</span> 
-			</div>
-		</div>
-
-
-		<div class="media">
-			<div class="media-left">
-			    <img class="media-object avatar" src="<%= spImage %>" width="32" alt="Icon User Patient">
-			</div>
-
-			<div class="media-body">
-			    <h4 class="media-heading">Good morning, <%= firstName %>!</h4>
-			   	<p>This is Dr. <%= spLastName %> your Grand Rounds Staff Physician. I am sorry you’ve been having these symptoms. I am available to talk if you have any questions, at your convenience. I know <%= ccFirstName %> <%= ccLastName %> has already been working hard to find you a great physician.</p>
-				<p>Best to you,<br />
-				Dr. <%= spFirstName %> <%= spLastName %></p>
-				<span class="small subtext">Monday March 23rd, 2015</span> 
-			</div>
-		</div>
-
-
+		
 		<div class="media">
 			<div class="media-left">
 			    <img src="../assets/icon-user-gr.png" width="32" alt="GR Icon" class="media-object" />
@@ -63,15 +32,14 @@
 
 			<div class="media-body">
 			    <h4 class="media-heading">Welcome to Grand Rounds, <%= firstName %>!</h4>
-			   	<p>Thanks for starting your Office Visit. We'll take it from here. We'll start by selecting a top-quality local physician that fits your needs. Then we'll schedule an appointment for you based on the availability that you've provided. Finally, we'll help you prepare so you can get the most out of your visit.</p>
-			   	<p>Your Care Coordinator and Staff Physician will be joining soon. They'll keep you updated throughout the process and will answer any questions you may have. Feel free to contact them through this secure message center at any time.</p>
+			   	<p>Thanks for registering your case with us. We'll assign your personal care coordinator shortly. Your care coordinator will keep you up-to-date throughout the process, and answer any questions you may have. You may post questions for your care coordinator here in the secure Message Center.</p>
 				<p>Best,<br />
 				Your Grand Rounds Team</p>
 				<span class="small subtext">Monday March 23rd, 2015</span> 
 			</div>
 		</div>
 		
-	</div><!-- << Messages Column -->
+	</div><!-- << Messages -->
 
 	<!-- GR Team >> -->
 	<div class="col-md-4 col-md-offset-1">
@@ -111,4 +79,6 @@
 		</div>
 	</div><!-- << GR Team -->
 
-</div><!-- << Row -->
+
+
+</div>

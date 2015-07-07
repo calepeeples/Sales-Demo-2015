@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>Records | Grand Rounds Sales Demo 2015</title>
+		<title>Condition | Grand Rounds Sales Demo 2015</title>
 		
 		<!-- Bootstrap -->
 		<link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -62,7 +62,7 @@
 				<!-- Account / Profile >> -->
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-						<img src="../assets/img_default-user.jpg" class="avatar" width="28" height="28"/> Jeremy Gross <span class="caret"></span>
+						<img src="../assets/img_default-user.jpg" class="avatar" width="28" height="28"/> Steve Smith <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu" role="menu">
 						<li>
@@ -102,50 +102,68 @@
 </nav>
 		<div class="container cc-progress-bar">
 	<div class="row">
-		<div class="col-xs-2 col-xs-offset-1 text-center"><i class="fa fa-check-circle"></i> <span class="hidden-xs hidden-sm">Getting Started</span></div>
-		<div class="col-xs-2 text-center"><i class="fa fa-check-circle"></i> <span class="hidden-xs hidden-sm">Condition</span></div>
-		<div class="col-xs-2 text-center"><i class="fa fa-check-circle"></i> <span class="hidden-xs hidden-sm">About You</span></div>
-		<div class="col-xs-2 text-center cc-progress-bar-active"><i class="fa fa-circle-o"></i> <span class="hidden-xs hidden-sm">Records</span></div>
+		<div class="col-xs-2 col-xs-offset-2 text-center"><i class="fa fa-check-circle"></i> <span class="hidden-xs hidden-sm">Getting Started</span></div>
+		<div class="col-xs-2 text-center cc-progress-bar-active"><i class="fa fa-circle-o"></i> <span class="hidden-xs hidden-sm">Condition</span></div>
+		<div class="col-xs-2 text-center"><i class="fa fa-circle-o"></i> <span class="hidden-xs hidden-sm">Records</span></div>
 		<div class="col-xs-2 text-center"><i class="fa fa-circle-o"></i> <span class="hidden-xs hidden-sm">Record Release Form</span></div>
 	</div>
 </div>
+
+
 
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3">
 			<section class="cc-section-header">
-				<img src="../assets/icon_cc-04.png" alt="icon_cc-04" width="170" height="170" class="center-block hidden-xs">
-				<img src="../assets/icon_cc-04.png" alt="icon_cc-04" width="100" class="center-block hidden-lg hidden-md hidden-sm">
-				<h2 class="text-center">Tell us where to find your medical records</h2>
-				<h4 class="text-center subtext">We’ll collect and send them to the office ahead of your visit so they can prepare for your arrival.</h4>
+				<img src="../assets/icon_cc-01.png" alt="icon_cc-01" width="170" height="170" class="center-block hidden-xs">
+				<img src="../assets/icon_cc-01.png" alt="icon_cc-01" width="100" class="center-block hidden-lg hidden-md hidden-sm">
+				<h2 class="text-center">Tell us about your condition</h2>
+				<h4 class="text-center subtext">We need some more information in order to provide you with the best care possible.</h4>
 			</section>
 				
-			<form>
+			<form role="form">
 				<section>
-					<p class="h6">We'll start with these locations that your insurance provider has given us:</p>					
-					<div class="row">
-						<div class="col-xs-12 col-sm-6 col-md-6 small subtext">
-							<p>GEISINGER WYOMING VALLEY MEDICA<br>
-							GEISINGER NE SPECIALISTS<br>
-							GEISINGER MEDICAL CENTER<br>
-							GASTROENTEROLOGY CONSULTANTS<br>
-							RADIOLOGY ASSOCIATES OF WYOMING</p>						
-						</div>
-						<div class="col-xs-12 col-sm-6 col-md-6 small subtext">
-							<p>GEISINGER RADIOLOGY NE<br>
-							GWV SBC NE<br>
-							ASSOCIATED OBGYN SPECIALISTS NE<br>
-							WILKES BARRE GENERAL HOSPITAL<br>
-							LEIGH VALLEY HOSPITAL</p>
-						</div>
-					</div>
-					<p class="h6">Are there any that we're missing?</p>					
-					<p><a href="#"><i class="fa fa-plus-circle"></i> Add location</a></p>
+
+					<div class="form-group">
+						<p class="h6">Please provide some background about your medical condition: Your diagnosis, what doctors have told you, any other details we should know.</p>					
+						<textarea class="form-control noresize" rows="5" id="opinion-background" placeholder="Background on medical condition"></textarea>
+					</div>					
+
+					<div class="form-group">
+						<p class="h6">What concerns you most about your medical condition?</p>					
+						<textarea class="form-control noresize" rows="5" id="opinion-concerns" placeholder="Let us know about your medical concerns"></textarea>
+					</div>			
+
+					<div class="form-group">
+						<p class="h6">What questions would you like your expert physician to answer?</p>					
+						<textarea class="form-control noresize" rows="5" id="opinion-questions" placeholder="Questions for the expert to review"></textarea>
+					</div>			
+
+					<div class="form-group">
+						<p class="h6">What, if any, medications are you currently taking (including over-the-counter and vitamins)?</p>					
+						<textarea class="form-control noresize" rows="5" id="opinion-medications" placeholder="Medications, over-the-counter, and vitamins"></textarea>
+					</div>			
+
+					<div class="form-group">
+						<p class="h6">Please list any other major medical conditions or major surgeries you have had:</p>					
+						<textarea class="form-control noresize" rows="5" id="opinion-major" placeholder="Medical conditions or major surgeries"></textarea>
+					</div>			
+
+					<div class="form-group">
+						<p class="h6">Has anyone else in your family been diagnosed with a similar medical problem (siblings, parents, grandparents)?</p>					
+						<textarea class="form-control noresize" rows="5" id="opinion-history" placeholder="Family medical history"></textarea>
+					</div>			
+
+					<div class="form-group">
+						<p class="h6">Is there anything else you would like the expert to know?</p>					
+						<textarea class="form-control noresize" rows="5" id="opinion-anythingelse" placeholder="Optional"></textarea>
+					</div>			
+
 				</section>
 				
 				<section class="cc-continue">
 					<hr>
-					<p><a href="visit-5.html" type="button" class="btn btn-primary btn-block btn-md">Continue</a></p>
+					<p><a href="opinion-3.html" type="button" class="btn btn-primary btn-block btn-md">Continue</a></p>
 				</section>
 			</form>
 

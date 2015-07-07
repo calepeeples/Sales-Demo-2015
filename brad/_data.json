@@ -78,76 +78,32 @@
 		"ppOrthQ3": "What are the risks of the surgery?"		
 	},
 	"opinion-1": {
-		"layout": "_account-layout",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "Start your Opinion"
+		"layout": "_layout-nocases",
+		"pageTitle": "Getting Started"
 	},
-	"opinion-2-combined": {
-		"layout": "_account-layout",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "Start your Opinion"
+	"opinion-2": {
+		"layout": "_layout-nocases",
+		"pageTitle": "Condition"
+	},
+	"opinion-3": {
+		"layout": "_layout-nocases",
+		"pageTitle": "Records"
 	},
 	"opinion-4": {
-		"layout": "_account-layout",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "Start your Opinion",
-		"firstName": "Jeremy",
-		"lastName": "Gross"
-	},
-	"opinion-5": {
-		"layout": "_account-layout",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "Start your Opinion",
-		"firstName": "Jeremy",
-		"lastName": "Gross"
-	},
-	"medicalrecords-opinion-release": {
-		"layout": "_account-layout",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "Medical Records Release"
-	},
-	"opinion-8": {
-		"layout": "_account-layout",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "Start your Opinion",
-		"firstName": "Jeremy",
-		"lastName": "Gross"
+		"layout": "_layout-nocases",
+		"pageTitle": "Record Release Form"
 	},
 	"opinion-casedashboard": {
 		"layout": "_layout-nocases",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "Start your Opinion",
-		"firstName": "Jeremy",
-		"lastName": "Gross",
-		"drName": "Harvery Millard"
+		"pageTitle": "Collecting Medical Records"
 	},
-	"opinion-casedashboard-expertreview": {
+	"opinion-casedashboard-expert": {
 		"layout": "_layout",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "Expert Review",
-		"firstName": "Jeremy",
-		"lastName": "Gross",
-		"drName": "Harvery Millard",
-		"drImage": "wang_jeffery.jpg",
-		"drFName": "Jeffery",
-		"drLName": "Wang",
-		"drSpecialty": "Orthopedic Surgery",
-		"drHospital": "USC",
-		"drAddress": "1500 San Pablo Street, Los Angeles, CA 90033"
+		"pageTitle": "Expert Review"
 	},
-	"opinion-casedashboard-opiniondelivered": {
+	"opinion-casedashboard-delivered": {
 		"layout": "_layout",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "Opinion Delivered",
-		"firstName": "Jeremy",
-		"lastName": "Gross",
-		"drName": "Harvery Millard",
-		"drImage": "wang_jeffery.jpg",
-		"drFName": "Jeffery",
-		"drLName": "Wang",
-		"drSpecialty": "Orthopedic Surgery",
-		"drHospital": "USC",
-		"drAddress": "1500 San Pablo Street, Los Angeles, CA 90033"
+		"pageTitle": "Opinion Delivered"
 	},
 	"opinion-read": {
 		"layout": "_layout",
@@ -167,13 +123,5 @@
 		"layout": "_layout",
 		"siteTitle": "Grand Rounds Sales Demo 2015",		
 		"pageTitle": "Profile"
-	},
-	"medicalrecords-release": {
-		"layout": "_account-layout",
-		"siteTitle": "Grand Rounds Sales Demo 2015",		
-		"pageTitle": "Medical Records Release",
-		"firstName": "Jeremy",
-		"lastName": "Gross",
-		"address": "360 3rd Street, Suite 425"
 	}
 }

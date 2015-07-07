@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>Start your Opinion | Grand Rounds Sales Demo 2015</title>
+		<title>Collecting Medical Records | Grand Rounds Sales Demo 2015</title>
 		
 		<!-- Bootstrap -->
 		<link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -18,7 +18,8 @@
 		<link rel="stylesheet" type="text/css" href="../css/theme-brad.css">
 		<link rel="stylesheet" type="text/css" href="../css/animate.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/awesome-bootstrap-checkbox.css">
-		
+		<link rel="stylesheet" type="text/css" href="../css/signature-pad.css">
+
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -61,7 +62,7 @@
 				<!-- Account / Profile >> -->
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-						<img src="../assets/img_default-user.jpg" class="avatar" width="28" height="28"/> Jeremy Gross <span class="caret"></span>
+						<img src="../assets/img_default-user.jpg" class="avatar" width="28" height="28"/> Steve Smith <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu" role="menu">
 						<li>
@@ -99,73 +100,108 @@
 		</div>
 	</div>
 </nav>
-		<div class="well welcome-home">
-		<div class="container">
-		<h2>Grand Rounds is now collecting your records</h2>
-		<h4>We are now collecting your medical records from each of your medical records providers.</h4>  
-	</div>
-	</div>
-
-<div class="container">
-  <div class="row">
-    <div class="col-lg-12">
-    <!-- Page Body Starts -->
-		<section>
-		<div class="prog">
-			<div class="notch" style="left: 50%"></div>
-			<div class="bar">
-				<span class="l1">
-					<span class="fa fa-check"></span>
-					<div class="milestone">Case Started</div>
-				</span>
-				<span class="l2">
-					<span class="fa fa-check"></span>
-					<div class="milestone">Collecting Records</div>
-				</span>
-				<span class="l3">
-					<span class="fa circle"></span>
-					<div class="milestone">Expert Review</div>
-				</span>
-				<span class="l4">
-					<span class="fa circle"></span>
-					<div class="milestone">Expert Opinion</div>
-				</span>
-				<div class="state" data-n-point="50%" data-percent="50" style="width: 50%"></div>
+		<div class="tabbable">
+	<section class="nav-cases-container">
+		<div class="container">		
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="nav nav-pills nav-justified nav-cases">
+					  <li class="active"><a href="#tab1" data-toggle="pill"><i class="fa fa-calendar-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Opinion</span></a></li>
+					  <li><a href="#tab2" data-toggle="pill"><i class="fa fa-envelope-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Messages</span> <div class="badge badge-messages">1</div></a></li>
+					  <li><a href="#tab3" data-toggle="pill"><i class="fa fa-file-text-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Medical Documents</span></a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</section>
-		
-	<div class="well checklist-danger">
-		<div class="row">
-			<div class="col-md-1">
-				<div class="fa fa-exclamation-triangle fa-4x brand-warning"></div>
-			</div>
+
+
+	<div class="container">
+		<div class="tab-content">	
 			
-			<div class="col-md-7">
-				<h4>Choose a Consenting Physician</h4>
-				Because you live in CA, one of your treating physicians must provide permission for us to send you a second opinion. Please tell us which of your doctors we should contact to obtain this consent. The doctor selected will also receive a copy of your second opinion.
-					<div class="radio">
-					  <label>
-					    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="checked">
-					    Dr. Harvery Millard
-					  </label>
-					</div>
-					<a href="#"> <i class="fa fa-plus-circle"></i> ADD A DIFFERENT CONSENTING PHYSICIAN</a>
+			<!-- Tab 1 >> -->
+			<div id="tab1" class="tab-pane fade in active">
 				
-			</div>
+				<!-- Page Header >> -->
+				<div class="row">
+				    <div class="col-md-12">
+						<section>
+							<h2>Steve, we're now collecting your records</h2>
+							<p class="subtext">We will be in touch within 24 hours with an email update</p>
+						</section>
+					</div>
+				</div><!-- << Page Header -->
+				
+				<!-- Progress >> 
+				<div class="row">
+					<div class="col-md-12">
+						<div class="prog">
+							<div class="notch" style="left: 50%;"></div>
+							<div class="bar">
+								<span class="l1">
+									<span class="fa fa-check fa-fw"></span>
+									<div class="milestone milestone-checked">Case Started</div>
+								</span>
+								<span class="l2">
+									<span class="fa fa-check fa-fw"></span>
+									<div class="milestone milestone-checked">Collecting Records</div>
+								</span>
+								<span class="l3">
+									<span class="fa circle fa-fw"></span>
+									<div class="milestone">Expert Review</div>
+								</span>
+								<span class="l4">
+									<span class="fa circle fa-fw"></span>
+									<div class="milestone">Expert Opinion</div>
+								</span>
+								<div class="state" data-n-point="50%" data-percent="50" style="width: 50%;"></div>
+							</div>
+						</div>
+					</div>
+				</div> << Progress -->
+				
+
+				<!-- Choose Consenting Physician >> -->
+				<section class="dashboard">
+					<div class="well well-danger">
+						<div class="row">
+							<div class="col-md-1">
+								<i class="fa fa-exclamation-triangle fa-4x brand-warning"></i>
+							</div>
+							<div class="col-md-11">
+								<p class="h4">Choose a consenting physician</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-1">						
+								<p>Because you live in CA, one of your treating physicians must provide permission for us to send you a second opinion. Please tell us which of your doctors we should contact to obtain this consent. The doctor selected will also receive a copy of your second opinion.</p>
+								<form role="form">
+									<div class="radio radio-success">
+				                        <input type="radio" id="inlineRadio1" value="option1" name="radioInline" checked="yes">
+				                        <label for="inlineRadio1"> Schapira, M.D.</label>
+				                    </div>
+				
+									<div class="radio radio-success">
+				                        <input type="radio" id="inlineRadio2" value="option2" name="radioInline">
+				                        <label for="inlineRadio2">Add another consenting physician</label>
+				                    </div>
+								</form>
+							</div>
+							
+							<div class="col-md-3">
+								<a href="opinion-casedashboard-expert.html" class="btn btn-warning btn-block" data-method="get">Submit</a>
+							</div>		
+						</div>
+					</div>
+				</section>
+				<!-- << Choose Consenting Physician -->
+
+				
+			</div><!-- << Tab 1 -->
 			
-			<div class="col-md-4">
-				<a href="opinion-casedashboard-expertreview.html" class="btn btn-warning btn-block" data-method="get">SUBMIT</a>
-			</div>
-		</div>
-	</div>
-
-	
-<style>
-
-</style>
-
-<div class="row">
+			<!-- Tab 2 >> -->
+			<div id="tab2" class="tab-pane fade">
+				<div class="row">
 	<!-- Messages >> -->	
 	<div class="col-md-7">
 		<h3>Messages</h3>
@@ -194,15 +230,12 @@
 		
 		<div class="media">
 			<div class="media-left">
-			    <img src="../../assets/icon-user-gr.png" width="32" alt="GR Icon" class="media-object">
+			    <img src="../assets/icon-user-gr.png" width="32" alt="GR Icon" class="media-object">
 			</div>
 
 			<div class="media-body">
-			    <h4 class="media-heading">Welcome to Grand Rounds, Jeremy!</h4>
-			   	
-			   	<p>Thanks for starting your Office Visit. We'll take it from here. We'll start by selecting a top-quality local physician that fits your needs. Then we'll schedule an appointment for you based on the availability that you've provided. Finally, we'll help you prepare so you can get the most out of your visit.</p>
-			   	<p>Your Care Coordinator and Staff Physician will be joining soon. They'll keep you updated throughout the process and will answer any questions you may have. Feel free to contact them through this secure message center at any time.</p>
-
+			    <h4 class="media-heading">Welcome to Grand Rounds, Steve!</h4>
+			   	<p>Thanks for registering your case with us. We'll assign your personal care coordinator shortly. Your care coordinator will keep you up-to-date throughout the process, and answer any questions you may have. You may post questions for your care coordinator here in the secure Message Center.</p>
 				<p>Best,<br>
 				Your Grand Rounds Team</p>
 				<span class="small subtext">Monday March 23rd, 2015</span> 
@@ -252,52 +285,40 @@
 
 
 </div>
-	
-	<!-- Page Body Ends -->
-    </div>
-  </div>
+			</div><!-- << Tab 2 -->
+		    
+		    <div id="tab3" class="tab-pane fade">
+			    <div class="row">
+	<!-- Documents >> -->	
+	<div class="col-md-12">
+		<h3>Medical Documents</h3>
+		
+		<table class="table table-lg table-responsive table-hover table-documents">
+			<tbody>
+				<tr>
+					<td class="col-md-10"><i class="fa fa-file-text-o"></i> &nbsp; <a href="#">Indexed Medical Records</a></td>
+					<td class="col-md-2 subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></td> 
+				</tr>
+				<tr>
+					<td class="col-md-10"><i class="fa fa-file-text-o"></i> &nbsp; <a href="#">Medical Information Form</a></td>
+					<td class="col-md-2 subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></td> 
+				</tr>
+				<tr>
+					<td class="col-md-10"><i class="fa fa-file-text-o"></i> &nbsp; <a href="#">Records Release Form</a></td>
+					<td class="col-md-2 subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></td> 
+				</tr>
+			</tbody>	
+		</table>
+
+		
+	</div><!-- << Documents -->
+
 </div>
-
-    <script type="text/javascript">
-        function generate(type, text) {
-
-            var n = noty({
-                text        : '<div class="activity-item"> <i class="fa fa-heart"> Your Grand Rounds Second Opinion case has been started!</i> <div class="activity"> </div> </div>',
-                type        : type,
-                dismissQueue: true,
-                layout      : 'topCenter',
-								timeout     : 'true',
-                closeWith   : ['click'],
-                theme       : 'relax',
-                maxVisible  : 10,
-                animation   : {
-                    open  : 'animated bounceInLeft',
-                    close : 'animated bounceOutLeft',
-                    easing: 'swing',
-                    speed : 500
-                }
-            });
-            console.log('html: ' + n.options.id);
-        }
-
-        function generateAll() {
-            //generate('warning', notification_html[0]);
-            //generate('error', notification_html[1]);
-            generate('information', notification_html[2]);
-            //generate('success', notification_html[3]);
-//            generate('notification');
-//            generate('success');
-        }
-
-        $(document).ready(function () {
-
-            setTimeout(function() {
-                generateAll();
-            }, 500);
-
-        });
-
-    </script>
+		    </div>
+		</div><!-- << Tab Content -->
+	
+	</div><!-- << Tabbable -->
+</div><!-- << Page Container -->
 		<!-- footer //-->
 <footer class="footer">
 	<div class="container">
@@ -339,6 +360,8 @@
 		<script type="text/javascript" src="../js/noty/packaged/jquery.noty.packaged.min.js"></script>
 		<script type="text/javascript" src="../js/notification_html.js"></script>
 		<script type="text/javascript" src="../js/password-strength.js"></script>
+		<script src="../js/signature_pad/signature_pad.js"></script>
+		<script src="../js/signature_pad/signature_pad_app.js"></script>
 				
 		<!-- Tool Tip? -->
 		<script>

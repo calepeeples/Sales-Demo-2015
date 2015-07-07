@@ -5693,6 +5693,7 @@ a.list-group-item-danger.active:focus {
   border: 0px solid #e3e3e3;
   border-left: 4px solid #88d0cb;
 }
+/*
 .well.checklist-danger {
   background-color: #fde1d5;
   -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.05);
@@ -5700,12 +5701,14 @@ a.list-group-item-danger.active:focus {
   border: 0px solid #e3e3e3;
   border-left: 4px solid #f68a5c;
 }
+*/
 .well.select-doctor {
   background-color: #e3f4f3;
   -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.05);
   border: 0px solid #e3e3e3;
 }
+/*
 .well.opinion-delivered {
   background-color: #fee5b0;
   -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.05);
@@ -5713,6 +5716,7 @@ a.list-group-item-danger.active:focus {
   border: 0px solid #e3e3e3;
   border-left: 4px solid #fdba32;
 }
+*/
 .well.opinion-tools {
   background-color: #404040;
   -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.05);
@@ -6938,8 +6942,9 @@ a:hover {
   width: 25%;
   left: 0%;
 }
-.prog .bar > span.l1 .milestone,
-.prog .bar > span.l2 .milestone {
+.prog .bar > span.l1 .milestone-checked,
+.prog .bar > span.l2 .milestone-checked,
+.prog .bar > span.l3 .milestone-checked {
   /* pushes checked-off section text down to match baseline of non-checked section text */
   padding-top: 6px;
 }
@@ -6986,7 +6991,6 @@ a:hover {
   text-align: center;
   margin-top: 1em;
   overflow: hidden;
-  line-height: 2em;
 }
 .prog .bar .state {
   background-color: #fdba32;
@@ -7151,6 +7155,34 @@ a:hover {
 	box-shadow: none;
 }
 
+.well-danger {
+	background-color: #fde1d5;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 0px solid #e3e3e3;
+	border-left: 4px solid #f68a5c;
+}
+
+.well-delivered {
+	background-color: #fee5b0;
+	-webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.05);
+	border: 0px solid #e3e3e3;
+	border-left: 4px solid #fdba32;
+}
+
+.h3-well {
+	font-size: 33px;
+	font-family: inherit;
+	font-weight: 300;
+	line-height: 1.35;
+	color: inherit;
+}
+	@media screen and (max-width: 767px) {
+		.h3-well {
+			font-size: 22px;
+		}
+	}
 
 /* Modal */
 
@@ -7170,6 +7202,16 @@ a:hover {
 .modal-header-signin {
 	color: white;
 	background-color: #fdba32;
+}
+
+
+/* Opinion Read */
+.opinion-toolbar {
+	background-color: #525252;
+	padding: 3rem 0 0 0;
+	margin-bottom: 3rem;
+	width: 100%;
+	color: #fff;
 }
 
 
@@ -7205,9 +7247,9 @@ a:hover {
 }
 
 .noresize {
-  resize: none; 
+	resize: none;
+	margin-bottom: 3.5rem;	
 }
-
 
 ul.checked {
 	list-style-image: url() no-repeat;
