@@ -79,5 +79,9 @@
 	"profile": {
 		"layout": "_layout",
 		"pageTitle": "Profile"
+	},
+	"stat": {
+		"layout":"_layout-nocases",
+		"pageTitle": "STAT"
 	}
 }
