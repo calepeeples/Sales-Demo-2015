@@ -7175,6 +7175,12 @@ a:hover {
 	border-left: 4px solid #fdba32;
 }
 
+.well-tools {
+	background-color: #525252;
+	color: #fff;
+}
+
+
 .h3-well {
 	font-size: 33px;
 	font-family: inherit;
@@ -7208,15 +7214,6 @@ a:hover {
 	background-color: #fdba32;
 }
 
-
-/* Opinion Read */
-.opinion-toolbar {
-	background-color: #525252;
-	padding: 3rem 0 0 0;
-	margin-bottom: 3rem;
-	width: 100%;
-	color: #fff;
-}
 
 
 /* Visit Case Creation */
@@ -7317,4 +7314,8 @@ section.dashboard {
 	border-left: 1px solid #eee;
 	padding: 0 2.5rem 0 2.5rem;
 	margin: 0 0 2.5rem 0;
+}
+
+.numbers li {
+	margin-bottom: 2.5rem;
 }

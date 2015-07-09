@@ -26,38 +26,72 @@
 		</div><!-- << Create New Message -->
 
 
-
-		<!-- Messages Received >> -->
 		<div class="media">
 			<div class="media-left">
-			    <img class="media-object avatar" src="<%= ccImage %>" width="32" alt="Icon User Patient">
+			    <img class="media-object avatar" src="<%= ccImage %>" width="32" alt="ccIcon">
+			</div>
+
+			<div class="media-body">
+			    <h4 class="media-heading">Hi <%= firstName %>,</h4>
+				<p>Your opinion is ready!</p>
+				<p>Dr. <%=spLastName %>, your staff physician, will be in touch with you shortly to discuss any questions you may have about your opinion.</p>
+				<p>Don't forget - if you'd like to share your opinion with someone, such a family member, you can add them to your case from your dashboard.</p>
+				<p>Best,<br />
+				<%= ccFirstName %> <%= ccLastName %></p>
+				<span class="small subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></span> 
+			</div>
+		</div>
+
+
+
+
+		<div class="media">
+			<div class="media-left">
+			    <img class="media-object avatar" src="<%= ccImage %>" width="32" alt="ccIcon">
+			</div>
+
+			<div class="media-body">
+			    <h4 class="media-heading"><%= firstName %>,</h4>
+				<p>I'm pleased to tell you that our expert Dr <%= dr2FName %> <%= dr2LName %> is reviewing your case!</p>
+				<p>Dr <%= dr2LName %> is a leading expert in the area of vascular cardiology.</p>
+				<p>Best,<br />
+				<%= ccFirstName %> <%= ccLastName %></p>
+				<span class="small subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></span> 
+			</div>
+		</div>
+
+		<div class="media">
+			<div class="media-left">
+			    <img class="media-object avatar" src="<%= spImage %>" width="32" alt="spIcon">
+			</div>
+
+			<div class="media-body">
+			    <h4 class="media-heading">Hi <%= firstName %>,</h4>
+				<p>My name is Dr <%= spFirstName %> <%= spLastName %> and I am the staff physician working on your case.</p>
+				<p>I've finished preparing your records and imaging for review by your expert physician. You can view these in Case Documents section of your dashboard.</p>
+				<p>Thanks,<br />
+				Dr <%= spLastName %></p>
+				<span class="small subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></span> 
+			</div>
+		</div>
+
+		<div class="media">
+			<div class="media-left">
+			    <img class="media-object avatar" src="<%= ccImage %>" width="32" alt="ccIcon">
 			</div>
 
 			<div class="media-body">
 			    <h4 class="media-heading">Hello, <%= firstName %>!</h4>
-			   	<p>Dr. <%= dr2LName %> has all the records he needs and is reviewing your case. If you have any questions, please let me know. Thank you again for trusting Grand Rounds with your care.</p>
+				<p>My name is <%= ccFirstName %> <%= ccLastName %> and I'll be your care coordinator.</p>
+				<p>Thanks for providing your medical record locations and signing your release. I've already begun collecting you records.
+				I'll keep you updated here in your Message Center. If you have any concerns, you can reach me directly at (415) 233 - 4307.</p>
 				<p>Best regards,<br />
 				<%= ccFirstName %> <%= ccLastName %></p>
-				<span class="small subtext">Monday March 23rd, 2015</span> 
+				<span class="small subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></span> 
 			</div>
 		</div>
 
-
-		<div class="media">
-			<div class="media-left">
-			    <img class="media-object avatar" src="<%= spImage %>" width="32" alt="Icon User Patient">
-			</div>
-
-			<div class="media-body">
-			    <h4 class="media-heading">Good morning, <%= firstName %>!</h4>
-			   	<p>This is Dr. <%= spLastName %> your Grand Rounds Staff Physician. I am sorry you’ve been having these symptoms. I am available to talk if you have any questions, at your convenience. I know Dr <%= dr2LName %> has been selected to review your records and will be the one writing your Expert Opinion.</p>
-				<p>Best to you,<br />
-				Dr. <%= spFirstName %> <%= spLastName %></p>
-				<span class="small subtext">Monday March 23rd, 2015</span> 
-			</div>
-		</div>
-
-
+		
 		<div class="media">
 			<div class="media-left">
 			    <img src="../assets/icon-user-gr.png" width="32" alt="GR Icon" class="media-object" />
@@ -68,9 +102,9 @@
 			   	<p>Thanks for registering your case with us. We'll assign your personal care coordinator shortly. Your care coordinator will keep you up-to-date throughout the process, and answer any questions you may have. You may post questions for your care coordinator here in the secure Message Center.</p>
 				<p>Best,<br />
 				Your Grand Rounds Team</p>
-				<span class="small subtext">Monday March 23rd, 2015</span> 
+				<span class="small subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></span> 
 			</div>
-		</div><!-- << Messages Received -->
+		</div>
 		
 	</div><!-- << Messages -->
 
@@ -111,7 +145,5 @@
 			</div>
 		</div>
 	</div><!-- << GR Team -->
-
-
 
 </div>

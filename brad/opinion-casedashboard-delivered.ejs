@@ -5,7 +5,7 @@
 				<div class="col-md-12">
 					<ul class="nav nav-pills nav-justified nav-cases">
 					  <li class="active"><a href="#tab1" data-toggle="pill"><i class="fa fa-calendar-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Opinion</span></a></li>
-					  <li><a href="#tab2" data-toggle="pill"><i class="fa fa-envelope-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Messages</span> <div class="badge badge-messages">3</div></a></li>
+					  <li><a href="#tab2" data-toggle="pill"><i class="fa fa-envelope-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Messages</span> <div class="badge badge-messages">5</div></a></li>
 					  <li><a href="#tab3" data-toggle="pill"><i class="fa fa-file-text-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Medical Documents</span></a></li>
 					</ul>
 				</div>
@@ -25,7 +25,7 @@
 				    <section>
 					    <div class="col-md-12">
 							<h2>Your opinion is complete</h2>
-<!-- 							<p class="subtext">Your expert opinion is now complete and available for your review</p> -->
+							<p class="subtext">Your expert opinion is now complete and available for your review. Your Grand Rounds Staff Physician will be contacting you within then next 24-48 hours to answer any questions you may have.</p>
 						</div>
 					</section>
 				</div><!-- << Page Header -->
@@ -84,44 +84,16 @@
 				</section>
 				<!-- << Opinion Ready -->
 
-				
-				<!-- Expert Container >> -->
-				<div class="row well well-green">		
-					<div class="col-md-2">
-						<img src="<%= dr2Image %>" width="150" class="center-block img-circle pp-avatar">
-					</div>
-						
-					<div class="col-md-10">
-						<span class="h3">About <%= dr2FName %> <%= dr2LName %>, M.D.</span>
-						<p><%= dr2Bio %></p>
-						<table class="table table-condensed table-pp">
-							<tbody>
-								<tr>
-									<td class="col-md-4 subtext">Medical School</td>
-									<td>Tulane University School of Medicine (MD)</td>
-								</tr>
-								<tr>
-									<td class="col-md-4 subtext">Residency</td>
-									<td>Beth Israel Deaconess Medical Center</td>
-								</tr>
-								<tr>
-									<td class="col-md-4 subtext">Fellowship</td>
-									<td>Beth Israel Deaconess Medical Center</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div><!-- << Expert Container -->
-				
+							
 			</div><!-- << Tab 1 -->
 			
 			<!-- Tab 2 >> -->
 			<div id="tab2" class="tab-pane fade">
-				<%- partial("partial/_teamandmessages-opinion-populated") %>
+				<%- partial("partial/_teamandmessages-opinion-pop2") %>
 			</div><!-- << Tab 2 -->
 		    
 		    <div id="tab3" class="tab-pane fade">
-			    <%- partial("partial/_medicaldocuments") %>
+			    <%- partial("partial/_medicaldocuments-opinion-3") %>
 		    </div>
 		</div><!-- << Tab Content -->
 	
