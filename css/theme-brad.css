@@ -6880,6 +6880,11 @@ a {
   color: #fdba32;
   font-weight: bold;
 }
+.char-overlay-grey {
+  color: #D5D5D7;
+  font-weight: bold;
+}
+
 section {
   margin-bottom: 2em;
 }
@@ -7178,6 +7183,29 @@ a:hover {
 .well-tools {
 	background-color: #525252;
 	color: #fff;
+}
+
+
+.well-opinions-step-active {
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 1px;
+	background-color: #E0F3F2;
+	border: 0;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.well-opinions-step-inactive {
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 1px;
+	background-color: #F0F0F0;
+	border: 0;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 

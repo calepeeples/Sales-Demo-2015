@@ -58,11 +58,19 @@
 	},
 	"opinion-3": {
 		"layout": "_layout-nocases",
-		"pageTitle": "Records"
+		"pageTitle": "Questionnaire"
 	},
 	"opinion-4": {
 		"layout": "_layout-nocases",
-		"pageTitle": "Record Release Form"
+		"pageTitle": "Records"
+	},
+	"opinion-5": {
+		"layout": "_layout-nocases",
+		"pageTitle": "Records Release"
+	},
+	"opinion-6": {
+		"layout": "_layout-nocases",
+		"pageTitle": "Local Physician"
 	},
 	"opinion-casedashboard": {
 		"layout": "_layout-nocases",
