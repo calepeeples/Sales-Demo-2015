@@ -116,8 +116,8 @@
 			</div>
 	
 			<div>
-				<hr />
-				<a href="#"> <i class="fa fa-plus-circle"></i> ADD A TEAM MEMBER</a>
+				<hr />				
+				<a href="#" data-toggle="modal" data-target="#addModal"><i class="fa fa-plus-circle"></i> ADD A TEAM MEMBER</a>
 				<br />
 				<span class="small subtext">
 					Invite a family member or caregiver to your team, but keep in mind that they will have access to your case history, medical records, and team messages.
@@ -126,4 +126,8 @@
 		</div>
 	</div><!-- << GR Team -->
 
+
+
 </div>
+
+<%- partial("_addfamily") %>
