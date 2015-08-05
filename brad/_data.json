@@ -34,6 +34,10 @@
 	"visit-casedashboard-scheduled": {
 		"layout": "_layout",
 		"pageTitle": "Appointment Scheduled",
+		"ppBreastCanderQ1": "What is the best course of therapy to treat my breast cancer?",
+		"ppBreastCanderQ2": "Is a lumpectomy as effective as a mastectomy if I undergo chemotherapy and have a good response to it?",
+		"ppBreastCanderQ3": "What side effects might I expect to experience?",
+		"ppBreastCanderQ4": "What does recovery look like for each of the treatment options we are discussing?",
 		"ppFootQ1": "What findings will you be looking for when you examine my foot? What do each of these findings mean?",
 		"ppFootQ2": "What are my non-surgical options?",
 		"ppFootQ3": "Are there any lifestyle changes I should make? Should I be wearing or avoiding certain footwear?",
