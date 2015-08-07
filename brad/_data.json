@@ -1,4 +1,8 @@
 {
+	"add": {
+		"layout": "_account-layout",
+		"pageTitle": "Add"
+	},
 	"index": {
 		"layout": "_account-layout",
 		"pageTitle": "Create Your Grand Rounds Account"
