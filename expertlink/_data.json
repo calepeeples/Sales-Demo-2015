@@ -33,7 +33,7 @@
 	},
 	"visit-casedashboard": {
 		"layout": "_layout-visitstarted",
-		"pageTitle": "We'll Take It From Here"		
+		"pageTitle": "We'll Take It From Here"
 	},
 	"visit-casedashboard-scheduled": {
 		"layout": "_layout",
@@ -50,7 +50,7 @@
 		"ppFootQ6": "Are there certain symptoms for which I should seek immediate medical attention?",
 		"ppOrthQ1": "What are my treatment options for improving my symptoms? Are there non-surgical techniques that could be as effective as surgery?",
 		"ppOrthQ2": "If you are recommending a surgery or procedure, how strong is the evidence that this surgery will improve my symptoms? Does it work better than a conservative treatment?",
-		"ppOrthQ3": "What are the risks of the surgery?"		
+		"ppOrthQ3": "What are the risks of the surgery?"
 	},
 	"opinion-1": {
 		"layout": "_layout-nocases",
