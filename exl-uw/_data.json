@@ -1,0 +1,104 @@
+{
+	"add": {
+		"layout": "_account-layout",
+		"pageTitle": "Add"
+	},
+	"index": {
+		"layout": "_account-layout",
+		"pageTitle": "Create Your Grand Rounds Account"
+	},
+	"dashboard-welcome": {
+		"layout": "_layout-nocases",
+		"pageTitle": "Welcome to Grand Rounds",
+		"company": "University of Washington"
+	},
+	"visit-1": {
+		"layout": "_layout-nocases",
+		"pageTitle": "Getting Started"
+	},
+	"visit-2": {
+		"layout": "_layout-nocases",
+		"pageTitle": "Condition"
+	},
+	"visit-3": {
+		"layout": "_layout-nocases",
+		"pageTitle": "About You"
+	},
+	"visit-4": {
+		"layout": "_layout-nocases",
+		"pageTitle": "Records"
+	},
+	"visit-5": {
+		"layout": "_layout-nocases",
+		"pageTitle": "Record Release Form"
+	},
+	"visit-casedashboard": {
+		"layout": "_layout-visitstarted",
+		"pageTitle": "We'll Take It From Here"
+	},
+	"visit-casedashboard-scheduled": {
+		"layout": "_layout",
+		"pageTitle": "Appointment Scheduled",
+		"ppBreastCanderQ1": "What is the best course of therapy to treat my breast cancer?",
+		"ppBreastCanderQ2": "Is a lumpectomy as effective as a mastectomy if I undergo chemotherapy and have a good response to it?",
+		"ppBreastCanderQ3": "What side effects might I expect to experience?",
+		"ppBreastCanderQ4": "What does recovery look like for each of the treatment options we are discussing?",
+		"ppFootQ1": "What findings will you be looking for when you examine my foot? What do each of these findings mean?",
+		"ppFootQ2": "What are my non-surgical options?",
+		"ppFootQ3": "Are there any lifestyle changes I should make? Should I be wearing or avoiding certain footwear?",
+		"ppFootQ4": "What are the different treatment options, and which is best for me? Why?",
+		"ppFootQ5": "Do you think I need a foot x-ray or any imaging?",
+		"ppFootQ6": "Are there certain symptoms for which I should seek immediate medical attention?",
+		"ppOrthQ1": "What are my treatment options for improving my symptoms? Are there non-surgical techniques that could be as effective as surgery?",
+		"ppOrthQ2": "If you are recommending a surgery or procedure, how strong is the evidence that this surgery will improve my symptoms? Does it work better than a conservative treatment?",
+		"ppOrthQ3": "What are the risks of the surgery?"
+	},
+	"opinion-1": {
+		"layout": "_layout-nocases",
+		"pageTitle": "Getting Started"
+	},
+	"opinion-2": {
+		"layout": "_layout-nocases",
+		"pageTitle": "Condition"
+	},
+	"opinion-3": {
+		"layout": "_layout-nocases",
+		"pageTitle": "Questionnaire"
+	},
+	"opinion-4": {
+		"layout": "_layout-nocases",
+		"pageTitle": "Records"
+	},
+	"opinion-5": {
+		"layout": "_layout-nocases",
+		"pageTitle": "Records Release"
+	},
+	"opinion-6": {
+		"layout": "_layout-nocases",
+		"pageTitle": "Local Physician"
+	},
+	"opinion-casedashboard": {
+		"layout": "_layout-nocases",
+		"pageTitle": "Collecting Medical Records"
+	},
+	"opinion-casedashboard-expert": {
+		"layout": "_layout",
+		"pageTitle": "Expert Review"
+	},
+	"opinion-casedashboard-delivered": {
+		"layout": "_layout",
+		"pageTitle": "Opinion Delivered"
+	},
+	"opinion-read": {
+		"layout": "_layout",
+		"pageTitle": "Opinion"
+	},
+	"profile": {
+		"layout": "_layout",
+		"pageTitle": "Profile"
+	},
+	"stat": {
+		"layout":"_layout-nocases",
+		"pageTitle": "STAT"
+	}
+}
