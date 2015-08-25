@@ -5,21 +5,21 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>Opinion Delivered | Grand Rounds Sales Demo 2015</title>
-		
+		<title>Expert Review | Grand Rounds Sales Demo 2015</title>
+
 		<!-- Bootstrap -->
 		<link href="../css/bootstrap.min.css" rel="stylesheet">
-		
+
 		<!-- Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,300,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		
+
 		<!-- Custom CSS -->
-		<link rel="stylesheet" type="text/css" href="../css/theme-brad.css">
+		<link rel="stylesheet" type="text/css" href="../css/theme-exl-uw.css">
 		<link rel="stylesheet" type="text/css" href="../css/animate.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/awesome-bootstrap-checkbox.css">
 		<link rel="stylesheet" type="text/css" href="../css/signature-pad.css">
-		
+
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -29,23 +29,24 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-	<div class="container">
+	<div class="container-fluid">
+				<div class="grcobrandnavbar" data-toggle="tooltip" data-placement="bottom" title="Tooltip on top"></div>
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
 				<span class="sr-only">Toggle navigation</span>
 				<i class="fa fa-bars"></i>
 			</button>
-			<a href="dashboard-welcome.html" class="navbar-brand img-responsive"><img src="../images/grlogo-white.png" height="32" alt="Grlogo White"></a>
+			<a href="dashboard-welcome.html" class="navbar-brand img-responsive"><img src="../assets/uwm-logo-white.png" height="32" alt="Grlogo White"></a>
+
 		</div>
-	
 		<div class="collapse navbar-collapse" id="navbar1">
 			<ul class="nav navbar-nav navbar-right">
 				<!-- Big Co Logo >> -->
-				<li class="dropdown"><a href="#" class="dropdown-toggle hidden-xs"><img src="../assets/logo_bigco-white.png"></a></li>
+				<!-- <li class="dropdown"><a href="#" class="dropdown-toggle hidden-xs"><img src="../assets/logo_bigco-white.png"></a></li> -->
 
 				<!-- Notifications >> -->
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">						
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
 						<span class="fa-stack fa-large ">
 							<i class="fa fa-bell fa-inverse fa-2x fa-stack-2x"></i>
 							<span class="icon-fixed-width fa-stack-1x char-overlay">4</span>
@@ -87,12 +88,12 @@
 						</li>
 					</ul>
 				</li>
-				
+
 
 				<!-- Account / Profile >> -->
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-						<img src="../assets/img_default-user.jpg" class="avatar" width="28" height="28"/> Elizabeth Parker <span class="caret"></span>
+						<img src="../assets/img_default-user.jpg" class="avatar" width="28" height="28"/> Elizabeth Parker
 					</a>
 					<ul class="dropdown-menu" role="menu">
 						<li>
@@ -130,6 +131,7 @@
 		</div>
 	</div>
 </nav>
+
 		<div class="tabbable">
 	<section class="nav-cases-container">
 		<div class="container">		
@@ -137,7 +139,7 @@
 				<div class="col-md-12">
 					<ul class="nav nav-pills nav-justified nav-cases">
 					  <li class="active"><a href="#tab1" data-toggle="pill"><i class="fa fa-calendar-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Opinion</span></a></li>
-					  <li><a href="#tab2" data-toggle="pill"><i class="fa fa-envelope-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Messages</span> <div class="badge badge-messages">5</div></a></li>
+					  <li><a href="#tab2" data-toggle="pill"><i class="fa fa-envelope-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Messages</span> <div class="badge badge-messages">4</div></a></li>
 					  <li><a href="#tab3" data-toggle="pill"><i class="fa fa-file-text-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Medical Documents</span></a></li>
 					</ul>
 				</div>
@@ -154,12 +156,12 @@
 				
 				<!-- Page Header >> -->
 				<div class="row">
-				    <section>
-					    <div class="col-md-12">
-							<h2>Your opinion is complete</h2>
-							<p class="subtext">Your expert opinion is now complete and available for your review. Your Grand Rounds Staff Physician will be contacting you within then next 24-48 hours to answer any questions you may have.</p>
-						</div>
-					</section>
+				    <div class="col-md-12">
+						<section>
+							<h2>Elizabeth, Dr Roberts is now reviewing your records</h2>
+							<p class="subtext">We will be in touch within 72 hours with an email update</p>
+						</section>
+					</div>
 				</div><!-- << Page Header -->
 				
 				<!-- Progress >>
@@ -181,42 +183,69 @@
 									<div class="milestone milestone-checked">Expert Review</div>
 								</span>
 								<span class="l4">
-									<span class="fa fa-check fa-fw"></span>
-									<div class="milestone milestone-checked">Expert Opinion</div>
+									<span class="fa circle fa-fw"></span>
+									<div class="milestone"><a href="opinion-casedashboard-delivered.html">Expert Opinion</a></div>
 								</span>
-								<div class="state" data-n-point="100%" data-percent="100" style="width: 100%;"></div>
+								<div class="state" data-n-point="75%" data-percent="75" style="width: 75%;"></div>
 							</div>
 						</div>
 					</div>
 				</div> << Progress -->
-
-
-				<!-- Opinion Ready >> -->
-				<section class="dashboard">
-					<div class="well well-delivered">
-						<div class="row">
-							<div class="col-md-1 hidden-xs">
-								<img src="../assets/icon-user-gr.png" class="img-responsive">
-							</div>
-							<div class="col-md-11">
-								<p class="h3-well">Your opinion is ready to read</p>
-							</div>
-						</div>
-						<div class="row">
-							
-							<div class="col-md-7 col-md-offset-1">						
-								<p>Dr. Roberts has written the opinion below for you. Based on our conversation on the phone last week, I think this is an excellent opinion and should set you on an excellent path to recovery. Please take some time to read Dr. Roberts's opinion and I we will reach out to you in the next few days.</p>
-							</div>
-							
-							<div class="col-md-4">
-								<a href="opinion-casedashboard-read.html" class="btn btn-success btn-block" data-method="get">Read Opinion</a>
-							</div>		
-						</div>
+				
+				<!-- Expert Container >> -->
+				<div class="row well well-green">		
+					<div class="col-md-2">
+						<img src="../assets/img_dr-aaron-roberts.jpg" width="150" class="center-block img-circle pp-avatar">
 					</div>
-				</section>
-				<!-- << Opinion Ready -->
+						
+					<div class="col-md-10">
+						<span class="h3">About Aaron Roberts, M.D.</span>
+						<p>Aaron Roberts, MD, is a Professor of Cardiovascular Medicine and a Co-Director of the Vascular Medicine Program at [Your institution here]. With over 25 years of experience in the treatment of vascular disease and cardiovascular risk factors, he is a clinical specialist in the management of hypertension. Dr. Roberts has published over 150 articles in peer-reviewed journals and is currently writing a book on the impact of health care reform on patient experiences.</p>
+						<table class="table table-condensed table-pp">
+							<tbody>
+								<tr>
+									<td class="col-md-2 subtext">Medical School</td>
+									<td>Hahneman Medical College (MD)</td>
+								</tr>
+								<tr>
+									<td class="col-md-2 subtext">Residency</td>
+									<td>University of Chicago</td>
+								</tr>
+								<tr>
+									<td class="col-md-2 subtext">Fellowship</td>
+									<td>University of Chicago</td>
+								</tr>
+								<tr>
+									<td class="col-md-2 subtext">Awards</td>
+									<td>Clinical Specialist - American Society of Hypertension<br>
+									    Faculty Member - American Heart Association</td>
+								</tr>
+								<tr>
+									<td class="col-md-2 subtext">Publications</td>
+									<td>
+										<ul class="list-unstyled">
+											<li><a rel="nofollow" target="_blank" href="http://www.pnas.org/content/106/1/226.full.pdf" title="Link: http://www.pnas.org/content/106/1/226.full.pdf">Whole-genome association study identifies STK39 as a hypertension susceptibility gene.</a></li>
+											<li><a rel="nofollow" target="_blank" href="http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.0030115">Genome-wide association scan shows genetic variants in the FTO gene are associated with obesity-related traits.</a></li>
+											<li><a rel="nofollow" target="_blank" href="https://cseweb.ucsd.edu/classes/sp05/cse291-a/doc/ng1510.pdf">Admixture mapping for hypertension loci with genome-scan markers.</a></li>
+											<li><a rel="nofollow" target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/10391210">Patterns of single-nucleotide polymorphisms in candidate genes for blood-pressure homeostasis.</a></li>
+											<li><a rel="nofollow" target="_blank" href="http://www.nejm.org/doi/pdf/10.1056/NEJM198601233140402">Red-cell lithium-sodium countertransport and renal lithium clearance in hypertension.</a></li>
+										</ul>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div><!-- << Expert Container -->
 
-							
+				<!-- Advance to Opinion Ready >> -->
+				<div class="row">
+					<div class="col-md-12">
+						<p class="small pull-right"><a href="opinion-casedashboard-delivered.html">Advance to Opinion Ready <i class="fa fa-arrow-circle-o-right"></i></a></p>
+					</div>
+				</div>
+
+
+				
 			</div><!-- << Tab 1 -->
 			
 			<!-- Tab 2 >> -->
@@ -247,26 +276,6 @@
 				</div>
 			</form>
 		</div><!-- << Create New Message -->
-
-
-		<div class="media">
-			<div class="media-left">
-			    <img class="media-object avatar" src="../assets/img_cc-percy.jpg" width="32" alt="ccIcon">
-			</div>
-
-			<div class="media-body">
-			    <h4 class="media-heading">Hi Elizabeth,</h4>
-				<p>Your opinion is ready!</p>
-				<p>Dr. Eichstadt, your staff physician, will be in touch with you shortly to discuss any questions you may have about your opinion.</p>
-				<p>Don't forget - if you'd like to share your opinion with someone, such a family member, you can add them to your case from your dashboard.</p>
-				<p>Best,<br>
-				Mark Markison</p>
-				<span class="small subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></span> 
-			</div>
-		</div>
-
-
-
 
 		<div class="media">
 			<div class="media-left">
@@ -412,12 +421,8 @@
 		<table class="table table-lg table-responsive table-hover table-documents">
 			<tbody>
 				<tr>
-					<td class="col-md-10"><i class="fa fa-file-text-o"></i> &nbsp; <a href="../assets/file_opinion-example2.pdf" target="_blank">Expert Opinion &ndash; Congestive Heart Failure</a> <div class="label label-warning bounceIn">NEW</div></td>
+					<td class="col-md-10"><i class="fa fa-file-text-o"></i> &nbsp; <a href="../assets/file_opinion-records.pdf" target="_blank">Indexed Medical Records</a> <div class="label label-warning bounceIn">NEW</div></td>
 					<td class="col-md-2 subtext"><script>var d = new Date(+new Date); document.write(d.toDateString());</script></td>
-				</tr>
-				<tr>
-					<td class="col-md-10"><i class="fa fa-file-text-o"></i> &nbsp; <a href="../assets/file_opinion-records.pdf" target="_blank">Indexed Medical Records</a></td>
-					<td class="col-md-2 subtext"><script>var d = new Date(+new Date - 12096e5); document.write(d.toDateString());</script></td>
 				</tr>
 				<tr>
 					<td class="col-md-10"><i class="fa fa-file-text-o"></i> &nbsp; <a href="../assets/file_opinion-release.pdf" target="_blank">Records Release Form</a></td>
@@ -466,18 +471,18 @@
 	</div>
 </footer>
 <!-- \\ footer -->
-		
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="../js/bootstrap.min.js"></script>
-		
+
 		<!-- Custom Scripts -->
 		<script type="text/javascript" src="../js/retina.min.js"></script>
 		<script type="text/javascript" src="../js/noty/packaged/jquery.noty.packaged.min.js"></script>
 		<script type="text/javascript" src="../js/notification_html.js"></script>
 		<script type="text/javascript" src="../js/password-strength.js"></script>
-				
+
 		<!-- Tool Tip? -->
 		<script>
 			$(document).ready(function () {
@@ -487,6 +492,6 @@
 			$('[data-toggle="popover"]').popover();
 			});
 		</script>
-		
+
 	</body>
 </html>
