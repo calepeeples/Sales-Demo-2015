@@ -5,21 +5,21 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>We'll Take It From Here | Grand Rounds Sales Demo 2015</title>
-
+		<title>Expert Review | Grand Rounds Sales Demo 2015</title>
+		
 		<!-- Bootstrap -->
 		<link href="../css/bootstrap.min.css" rel="stylesheet">
-
+		
 		<!-- Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,300,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
+		
 		<!-- Custom CSS -->
-		<link rel="stylesheet" type="text/css" href="../css/theme-expert.css">
+		<link rel="stylesheet" type="text/css" href="../css/theme-brad.css">
 		<link rel="stylesheet" type="text/css" href="../css/animate.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/awesome-bootstrap-checkbox.css">
 		<link rel="stylesheet" type="text/css" href="../css/signature-pad.css">
-
+		
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -29,8 +29,7 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-	<div class="container-fluid">
-		<div class="grcobrandnavbar" data-toggle="tooltip" data-placement="bottom" title="Tooltip on top"></div>
+	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
 				<span class="sr-only">Toggle navigation</span>
@@ -38,7 +37,7 @@
 			</button>
 			<a href="dashboard-welcome.html" class="navbar-brand img-responsive"><img src="../images/grlogo-white.png" height="32" alt="Grlogo White"></a>
 		</div>
-
+	
 		<div class="collapse navbar-collapse" id="navbar1">
 			<ul class="nav navbar-nav navbar-right">
 				<!-- Big Co Logo >> -->
@@ -46,17 +45,33 @@
 
 				<!-- Notifications >> -->
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">						
 						<span class="fa-stack fa-large ">
 							<i class="fa fa-bell fa-inverse fa-2x fa-stack-2x"></i>
-							<span class="icon-fixed-width fa-stack-1x char-overlay">2</span>
+							<span class="icon-fixed-width fa-stack-1x char-overlay">4</span>
 						</span>
 					</a>
 					<ul class="dropdown-menu" role="menu">
 						<li class="dropdown-header">Notifications</li>
 						<li role="separator" class="divider"></li>
 						<li>
-							<a href="visit-casedashboard.html">
+							<a href="visit-casedashboard-scheduled.html">
+								<i class="fa fa-calendar-o fa-fw"></i>
+								<span class="h6">Appointment Scheduled</span><br />
+								<small class="subtext">We've scheduled you an appointment with Dr Lidia Schapira</small>
+							</a>
+						</li>
+						<li role="separator" class="divider"></li>
+						<li>
+							<a href="visit-casedashboard-scheduled.html">
+								<i class="fa fa-file-pdf-o fa-fw"></i>
+								<span class="h6">Medical Records Ready</span><br />
+								<small class="subtext">We have indexed your medical records</small>
+							</a>
+						</li>
+						<li role="separator" class="divider"></li>
+						<li>
+							<a href="visit-casedashboard-scheduled.html">
 								<i class="fa fa-envelope-o fa-fw"></i>
 								<span class="h6">New Message</span><br />
 								<small class="subtext">from Staff Physician, Dr Shaundra Eichstadt</small>
@@ -72,7 +87,7 @@
 						</li>
 					</ul>
 				</li>
-
+				
 
 				<!-- Account / Profile >> -->
 				<li class="dropdown">
@@ -115,15 +130,14 @@
 		</div>
 	</div>
 </nav>
-
 		<div class="tabbable">
 	<section class="nav-cases-container">
 		<div class="container">		
 			<div class="row">
 				<div class="col-md-12">
 					<ul class="nav nav-pills nav-justified nav-cases">
-					  <li class="active"><a href="#tab1" data-toggle="pill"><i class="fa fa-calendar-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Appointment</span></a></li>
-					  <li><a href="#tab2" data-toggle="pill"><i class="fa fa-envelope-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Messages</span> <div class="badge badge-messages">1</div></a></li>
+					  <li class="active"><a href="#tab1" data-toggle="pill"><i class="fa fa-calendar-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Opinion</span></a></li>
+					  <li><a href="#tab2" data-toggle="pill"><i class="fa fa-envelope-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Messages</span> <div class="badge badge-messages">4</div></a></li>
 					  <li><a href="#tab3" data-toggle="pill"><i class="fa fa-file-text-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Medical Documents</span></a></li>
 					</ul>
 				</div>
@@ -140,50 +154,95 @@
 				
 				<!-- Page Header >> -->
 				<div class="row">
-				    <div class="col-md-8">
-						<h2>Elizabeth, we&rsquo;ll take it from here</h2>
-						<p class="subtext">We will be in touch within 24 hours with an email update</p>
-					</div>
-					<div class="col-md-4">
-						<div class="well well-help text-center">
-							<p class="h4">Have Questions?</p>
-							<p>Please <a href="#tab2" data-toggle="pill">send a message</a> or call us at<br><strong>(800) 929-0926</strong> if you have any questions.</p>
-						</div>
+				    <div class="col-md-12">
+						<section>
+							<h2>Elizabeth, Dr Roberts is now reviewing your records</h2>
+							<p class="subtext">We will be in touch within 72 hours with an email update</p>
+						</section>
 					</div>
 				</div><!-- << Page Header -->
 				
-				<!-- 3 Next Steps >> -->
+				<!-- Progress >>
 				<div class="row">
-					<div class="col-md-4">
-						<div class="well well-icon text-center">
-							<img src="../assets/icon_visit-finding-doctors.png" alt="icon_visit-finding-doctors" width="160" height="161" class="img-responsive center-block">
-							<h3>We&rsquo;re selecting a top-quality physician</h3>
-							<span class="small"><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-info-circle"></i> How we choose</a></span>
+					<div class="col-md-12 hidden-xs">
+						<div class="prog">
+							<div class="notch" style="left: 50%;"></div>
+							<div class="bar">
+								<span class="l1">
+									<span class="fa fa-check fa-fw"></span>
+									<div class="milestone milestone-checked">Case Started</div>
+								</span>
+								<span class="l2">
+									<span class="fa fa-check fa-fw"></span>
+									<div class="milestone milestone-checked">Collecting Records</div>
+								</span>
+								<span class="l3">
+									<span class="fa fa-check fa-fw"></span>
+									<div class="milestone milestone-checked">Expert Review</div>
+								</span>
+								<span class="l4">
+									<span class="fa circle fa-fw"></span>
+									<div class="milestone"><a href="opinion-casedashboard-delivered.html">Expert Opinion</a></div>
+								</span>
+								<div class="state" data-n-point="75%" data-percent="75" style="width: 75%;"></div>
+							</div>
 						</div>
 					</div>
-
-					<div class="col-md-4">
-						<div class="well well-icon text-center">
-							<img src="../assets/icon_find-appointment.png" alt="icon_visit-find-appointment" width="160" height="161" class="img-responsive center-block">
-							<h3>We&rsquo;ll schedule your appointment</h3>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="well well-icon text-center">
-							<img src="../assets/icon_help-prepare.png" alt="icon_visit-help-prepare" width="160" height="161" class="img-responsive center-block">
-							<h3>We&rsquo;ll help you prepare</h3>
-						</div>
-					</div>
-
-				</div><!-- << 3 Next Steps -->
+				</div> << Progress -->
 				
-				<!-- Advance to Scheduled >> -->
+				<!-- Expert Container >> -->
+				<div class="row well well-green">		
+					<div class="col-md-2">
+						<img src="../assets/img_dr-aaron-roberts.jpg" width="150" class="center-block img-circle pp-avatar">
+					</div>
+						
+					<div class="col-md-10">
+						<span class="h3">About Aaron Roberts, M.D.</span>
+						<p>Aaron Roberts, MD, is a Professor of Cardiovascular Medicine and a Co-Director of the Vascular Medicine Program at the University of Michigan. With over 25 years of experience in the treatment of vascular disease and cardiovascular risk factors, he is a clinical specialist in the management of hypertension. Dr. Roberts has published over 150 articles in peer-reviewed journals and is currently writing a book on the impact of health care reform on patient experiences.</p>
+						<table class="table table-condensed table-pp">
+							<tbody>
+								<tr>
+									<td class="col-md-2 subtext">Medical School</td>
+									<td>Hahneman Medical College (MD)</td>
+								</tr>
+								<tr>
+									<td class="col-md-2 subtext">Residency</td>
+									<td>University of Chicago</td>
+								</tr>
+								<tr>
+									<td class="col-md-2 subtext">Fellowship</td>
+									<td>University of Chicago</td>
+								</tr>
+								<tr>
+									<td class="col-md-2 subtext">Awards</td>
+									<td>Clinical Specialist - American Society of Hypertension<br>
+									    Faculty Member - American Heart Association</td>
+								</tr>
+								<tr>
+									<td class="col-md-2 subtext">Publications</td>
+									<td>
+										<ul class="list-unstyled">
+											<li><a rel="nofollow" target="_blank" href="http://www.pnas.org/content/106/1/226.full.pdf" title="Link: http://www.pnas.org/content/106/1/226.full.pdf">Whole-genome association study identifies STK39 as a hypertension susceptibility gene.</a></li>
+											<li><a rel="nofollow" target="_blank" href="http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.0030115">Genome-wide association scan shows genetic variants in the FTO gene are associated with obesity-related traits.</a></li>
+											<li><a rel="nofollow" target="_blank" href="https://cseweb.ucsd.edu/classes/sp05/cse291-a/doc/ng1510.pdf">Admixture mapping for hypertension loci with genome-scan markers.</a></li>
+											<li><a rel="nofollow" target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/10391210">Patterns of single-nucleotide polymorphisms in candidate genes for blood-pressure homeostasis.</a></li>
+											<li><a rel="nofollow" target="_blank" href="http://www.nejm.org/doi/pdf/10.1056/NEJM198601233140402">Red-cell lithium-sodium countertransport and renal lithium clearance in hypertension.</a></li>
+										</ul>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div><!-- << Expert Container -->
+
+				<!-- Advance to Opinion Ready >> -->
 				<div class="row">
 					<div class="col-md-12">
-						<p class="small pull-right"><a href="visit-casedashboard-scheduled.html">Advance to next step <i class="fa fa-arrow-circle-o-right"></i></a></p>
+						<p class="small pull-right"><a href="opinion-casedashboard-delivered.html">Advance to Opinion Ready <i class="fa fa-arrow-circle-o-right"></i></a></p>
 					</div>
 				</div>
+
+
 				
 			</div><!-- << Tab 1 -->
 			
@@ -215,6 +274,53 @@
 				</div>
 			</form>
 		</div><!-- << Create New Message -->
+
+		<div class="media">
+			<div class="media-left">
+			    <img class="media-object avatar" src="../assets/img_cc-percy.jpg" width="32" alt="ccIcon">
+			</div>
+
+			<div class="media-body">
+			    <h4 class="media-heading">Elizabeth,</h4>
+				<p>I'm pleased to tell you that our expert Dr Aaron Roberts is reviewing your case!</p>
+				<p>Dr Roberts is a leading expert in the area of vascular cardiology.</p>
+				<p>Best,<br>
+				Mark Markison</p>
+				<span class="small subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></span> 
+			</div>
+		</div>
+
+		<div class="media">
+			<div class="media-left">
+			    <img class="media-object avatar" src="../assets/img_sp-shaundra.jpg" width="32" alt="spIcon">
+			</div>
+
+			<div class="media-body">
+			    <h4 class="media-heading">Hi Elizabeth,</h4>
+				<p>My name is Dr Shaundra Eichstadt and I am the staff physician working on your case.</p>
+				<p>I've finished preparing your records and imaging for review by your expert physician. You can view these in Case Documents section of your dashboard.</p>
+				<p>Thanks,<br>
+				Dr Eichstadt</p>
+				<span class="small subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></span> 
+			</div>
+		</div>
+
+		<div class="media">
+			<div class="media-left">
+			    <img class="media-object avatar" src="../assets/img_cc-percy.jpg" width="32" alt="ccIcon">
+			</div>
+
+			<div class="media-body">
+			    <h4 class="media-heading">Hello, Elizabeth!</h4>
+				<p>My name is Mark Markison and I'll be your care coordinator.</p>
+				<p>Thanks for providing your medical record locations and signing your release. I've already begun collecting you records.
+				I'll keep you updated here in your Message Center. If you have any concerns, you can reach me directly at (415) 233 - 4307.</p>
+				<p>Best regards,<br>
+				Mark Markison</p>
+				<span class="small subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></span> 
+			</div>
+		</div>
+
 		
 		<div class="media">
 			<div class="media-left">
@@ -223,10 +329,7 @@
 
 			<div class="media-body">
 			    <h4 class="media-heading">Welcome to Grand Rounds, Elizabeth!</h4>
-			   	
-			   	<p>Thanks for starting your Office Visit. We'll take it from here. We'll start by selecting a top-quality local physician that fits your needs. Then we'll schedule an appointment for you based on the availability that you've provided. Finally, we'll help you prepare so you can get the most out of your visit.</p>
-			   	<p>Your Care Coordinator and Staff Physician will be joining soon. They'll keep you updated throughout the process and will answer any questions you may have. Feel free to contact them through this secure message center at any time.</p>
-
+			   	<p>Thanks for registering your case with us. We'll assign your personal care coordinator shortly. Your care coordinator will keep you up-to-date throughout the process, and answer any questions you may have. You may post questions for your care coordinator here in the secure Message Center.</p>
 				<p>Best,<br>
 				Your Grand Rounds Team</p>
 				<span class="small subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></span> 
@@ -316,8 +419,12 @@
 		<table class="table table-lg table-responsive table-hover table-documents">
 			<tbody>
 				<tr>
+					<td class="col-md-10"><i class="fa fa-file-text-o"></i> &nbsp; <a href="../assets/file_opinion-records.pdf" target="_blank">Indexed Medical Records</a> <div class="label label-warning bounceIn">NEW</div></td>
+					<td class="col-md-2 subtext"><script>var d = new Date(+new Date); document.write(d.toDateString());</script></td>
+				</tr>
+				<tr>
 					<td class="col-md-10"><i class="fa fa-file-text-o"></i> &nbsp; <a href="../assets/file_opinion-release.pdf" target="_blank">Records Release Form</a></td>
-					<td class="col-md-2 subtext"><script>var d = new Date(+new Date); document.write(d.toDateString());</script></td> 
+					<td class="col-md-2 subtext"><script>var d = new Date(+new Date - 12096e5); document.write(d.toDateString());</script></td>
 				</tr>
 			</tbody>
 		</table>
@@ -332,44 +439,6 @@
 	
 	</div><!-- << Tabbable -->
 </div><!-- << Page Container -->
-
-
-
-<!-- How We Choose Modal >> -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	<div class="modal-dialog modal-lg" role="document">
-		<div class="modal-content modal-howwechoose">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h1 class="modal-title text-center" id="myModalLabel">How we choose</h1>
-			</div>
-			<div class="modal-body">
-				<div class="containter-fluid">
-					<div class="row">
-						<div class="col-md-4">
-							<div class="well well-icon text-center">
-								<img src="../assets/icon_hwc-step1.png" alt="icon_hwc-step1" width="170" height="170" class="img-responsive center-block">
-								<p>We rate all physicians based on factors that demonstrate clinical excellence such as patient outcomes, training, research, hospital affiliation, and procedure volumes.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="well well-icon text-center">
-								<img src="../assets/icon_hwc-step2.png" alt="icon_hwc-step2" width="170" height="170" class="img-responsive center-block">
-								<p>We then find the top physicians that are located near you, accept your insurance, and satisfy any personal preferences.</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="well well-icon text-center">
-								<img src="../assets/icon_hwc-step3.png" alt="icon_hwc-step3" width="170" height="170" class="img-responsive center-block">
-								<p>Finally, your Staff Physician, a licensed doctor, will hand pick the specialist that best matches your needs.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
 		<!-- footer //-->
 <footer class="footer">
 	<div class="container">
@@ -400,18 +469,18 @@
 	</div>
 </footer>
 <!-- \\ footer -->
-
+		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="../js/bootstrap.min.js"></script>
-
+		
 		<!-- Custom Scripts -->
 		<script type="text/javascript" src="../js/retina.min.js"></script>
 		<script type="text/javascript" src="../js/noty/packaged/jquery.noty.packaged.min.js"></script>
 		<script type="text/javascript" src="../js/notification_html.js"></script>
 		<script type="text/javascript" src="../js/password-strength.js"></script>
-
+				
 		<!-- Tool Tip? -->
 		<script>
 			$(document).ready(function () {
@@ -421,6 +490,6 @@
 			$('[data-toggle="popover"]').popover();
 			});
 		</script>
-
+		
 	</body>
 </html>
