@@ -9,7 +9,8 @@
 	},
 	"dashboard-welcome": {
 		"layout": "_layout-nocases",
-		"pageTitle": "Welcome to Grand Rounds"
+		"pageTitle": "Welcome to Grand Rounds",
+		"company": "Johns Hopkins"
 	},
 	"visit-1": {
 		"layout": "_layout-nocases",
