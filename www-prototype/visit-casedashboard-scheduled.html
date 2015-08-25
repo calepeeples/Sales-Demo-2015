@@ -172,11 +172,11 @@
 											<tbody>
 												<tr>
 													<td class="col-md-4 subtext">Studied at</td>
-													<td>University of California, San Francisco, School of Medicine. Graduated in 1997</td>
+													<td>Dartmouth Medical School</td>
 												</tr>
 												<tr>
 													<td class="col-md-4 subtext">Trained at</td>
-													<td>Stanford University Medical Center</td>
+													<td>Brigham and Women's Hospital</td>
 												</tr>
 												<tr>
 													<td class="col-md-4 subtext">Board Certified in</td>
@@ -184,7 +184,7 @@
 												</tr>
 												<tr>
 													<td class="col-md-4 subtext">Years of Experience</td>
-													<td>17 years</td>
+													<td>29 years</td>
 												</tr>
 											</tbody>
 										</table>
@@ -294,7 +294,7 @@
 								<section class="">
 									<h3>Guide to better doctor&rsquo;s visit</h3>
 									
-									<!-- PP Foot Questions >> -->
+									<!-- PP Foot Questions >>
 									<div class="media">
 									  <div class="media-left">
 									    <a href="#">
@@ -354,8 +354,52 @@
 									  <div class="media-body">
 									    <h4 class="media-heading">Are there certain symptoms for which I should seek immediate medical attention?</h4>
 									  </div>
-									</div><!-- << PP Foot Questions -->
-									
+									</div> << PP Foot Questions -->
+
+									<!-- PP Breast Cancer Questions >> -->
+									<div class="media">
+									  <div class="media-left">
+									    <a href="#">
+									      <img src="../assets/visit-pp-questionmark.png" width="50" alt="Visit Pp Medications" class="media-object">
+									    </a>
+									  </div>
+									  <div class="media-body">
+									    <h4 class="media-heading">What is the best course of therapy to treat my breast cancer?</h4>
+									  </div>
+									</div>
+									<div class="media">
+									  <div class="media-left">
+									    <a href="#">
+									      <img src="../assets/visit-pp-questionmark.png" width="50" alt="Visit Pp Medications" class="media-object">
+									    </a>
+									  </div>
+									  <div class="media-body">
+									    <h4 class="media-heading">Is a lumpectomy as effective as a mastectomy if I undergo chemotherapy and have a good response to it?</h4>
+									  </div>
+									</div>
+									<div class="media">
+									  <div class="media-left">
+									    <a href="#">
+									      <img src="../assets/visit-pp-questionmark.png" width="50" alt="Visit Pp Medications" class="media-object">
+									    </a>
+									  </div>
+									  <div class="media-body">
+									    <h4 class="media-heading">What side effects might I expect to experience?</h4>
+									  </div>
+									</div>
+									<div class="media">
+									  <div class="media-left">
+									    <a href="#">
+									      <img src="../assets/visit-pp-questionmark.png" width="50" alt="Visit Pp Medications" class="media-object">
+									    </a>
+									  </div>
+									  <div class="media-body">
+									    <h4 class="media-heading">What does recovery look like for each of the treatment options we are discussing?</h4>
+									  </div>
+									</div>
+									<!--<< PP Breast Cancer Questions -->
+
+
 									<!-- PP Ortho Questions >> 
 									<div class="media">
 									  <div class="media-left">
@@ -501,8 +545,8 @@
 			</div>
 	
 			<div>
-				<hr>
-				<a href="#"> <i class="fa fa-plus-circle"></i> ADD A TEAM MEMBER</a>
+				<hr>				
+				<a href="#" data-toggle="modal" data-target="#addModal"><i class="fa fa-plus-circle"></i> ADD A TEAM MEMBER</a>
 				<br>
 				<span class="small subtext">
 					Invite a family member or caregiver to your team, but keep in mind that they will have access to your case history, medical records, and team messages.
@@ -511,7 +555,38 @@
 		</div>
 	</div><!-- << GR Team -->
 
-</div><!-- << Row -->
+
+
+</div>
+
+<!-- Add a Family Member Modal >> -->
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="addModalLabel">
+	<div class="modal-dialog modal-md" role="document">
+		<div class="modal-content modal-howwechoose">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h3 class="modal-title" id="addModalLabel">Add a Team Member</h3>
+			</div>
+			<div class="modal-body">
+				<div class="containter-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<form>
+								<div class="form-group">
+									<input type="email" class="form-control" id="addemail" placeholder="Email Address">
+								</div>				
+								<div class="form-group">
+									<p><a href="" data-dismiss="modal" aria-label="Close" type="button" class="btn btn-primary btn-md">Add</a></p>
+									<small class="subtext">Invite a family member or caregiver to your team, but keep in mind that they will have access to your case history, medical records, and team messages.</small>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- << Add a Family Member Modal -->
 			</div><!-- << Tab 2 -->
 		    
 		    <div id="tab3" class="tab-pane fade">

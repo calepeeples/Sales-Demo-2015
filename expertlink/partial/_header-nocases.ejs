@@ -1,11 +1,12 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-	<div class="container">
+	<div class="container-fluid">
+			<div class="grcobrandnavbar" data-toggle="tooltip" data-placement="bottom" title="Tooltip on top"></div>
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
 				<span class="sr-only">Toggle navigation</span>
 				<i class="fa fa-bars"></i>
 			</button>
-			<a href="dashboard-welcome.html" class="navbar-brand img-responsive"><img src="../images/bchlogo-header.png" height="32" alt="Grlogo White"></a>
+			<a href="dashboard-welcome.html" class="navbar-brand img-responsive"><img src="../assets/logo-jh-header.png" height="32" alt="Grlogo White"></a>
 		</div>
 
 		<div class="collapse navbar-collapse" id="navbar1">
@@ -32,7 +33,7 @@
 				<!-- Account / Profile >> -->
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-						<img src="<%= gravatarImage %>" class="avatar" width="28" height="28"/> <%= firstName %> <%= lastName %> <span class="caret"></span>
+						<img src="<%= gravatarImage %>" class="avatar" width="28" height="28"/> <%= firstName %> <%= lastName %> 
 					</a>
 					<ul class="dropdown-menu" role="menu">
 						<li>
