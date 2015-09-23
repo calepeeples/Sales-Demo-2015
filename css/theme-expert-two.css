@@ -4070,6 +4070,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   min-height: 72px;
   margin-bottom: 22px;
   border: 0 solid transparent;
+  padding: 0rem 1rem;
 }
 @media (min-width: 768px) {
   .navbar {
