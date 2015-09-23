@@ -1,0 +1,102 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+				<span class="sr-only">Toggle navigation</span>
+				<i class="fa fa-bars"></i>
+			</button>
+			<a href="dashboard-welcome.html" class="navbar-brand img-responsive"><img src="../images/grlogo-white.png" height="32" alt="Grlogo White"></a>
+		</div>
+	<div class="navbar-brand" style="margin-left:14em;"><img  src="../assets/logo-jh-header.png" height="32"></div>
+		<div class="collapse navbar-collapse" id="navbar1">
+			<ul class="nav navbar-nav navbar-right">
+				<!-- Big Co Logo >> -->
+			
+
+				<!-- Notifications >> -->
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+						<span class="fa-stack fa-large ">
+							<i class="fa fa-bell fa-inverse fa-2x fa-stack-2x"></i>
+							<span class="icon-fixed-width fa-stack-1x char-overlay">4</span>
+						</span>
+					</a>
+					<ul class="dropdown-menu" role="menu">
+						<li class="dropdown-header">Notifications</li>
+						<li role="separator" class="divider"></li>
+						<li>
+							<a href="visit-casedashboard-scheduled.html">
+								<i class="fa fa-calendar-o fa-fw"></i>
+								<span class="h6">Appointment Scheduled</span><br />
+								<small class="subtext">We've scheduled you an appointment with Dr <%= drFName %> <%= drLName %></small>
+							</a>
+						</li>
+						<li role="separator" class="divider"></li>
+						<li>
+							<a href="visit-casedashboard-scheduled.html">
+								<i class="fa fa-file-pdf-o fa-fw"></i>
+								<span class="h6">Medical Records Ready</span><br />
+								<small class="subtext">We have indexed your medical records</small>
+							</a>
+						</li>
+						<li role="separator" class="divider"></li>
+						<li>
+							<a href="visit-casedashboard-scheduled.html">
+								<i class="fa fa-envelope-o fa-fw"></i>
+								<span class="h6">New Message</span><br />
+								<small class="subtext">from Staff Physician, Dr Shaundra Eichstadt</small>
+							</a>
+						</li>
+						<li role="separator" class="divider"></li>
+						<li>
+							<a href="visit-casedashboard.html">
+								<i class="fa fa-building-o fa-fw"></i>
+								<span class="h6">Appointment Requested</span><br />
+								<small class="subtext">You've requested an appointment</small>
+							</a>
+						</li>
+					</ul>
+				</li>
+
+
+				<!-- Account / Profile >> -->
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+						<img src="<%= gravatarImage %>" class="avatar" width="28" height="28"/> <%= firstName %> <%= lastName %> <span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu" role="menu">
+						<li>
+							<a href="dashboard-welcome.html">
+								<i class="fa fa-dashboard fa-fw"></i>
+								<span class="h6">Dashboard</span><br />
+								<small class="subtext">Manage your active cases or start a new one</small>
+							</a>
+						</li>
+						<li>
+							<a href="profile.html">
+								<i class="fa fa-gear fa-fw"></i>
+								<span class="h6">Account Settings</span><br />
+								<small class="subtext">Edit your password, email, sharing permissions, and insurance coverage</small>
+							</a>
+						</li>
+						<li>
+							<a href="profile.html">
+								<i class="fa fa-heartbeat fa-fw"></i>
+								<span class="h6">Health Records</span><br />
+								<small class="subtext">Access your medical records and medical history</small>
+							</a>
+						</li>
+						<li role="separator" class="divider"></li>
+						<li>
+							<a href="index.html">
+								<i class="fa fa-power-off fa-fw"></i>
+								<span class="h6">Logout</span><br />
+							</a>
+						</li>
+					</ul>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+</nav>

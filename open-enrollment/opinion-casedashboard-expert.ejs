@@ -1,0 +1,128 @@
+<div class="tabbable">
+	<section class="nav-cases-container">
+		<div class="container">		
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="nav nav-pills nav-justified nav-cases">
+					  <li class="active"><a href="#tab1" data-toggle="pill"><i class="fa fa-calendar-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Opinion</span></a></li>
+					  <li><a href="#tab2" data-toggle="pill"><i class="fa fa-envelope-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Messages</span> <div class="badge badge-messages">4</div></a></li>
+					  <li><a href="#tab3" data-toggle="pill"><i class="fa fa-file-text-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Medical Documents</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div class="container">
+		<div class="tab-content">	
+			
+			<!-- Tab 1 >> -->
+			<div id="tab1" class="tab-pane fade in active">
+				
+				<!-- Page Header >> -->
+				<div class="row">
+				    <div class="col-md-12">
+						<section>
+							<h2><%= firstName %>, Dr <%= dr2LName %> is now reviewing your records</h2>
+							<p class="subtext">We will be in touch within 72 hours with an email update</p>
+						</section>
+					</div>
+				</div><!-- << Page Header -->
+				
+				<!-- Progress >>
+				<div class="row">
+					<div class="col-md-12 hidden-xs">
+						<div class="prog">
+							<div class="notch" style="left: 50%;"></div>
+							<div class="bar">
+								<span class="l1">
+									<span class="fa fa-check fa-fw"></span>
+									<div class="milestone milestone-checked">Case Started</div>
+								</span>
+								<span class="l2">
+									<span class="fa fa-check fa-fw"></span>
+									<div class="milestone milestone-checked">Collecting Records</div>
+								</span>
+								<span class="l3">
+									<span class="fa fa-check fa-fw"></span>
+									<div class="milestone milestone-checked">Expert Review</div>
+								</span>
+								<span class="l4">
+									<span class="fa circle fa-fw"></span>
+									<div class="milestone"><a href="opinion-casedashboard-delivered.html">Expert Opinion</a></div>
+								</span>
+								<div class="state" data-n-point="75%" data-percent="75" style="width: 75%;"></div>
+							</div>
+						</div>
+					</div>
+				</div> << Progress -->
+				
+				<!-- Expert Container >> -->
+				<div class="row well well-green">		
+					<div class="col-md-2">
+						<img src="<%= dr2Image %>" width="150" class="center-block img-circle pp-avatar">
+					</div>
+						
+					<div class="col-md-10">
+						<span class="h3">About <%= dr2FName %> <%= dr2LName %>, M.D.</span>
+						<p><%= dr2Bio %></p>
+						<table class="table table-condensed table-pp">
+							<tbody>
+								<tr>
+									<td class="col-md-2 subtext">Medical School</td>
+									<td>Hahneman Medical College (MD)</td>
+								</tr>
+								<tr>
+									<td class="col-md-2 subtext">Residency</td>
+									<td>University of Chicago</td>
+								</tr>
+								<tr>
+									<td class="col-md-2 subtext">Fellowship</td>
+									<td>University of Chicago</td>
+								</tr>
+								<tr>
+									<td class="col-md-2 subtext">Awards</td>
+									<td>Clinical Specialist - American Society of Hypertension<br />
+									    Faculty Member - American Heart Association</td>
+								</tr>
+								<tr>
+									<td class="col-md-2 subtext">Publications</td>
+									<td>
+										<ul class="list-unstyled">
+											<li><a rel="nofollow" target="_blank" href="http://www.pnas.org/content/106/1/226.full.pdf" title="Link: http://www.pnas.org/content/106/1/226.full.pdf">Whole-genome association study identifies STK39 as a hypertension susceptibility gene.</a></li>
+											<li><a rel="nofollow" target="_blank" href="http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.0030115">Genome-wide association scan shows genetic variants in the FTO gene are associated with obesity-related traits.</a></li>
+											<li><a rel="nofollow" target="_blank" href="https://cseweb.ucsd.edu/classes/sp05/cse291-a/doc/ng1510.pdf">Admixture mapping for hypertension loci with genome-scan markers.</a></li>
+											<li><a rel="nofollow" target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/10391210">Patterns of single-nucleotide polymorphisms in candidate genes for blood-pressure homeostasis.</a></li>
+											<li><a rel="nofollow" target="_blank" href="http://www.nejm.org/doi/pdf/10.1056/NEJM198601233140402">Red-cell lithium-sodium countertransport and renal lithium clearance in hypertension.</a></li>
+										</ul>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div><!-- << Expert Container -->
+
+				<!-- Advance to Opinion Ready >> -->
+				<div class="row">
+					<div class="col-md-12">
+						<p class="small pull-right"><a href="opinion-casedashboard-delivered.html">Advance to Opinion Ready <i class="fa fa-arrow-circle-o-right"></i></a></p>
+					</div>
+				</div>
+
+
+				
+			</div><!-- << Tab 1 -->
+			
+			<!-- Tab 2 >> -->
+			<div id="tab2" class="tab-pane fade">
+				<%- partial("partial/_teamandmessages-opinion-pop1") %>
+			</div><!-- << Tab 2 -->
+		    
+		    <div id="tab3" class="tab-pane fade">
+			    <%- partial("partial/_medicaldocuments-opinion-2") %>
+		    </div>
+		</div><!-- << Tab Content -->
+	
+	</div><!-- << Tabbable -->
+</div><!-- << Page Container -->
