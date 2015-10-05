@@ -1,0 +1,133 @@
+<div class="row">
+	<!-- Messages >> -->	
+	<div class="col-md-7">
+		<h3>Messages</h3>
+
+		<!-- Create New Message >> -->
+		<div class="row">
+			<form role="form">
+				<div class="col-md-1 col-sm-1 hidden-xs">
+					<img class="avatar" src="../assets/icon-user-patient.png" width="32" alt="Icon User Patient">
+				</div>
+				<div class="col-md-8 col-sm-8">
+					<div class="form-group">
+						<div class="input-group">
+							<input type="text" class="form-control" aria-descibedby="basic-addon2" placeholder="New message...">
+							<span class="input-group-addon" id="basic-addon2"><a href="#"><i class="fa fa-paperclip"></i></a></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-3">
+					<div class="form-group">
+						<a href="#" class="btn btn-primary btn-sm btn-block">SUBMIT</a>
+					</div>
+				</div>
+			</form>
+		</div><!-- << Create New Message -->
+
+		<div class="media">
+			<div class="media-left">
+			    <img class="media-object avatar" src="<%= ccImage %>" width="32" alt="ccIcon">
+			</div>
+
+			<div class="media-body">
+			    <h4 class="media-heading"><%= firstName %>,</h4>
+				<p>I'm pleased to tell you that our expert Dr <%= dr2FName %> <%= dr2LName %> is reviewing your case!</p>
+				<p>Dr <%= dr2LName %> is a leading expert in the area of vascular cardiology.</p>
+				<p>Best,<br />
+				<%= ccFirstName %> <%= ccLastName %></p>
+				<span class="small subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></span> 
+			</div>
+		</div>
+
+		<div class="media">
+			<div class="media-left">
+			    <img class="media-object avatar" src="<%= spImage %>" width="32" alt="spIcon">
+			</div>
+
+			<div class="media-body">
+			    <h4 class="media-heading">Hi <%= firstName %>,</h4>
+				<p>My name is Dr <%= spFirstName %> <%= spLastName %> and I am the staff physician working on your case.</p>
+				<p>I've finished preparing your records and imaging for review by your expert physician. You can view these in Case Documents section of your dashboard.</p>
+				<p>Thanks,<br />
+				Dr <%= spLastName %></p>
+				<span class="small subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></span> 
+			</div>
+		</div>
+
+		<div class="media">
+			<div class="media-left">
+			    <img class="media-object avatar" src="<%= ccImage %>" width="32" alt="ccIcon">
+			</div>
+
+			<div class="media-body">
+			    <h4 class="media-heading">Hello, <%= firstName %>!</h4>
+				<p>My name is <%= ccFirstName %> <%= ccLastName %> and I'll be your care coordinator.</p>
+				<p>Thanks for providing your medical record locations and signing your release. I've already begun collecting you records.
+				I'll keep you updated here in your Message Center. If you have any concerns, you can reach me directly at (415) 233 - 4307.</p>
+				<p>Best regards,<br />
+				<%= ccFirstName %> <%= ccLastName %></p>
+				<span class="small subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></span> 
+			</div>
+		</div>
+
+		
+		<div class="media">
+			<div class="media-left">
+			    <img src="../assets/icon-user-gr.png" width="32" alt="GR Icon" class="media-object" />
+			</div>
+
+			<div class="media-body">
+			    <h4 class="media-heading">Welcome to Grand Rounds, <%= firstName %>!</h4>
+			   	<p>Thanks for registering your case with us. We'll assign your personal care coordinator shortly. Your care coordinator will keep you up-to-date throughout the process, and answer any questions you may have. You may post questions for your care coordinator here in the secure Message Center.</p>
+				<p>Best,<br />
+				Your Grand Rounds Team</p>
+				<span class="small subtext"><script>var d = new Date(+new Date + 12096e5); document.write(d.toDateString());</script></span> 
+			</div>
+		</div>
+		
+	</div><!-- << Messages -->
+
+	<!-- GR Team >> -->
+	<div class="col-md-4 col-md-offset-1">
+		<div class="well well-transparent">
+			<h4>Grand Rounds Team</h4>
+			
+			<div class="media">
+				<div class="media-left">
+					<img src="<%= ccImage %>" alt="CC" width="64" class="media-object img-circle" />
+				</div>
+				<div class="media-body">
+					<h5 class="media-heading"><%= ccFirstName %> <%= ccLastName %></h5>
+					<small class="subtext">Care Coordinator</small>
+					<p class="small">Your Care Coordinator is a trained professional that is here to understand your condition, preferences and concerns, and take care of the logistics to save you time.</p>
+				</div>
+			</div>
+	
+			<div class="media">
+				<div class="media-left">
+					<img src="<%= spImage %>" width="64" alt="SP" class="media-object img-circle" />
+				</div>
+				<div class="media-body">
+					<h5 class="media-heading">Dr. <%= spFirstName %> <%= spLastName %></h5>
+					<small class="subtext">Staff Physician</small>
+					<p class="small">Your Staff Physician is a licensed physician that helps select an excellent doctor that is a great fit for your needs.</p>
+				</div>
+			</div>
+	
+			<div>
+				<hr />				
+				<a href="#" data-toggle="modal" data-target="#addModal"><i class="fa fa-plus-circle"></i> ADD A TEAM MEMBER</a>
+				<br />
+				<span class="small subtext">
+					Invite a family member or caregiver to your team, but keep in mind that they will have access to your case history, medical records, and team messages.
+				</span>
+			</div>
+		</div>
+	</div><!-- << GR Team -->
+
+
+
+</div>
+
+<%- partial("_addteam") %>
