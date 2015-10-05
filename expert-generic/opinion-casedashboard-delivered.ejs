@@ -1,0 +1,101 @@
+<div class="tabbable">
+	<section class="nav-cases-container">
+		<div class="container">		
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="nav nav-pills nav-justified nav-cases">
+					  <li class="active"><a href="#tab1" data-toggle="pill"><i class="fa fa-calendar-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Opinion</span></a></li>
+					  <li><a href="#tab2" data-toggle="pill"><i class="fa fa-envelope-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Messages</span> <div class="badge badge-messages">5</div></a></li>
+					  <li><a href="#tab3" data-toggle="pill"><i class="fa fa-file-text-o fa-fw hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Medical Documents</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div class="container">
+		<div class="tab-content">	
+			
+			<!-- Tab 1 >> -->
+			<div id="tab1" class="tab-pane fade in active">
+				
+				<!-- Page Header >> -->
+				<div class="row">
+				    <section>
+					    <div class="col-md-12">
+							<h2>Your opinion is complete</h2>
+							<p class="subtext">Your expert opinion is now complete and available for your review. Your Grand Rounds Staff Physician will be contacting you within then next 24-48 hours to answer any questions you may have.</p>
+						</div>
+					</section>
+				</div><!-- << Page Header -->
+				
+				<!-- Progress >>
+				<div class="row">
+					<div class="col-md-12 hidden-xs">
+						<div class="prog">
+							<div class="notch" style="left: 50%;"></div>
+							<div class="bar">
+								<span class="l1">
+									<span class="fa fa-check fa-fw"></span>
+									<div class="milestone milestone-checked">Case Started</div>
+								</span>
+								<span class="l2">
+									<span class="fa fa-check fa-fw"></span>
+									<div class="milestone milestone-checked">Collecting Records</div>
+								</span>
+								<span class="l3">
+									<span class="fa fa-check fa-fw"></span>
+									<div class="milestone milestone-checked">Expert Review</div>
+								</span>
+								<span class="l4">
+									<span class="fa fa-check fa-fw"></span>
+									<div class="milestone milestone-checked">Expert Opinion</div>
+								</span>
+								<div class="state" data-n-point="100%" data-percent="100" style="width: 100%;"></div>
+							</div>
+						</div>
+					</div>
+				</div> << Progress -->
+
+
+				<!-- Opinion Ready >> -->
+				<section class="dashboard">
+					<div class="well well-delivered">
+						<div class="row">
+							<div class="col-md-1 hidden-xs">
+								<img src="../assets/icon-user-gr.png" class="img-responsive"/>
+							</div>
+							<div class="col-md-11">
+								<p class="h3-well">Your opinion is ready to read</p>
+							</div>
+						</div>
+						<div class="row">
+							
+							<div class="col-md-7 col-md-offset-1">						
+								<p>Dr. <%= dr2LName %> has written the opinion below for you. Based on our conversation on the phone last week, I think this is an excellent opinion and should set you on an excellent path to recovery. Please take some time to read Dr. <%= dr2LName %>'s opinion and I we will reach out to you in the next few days.</p>
+							</div>
+							
+							<div class="col-md-4">
+								<a href="opinion-casedashboard-read.html" class="btn btn-success btn-block" data-method="get">Read Opinion</a>
+							</div>		
+						</div>
+					</div>
+				</section>
+				<!-- << Opinion Ready -->
+
+							
+			</div><!-- << Tab 1 -->
+			
+			<!-- Tab 2 >> -->
+			<div id="tab2" class="tab-pane fade">
+				<%- partial("partial/_teamandmessages-opinion-pop2") %>
+			</div><!-- << Tab 2 -->
+		    
+		    <div id="tab3" class="tab-pane fade">
+			    <%- partial("partial/_medicaldocuments-opinion-3") %>
+		    </div>
+		</div><!-- << Tab Content -->
+	
+	</div><!-- << Tabbable -->
+</div><!-- << Page Container -->

@@ -1,0 +1,327 @@
+<div class="tabbable">
+	<section class="nav-cases-container">
+		<div class="container">		
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="nav nav-pills nav-justified nav-cases">
+					  <li class="active"><a href="#tab1" data-toggle="pill"><i class="fa fa-user hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Profile</span></a></li>
+					  <li><a href="#tab2" data-toggle="pill"><i class="fa fa-lock hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Password</span></a></li>
+					  <li><a href="#tab3" data-toggle="pill"><i class="fa fa-file-text-o hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Coverage</span></a></li>
+					  <li><a href="#tab4" data-toggle="pill"><i class="fa fa-file-text-o hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Medical Documents</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div class="container">
+		<div class="tab-content">	
+			
+			<!-- Tab 1 >> -->
+			<div id="tab1" class="tab-pane fade in active">
+				<header>
+					<p class="h1 hidden-lg hidden-md hidden-sm">Profile</p>
+				</header>
+				<div class="col-sm-4 col-md-5">
+					<div class="well well-team text-center">
+						<section>
+							<img src="<%= gravatarImage %>" width="134" alt="patient" class="img-circle img-repsonsive" />
+						</section>
+							<a href="#" class="btn btn-default btn-sm">Add a Photo</a>
+					</div>
+				</div>
+
+				
+				<div class="col-sm-8 col-md-6 col-md-offset-1">
+					<form role="form">
+						
+						<div class="row">					
+							<div class="form-group col-xs-6 col-sm-6">
+								<p class="h6">Gender</p>
+								<select class="form-control cc-dropdown" id="gender">
+									<option selected disabled><%= gender %></option>
+									<option value="Female">Female</option>
+									<option value="Male">Male</option>
+								</select>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<div class="row">
+								<div class="form-group col-sm-6">					
+									<p class="h6">First Name</p>
+									<input type="text" class="form-control" id="patientFirstName" value="<%= firstName %>">
+								</div>
+								<div class="form-group col-sm-6">
+									<p class="h6">Last Name</p>
+									<input type="text" class="form-control" id="patientLastName" value="<%= lastName %>">
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<p class="h6">Street</p>
+							<input type="text" class="form-control" id="patientstreet" value="<%= addressStreet %>">
+						</div>				
+						
+						<div class="row">
+							<div class="form-group col-md-7 col-sm-7">
+								<p class="h6">City</p>
+								<input type="text" class="form-control" id="patientcity" value="<%= addressCity %>">						
+							</div>
+							<div class="form-group col-md-2 col-sm-2 col-xs-6">
+								<p class="h6">State</p>
+								<select class="form-control cc-dropdown" id="state">
+									<option selected disabled><%= addressState %></option>
+									<option value="AL">AL</option>
+									<option value="AK">AK</option>
+									<option value="AZ">AZ</option>
+									<option value="AR">AR</option>
+									<option value="CA">CA</option>
+									<option value="CO">CO</option>
+									<option value="CT">CT</option>
+									<option value="DE">DE</option>
+									<option value="DC">DC</option>
+									<option value="FL">FL</option>
+									<option value="GA">GA</option>
+									<option value="HI">HI</option>
+									<option value="ID">ID</option>
+									<option value="IL">IL</option>
+									<option value="IN">IN</option>
+									<option value="IA">IA</option>
+									<option value="KS">KS</option>
+									<option value="KY">KY</option>
+									<option value="LA">LA</option>
+									<option value="ME">ME</option>
+									<option value="MD">MD</option>
+									<option value="MA">MA</option>
+									<option value="MI">MI</option>
+									<option value="MN">MN</option>
+									<option value="MS">MS</option>
+									<option value="MO">MO</option>
+									<option value="MT">MT</option>
+									<option value="NE">NE</option>
+									<option value="NV">NV</option>
+									<option value="NH">NH</option>
+									<option value="NJ">NJ</option>
+									<option value="NM">NM</option>
+									<option value="NY">NY</option>
+									<option value="NC">NC</option>
+									<option value="ND">ND</option>
+									<option value="OH">OH</option>
+									<option value="OK">OK</option>
+									<option value="OR">OR</option>
+									<option value="PA">PA</option>
+									<option value="RI">RI</option>
+									<option value="SC">SC</option>
+									<option value="SD">SD</option>
+									<option value="TN">TN</option>
+									<option value="TX">TX</option>
+									<option value="UT">UT</option>
+									<option value="VT">VT</option>
+									<option value="VA">VA</option>
+									<option value="WA">WA</option>
+									<option value="WV">WV</option>
+									<option value="WI">WI</option>
+									<option value="WY">WY</option>
+								</select>
+							</div>
+							<div class="form-group col-md-3 col-sm-3 col-xs-6">
+								<p class="h6">ZIP Code</p>
+								<input type="text" class="form-control" id="patientzip" value="<%= addressZIP %>">
+							</div>
+						</div>
+
+						<hr />
+						
+						<div class="form-group">
+							<p class="h6">Email</p>
+							<input type="email" class="form-control" id="patientemail" value="<%= email %>">
+						</div>				
+								
+						<div class="form-group">
+							<p class="h6">Phone Number</p>
+							<div class="row">
+								<div class="form-group col-sm-8 col-xs-8">					
+									<input type="text" class="form-control" id="patientphone" value="<%= phone %>">
+								</div>
+								<div class="form-group col-sm-4 col-xs-4">
+									<select class="form-control cc-dropdown" id="patientphonetype">
+										<option selected disabled>Mobile</option>
+										<option>Mobile</option>
+										<option>Home</option>
+										<option>Work</option>
+										<option>Other</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="checkbox checkbox-success">
+									<input type="checkbox" id="textmessages" checked>
+									<label for="textmessages">Text me case updates & other helpful messages</label>
+								</div>
+							</div>
+						</div>
+						
+						<hr />
+						
+						<div class="form-group">
+							<div class="row">
+								<div class="col-sm-4 col-md-4 col-lg-4">
+									<div class="form-group">
+										<p class="h6">Birthday</p>
+										<input type="email" class="form-control" id="patientbirthday" value="01/01/1970">
+									</div>				
+								</div>
+								<div class="col-sm-8 col-md-8 col-lg-7 col-lg-offset-1">
+									<div class="form-group">
+										<p class="h6">Last 4 digits of <span class="hidden-md">Social Security Number</span><span class="hidden-xs hidden-sm hidden-lg">SSN</span></p>
+										<div class="input-group">
+											<span class="input-group-addon" id="basic-addon1">XXX-XX-</span>
+											<input type="text" class="form-control" id="patientssn" value="1234" aria-describedby="basic-addon1">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>		
+		
+						<section>
+							<hr />
+							<p><a href="#" type="button" class="btn btn-primary btn-block btn-lg">Save Changes</a></p>
+						</section>
+					
+					</form>
+					
+				</div>
+				
+				
+			</div><!-- << Tab 1 -->
+			
+			<!-- Tab 2 >> -->
+			<div id="tab2" class="tab-pane fade">
+				<header>
+					<p class="h1 hidden-lg hidden-md hidden-sm">Password</p>
+				</header>
+
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						
+						<div class="form-group">
+							<p class="h6">Enter Existing Password</p>
+							<input type="password" class="form-control" id="patientpasswordold" placeholder="Enter existing password">
+						</div>				
+
+						<div class="form-group">
+							<p class="h6">Enter New Password</p>
+							<input type="password" class="form-control" id="patientpasswordnew" placeholder="Create a new password">
+							<div class="progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+									Password Strength: Weak
+								</div>
+							</div>
+						</div>				
+						<section>
+							<hr />
+							<p><a href="#" type="button" class="btn btn-primary btn-block btn-lg">Save Changes</a></p>
+						</section>
+
+					</div>
+				</div>
+
+			</div><!-- << Tab 2 -->
+		    
+		    <!-- Tab 3 >> -->
+		    <div id="tab3" class="tab-pane fade">
+				<div class="row">
+					<div class="col-sm-7 col-md-7">
+						<h2>Your family is covered</h2>
+						<h4 class="subtext"><%= company %> is providing valuable Grand Rounds benefits to your entire family</h4>
+						<section>
+							<img src="../assets/icon_family.png" alt="icon_family" width="440" height="200" class="img-responsive center-block"/>
+						</section>
+						<section class="text-center">
+							<a href="" data-toggle="modal" data-target="#addModal" class="btn btn-primary">Add Family Members</a>
+						</section>
+					</div>
+				
+					<div class="col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+						<div class="well well-team">
+							<section>
+								<img src="../assets/logo_bigco-blue.png" alt="BigCo Logo Blue" width="338" height="157" class="center-block img-responsive">
+							</section>
+							<p class="subtext"><%= company %> HR<br />
+							<a href="#">hr<%= companyEmail %></a><br />
+							(800) 555-1234 x56789
+							</p>
+							<p class="subtext">Grand Rounds Support<br />
+								<a href="#">support@grandrounds.com</a><br />
+								(800) 929-0926</p>
+							
+							<p class="h6">Insurance Provider</p>
+							<p><%= insuranceCarrier %></p>							
+							
+							<div class="form-group">
+								<p class="h6">Group Number</p>
+								<div class="input-group">
+									<input type="text" class="form-control" id="groupnumber" value="<%= insuranceGroupNumber %>" aria-describedby="basic-addon1" disabled>
+									<span class="input-group-addon" id="basic-addon2"><i class="fa fa-lock"></i></span>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<p class="h6">Member ID</p>
+								<div class="input-group">
+									<input type="text" class="form-control disabled" id="memberid" value="<%= insurancePolicyNumber %>" aria-describedby="basic-addon1" disabled>
+									<span class="input-group-addon" id="basic-addon2"><i class="fa fa-lock"></i></span>
+								</div>
+							</div>
+
+
+							
+							
+						</div>
+					</div>
+				
+				</div>
+		    </div><!-- << Tab 3 -->
+		    
+		    <!-- Tab 4 >> -->
+		    <div id="tab4" class="tab-pane fade">
+				<%- partial("partial/_medicaldocuments-opinion-3") %>
+
+		    </div><!-- << Tab 4 -->
+		    
+		</div><!-- << Tab Content -->
+	
+	</div><!-- << Tabbable -->
+</div><!-- << Page Container -->
+
+<!-- Add a Family Member Modal >> -->
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="addModalLabel">
+	<div class="modal-dialog modal-md" role="document">
+		<div class="modal-content modal-howwechoose">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h3 class="modal-title" id="addModalLabel">Add a Family Member</h3>
+			</div>
+			<div class="modal-body">
+				<div class="containter-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<form>
+								<div class="form-group">
+									<input type="email" class="form-control" id="addemail" placeholder="Email Address">
+								</div>				
+								<div class="form-group">
+									<p><a href="" data-dismiss="modal" aria-label="Close" type="button" class="btn btn-primary btn-md">Add</a></p>
+									<small class="subtext">Invite a family member or caregiver to your team, but keep in mind that they will have access to your case history, medical records, and team messages.</small>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- << Add a Family Member Modal -->
