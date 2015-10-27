@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Profile | Grand Rounds Sales Demo 2015</title>
+
+		<!-- Bootstrap -->
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" type="text/css" href="../css/theme-expert-two.css">
+		<link rel="stylesheet" type="text/css" href="../css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/awesome-bootstrap-checkbox.css">
+		<link rel="stylesheet" type="text/css" href="../css/signature-pad.css">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+				<span class="sr-only">Toggle navigation</span>
+				<i class="fa fa-bars"></i>
+			</button>
+			<a href="dashboard-welcome.html" class="navbar-brand img-responsive"><img src="../images/grlogo-poweredby.png" height="24" alt="Grlogo White"></a>
+		</div>
+	<div class="navbar-brand" style="margin-left:14em;"><img  src="../assets/logo-hospitalforhope-header.png" height="32"></div>
+		<div class="collapse navbar-collapse" id="navbar1">
+			<ul class="nav navbar-nav navbar-right">
+				<!-- Big Co Logo >> -->
+
+
+				<!-- Notifications >> -->
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+						<span class="fa-stack fa-large ">
+							<i class="fa fa-bell fa-inverse fa-2x fa-stack-2x"></i>
+							<span class="icon-fixed-width fa-stack-1x char-overlay">4</span>
+						</span>
+					</a>
+					<ul class="dropdown-menu" role="menu">
+						<li class="dropdown-header">Notifications</li>
+						<li role="separator" class="divider"></li>
+						<li>
+							<a href="visit-casedashboard-scheduled.html">
+								<i class="fa fa-calendar-o fa-fw"></i>
+								<span class="h6">Appointment Scheduled</span><br />
+								<small class="subtext">We've scheduled you an appointment with Dr Lidia Schapira</small>
+							</a>
+						</li>
+						<li role="separator" class="divider"></li>
+						<li>
+							<a href="visit-casedashboard-scheduled.html">
+								<i class="fa fa-file-pdf-o fa-fw"></i>
+								<span class="h6">Medical Records Ready</span><br />
+								<small class="subtext">We have indexed your medical records</small>
+							</a>
+						</li>
+						<li role="separator" class="divider"></li>
+						<li>
+							<a href="visit-casedashboard-scheduled.html">
+								<i class="fa fa-envelope-o fa-fw"></i>
+								<span class="h6">New Message</span><br />
+								<small class="subtext">from Staff Physician, Dr Shaundra Eichstadt</small>
+							</a>
+						</li>
+						<li role="separator" class="divider"></li>
+						<li>
+							<a href="visit-casedashboard.html">
+								<i class="fa fa-building-o fa-fw"></i>
+								<span class="h6">Appointment Requested</span><br />
+								<small class="subtext">You've requested an appointment</small>
+							</a>
+						</li>
+					</ul>
+				</li>
+
+
+				<!-- Account / Profile >> -->
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+						<img src="../assets/img_default-user.jpg" class="avatar" width="28" height="28"/> Elizabeth Parker <span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu" role="menu">
+						<li>
+							<a href="dashboard-welcome.html">
+								<i class="fa fa-dashboard fa-fw"></i>
+								<span class="h6">Dashboard</span><br />
+								<small class="subtext">Manage your active cases or start a new one</small>
+							</a>
+						</li>
+						<li>
+							<a href="profile.html">
+								<i class="fa fa-gear fa-fw"></i>
+								<span class="h6">Account Settings</span><br />
+								<small class="subtext">Edit your password, email, sharing permissions, and insurance coverage</small>
+							</a>
+						</li>
+						<li>
+							<a href="profile.html">
+								<i class="fa fa-heartbeat fa-fw"></i>
+								<span class="h6">Health Records</span><br />
+								<small class="subtext">Access your medical records and medical history</small>
+							</a>
+						</li>
+						<li role="separator" class="divider"></li>
+						<li>
+							<a href="index.html">
+								<i class="fa fa-power-off fa-fw"></i>
+								<span class="h6">Logout</span><br />
+							</a>
+						</li>
+					</ul>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+</nav>
+
+		<div class="tabbable">
+	<section class="nav-cases-container">
+		<div class="container">		
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="nav nav-pills nav-justified nav-cases">
+					  <li class="active"><a href="#tab1" data-toggle="pill"><i class="fa fa-user hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Profile</span></a></li>
+					  <li><a href="#tab2" data-toggle="pill"><i class="fa fa-lock hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Password</span></a></li>
+					  <li><a href="#tab3" data-toggle="pill"><i class="fa fa-file-text-o hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Coverage</span></a></li>
+					  <li><a href="#tab4" data-toggle="pill"><i class="fa fa-file-text-o hidden-lg hidden-md hidden-sm"></i> <span class="hidden-xs">Medical Documents</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div class="container">
+		<div class="tab-content">	
+			
+			<!-- Tab 1 >> -->
+			<div id="tab1" class="tab-pane fade in active">
+				<header>
+					<p class="h1 hidden-lg hidden-md hidden-sm">Profile</p>
+				</header>
+				<div class="col-sm-4 col-md-5">
+					<div class="well well-team text-center">
+						<section>
+							<img src="../assets/img_default-user.jpg" width="134" alt="patient" class="img-circle img-repsonsive">
+						</section>
+							<a href="#" class="btn btn-default btn-sm">Add a Photo</a>
+					</div>
+				</div>
+
+				
+				<div class="col-sm-8 col-md-6 col-md-offset-1">
+					<form role="form">
+						
+						<div class="row">					
+							<div class="form-group col-xs-6 col-sm-6">
+								<p class="h6">Gender</p>
+								<select class="form-control cc-dropdown" id="gender">
+									<option selected="selected" disabled="disabled">Female</option>
+									<option value="Female">Female</option>
+									<option value="Male">Male</option>
+								</select>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<div class="row">
+								<div class="form-group col-sm-6">					
+									<p class="h6">First Name</p>
+									<input type="text" class="form-control" id="patientFirstName" value="Elizabeth">
+								</div>
+								<div class="form-group col-sm-6">
+									<p class="h6">Last Name</p>
+									<input type="text" class="form-control" id="patientLastName" value="Parker">
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<p class="h6">Street</p>
+							<input type="text" class="form-control" id="patientstreet" value="360 3rd Street, Suite 425">
+						</div>				
+						
+						<div class="row">
+							<div class="form-group col-md-7 col-sm-7">
+								<p class="h6">City</p>
+								<input type="text" class="form-control" id="patientcity" value="San Francisco">						
+							</div>
+							<div class="form-group col-md-2 col-sm-2 col-xs-6">
+								<p class="h6">State</p>
+								<select class="form-control cc-dropdown" id="state">
+									<option selected="selected" disabled="disabled">CA</option>
+									<option value="AL">AL</option>
+									<option value="AK">AK</option>
+									<option value="AZ">AZ</option>
+									<option value="AR">AR</option>
+									<option value="CA">CA</option>
+									<option value="CO">CO</option>
+									<option value="CT">CT</option>
+									<option value="DE">DE</option>
+									<option value="DC">DC</option>
+									<option value="FL">FL</option>
+									<option value="GA">GA</option>
+									<option value="HI">HI</option>
+									<option value="ID">ID</option>
+									<option value="IL">IL</option>
+									<option value="IN">IN</option>
+									<option value="IA">IA</option>
+									<option value="KS">KS</option>
+									<option value="KY">KY</option>
+									<option value="LA">LA</option>
+									<option value="ME">ME</option>
+									<option value="MD">MD</option>
+									<option value="MA">MA</option>
+									<option value="MI">MI</option>
+									<option value="MN">MN</option>
+									<option value="MS">MS</option>
+									<option value="MO">MO</option>
+									<option value="MT">MT</option>
+									<option value="NE">NE</option>
+									<option value="NV">NV</option>
+									<option value="NH">NH</option>
+									<option value="NJ">NJ</option>
+									<option value="NM">NM</option>
+									<option value="NY">NY</option>
+									<option value="NC">NC</option>
+									<option value="ND">ND</option>
+									<option value="OH">OH</option>
+									<option value="OK">OK</option>
+									<option value="OR">OR</option>
+									<option value="PA">PA</option>
+									<option value="RI">RI</option>
+									<option value="SC">SC</option>
+									<option value="SD">SD</option>
+									<option value="TN">TN</option>
+									<option value="TX">TX</option>
+									<option value="UT">UT</option>
+									<option value="VT">VT</option>
+									<option value="VA">VA</option>
+									<option value="WA">WA</option>
+									<option value="WV">WV</option>
+									<option value="WI">WI</option>
+									<option value="WY">WY</option>
+								</select>
+							</div>
+							<div class="form-group col-md-3 col-sm-3 col-xs-6">
+								<p class="h6">ZIP Code</p>
+								<input type="text" class="form-control" id="patientzip" value="94017">
+							</div>
+						</div>
+
+						<hr>
+						
+						<div class="form-group">
+							<p class="h6">Email</p>
+							<input type="email" class="form-control" id="patientemail" value="elizabeth.parkerh@bigco.com">
+						</div>				
+								
+						<div class="form-group">
+							<p class="h6">Phone Number</p>
+							<div class="row">
+								<div class="form-group col-sm-8 col-xs-8">					
+									<input type="text" class="form-control" id="patientphone" value="(425) 929-9266">
+								</div>
+								<div class="form-group col-sm-4 col-xs-4">
+									<select class="form-control cc-dropdown" id="patientphonetype">
+										<option selected="selected" disabled="disabled">Mobile</option>
+										<option>Mobile</option>
+										<option>Home</option>
+										<option>Work</option>
+										<option>Other</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="checkbox checkbox-success">
+									<input type="checkbox" id="textmessages" checked="checked">
+									<label for="textmessages">Text me case updates & other helpful messages</label>
+								</div>
+							</div>
+						</div>
+						
+						<hr>
+						
+						<div class="form-group">
+							<div class="row">
+								<div class="col-sm-4 col-md-4 col-lg-4">
+									<div class="form-group">
+										<p class="h6">Birthday</p>
+										<input type="email" class="form-control" id="patientbirthday" value="01/01/1970">
+									</div>				
+								</div>
+								<div class="col-sm-8 col-md-8 col-lg-7 col-lg-offset-1">
+									<div class="form-group">
+										<p class="h6">Last 4 digits of <span class="hidden-md">Social Security Number</span><span class="hidden-xs hidden-sm hidden-lg">SSN</span></p>
+										<div class="input-group">
+											<span class="input-group-addon" id="basic-addon1">XXX-XX-</span>
+											<input type="text" class="form-control" id="patientssn" value="1234" aria-describedby="basic-addon1">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>		
+		
+						<section>
+							<hr>
+							<p><a href="#" type="button" class="btn btn-primary btn-block btn-lg">Save Changes</a></p>
+						</section>
+					
+					</form>
+					
+				</div>
+				
+				
+			</div><!-- << Tab 1 -->
+			
+			<!-- Tab 2 >> -->
+			<div id="tab2" class="tab-pane fade">
+				<header>
+					<p class="h1 hidden-lg hidden-md hidden-sm">Password</p>
+				</header>
+
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						
+						<div class="form-group">
+							<p class="h6">Enter Existing Password</p>
+							<input type="password" class="form-control" id="patientpasswordold" placeholder="Enter existing password">
+						</div>				
+
+						<div class="form-group">
+							<p class="h6">Enter New Password</p>
+							<input type="password" class="form-control" id="patientpasswordnew" placeholder="Create a new password">
+							<div class="progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+									Password Strength: Weak
+								</div>
+							</div>
+						</div>				
+						<section>
+							<hr>
+							<p><a href="#" type="button" class="btn btn-primary btn-block btn-lg">Save Changes</a></p>
+						</section>
+
+					</div>
+				</div>
+
+			</div><!-- << Tab 2 -->
+		    
+		    <!-- Tab 3 >> -->
+		    <div id="tab3" class="tab-pane fade">
+				<div class="row">
+					<div class="col-sm-7 col-md-7">
+						<h2>Your family is covered</h2>
+						<h4 class="subtext">Big Co is providing valuable Grand Rounds benefits to your entire family</h4>
+						<section>
+							<img src="../assets/icon_family.png" alt="icon_family" width="440" height="200" class="img-responsive center-block">
+						</section>
+						<section class="text-center">
+							<a href="" data-toggle="modal" data-target="#addModal" class="btn btn-primary">Add Family Members</a>
+						</section>
+					</div>
+				
+					<div class="col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+						<div class="well well-team">
+							<section>
+								<img src="../assets/logo_bigco-blue.png" alt="BigCo Logo Blue" width="338" height="157" class="center-block img-responsive">
+							</section>
+							<p class="subtext">Big Co HR<br>
+							<a href="#">hr@bigco.com</a><br>
+							(800) 555-1234 x56789
+							</p>
+							<p class="subtext">Grand Rounds Support<br>
+								<a href="#">support@grandrounds.com</a><br>
+								(800) 929-0926</p>
+							
+							<p class="h6">Insurance Provider</p>
+							<p>Big Co PPO</p>							
+							
+							<div class="form-group">
+								<p class="h6">Group Number</p>
+								<div class="input-group">
+									<input type="text" class="form-control" id="groupnumber" value="7277M275151" aria-describedby="basic-addon1" disabled="disabled">
+									<span class="input-group-addon" id="basic-addon2"><i class="fa fa-lock"></i></span>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<p class="h6">Member ID</p>
+								<div class="input-group">
+									<input type="text" class="form-control disabled" id="memberid" value="YZY993A24293" aria-describedby="basic-addon1" disabled="disabled">
+									<span class="input-group-addon" id="basic-addon2"><i class="fa fa-lock"></i></span>
+								</div>
+							</div>
+
+
+							
+							
+						</div>
+					</div>
+				
+				</div>
+		    </div><!-- << Tab 3 -->
+		    
+		    <!-- Tab 4 >> -->
+		    <div id="tab4" class="tab-pane fade">
+				<div class="row">
+	<!-- Documents >> -->
+	<div class="col-md-12">
+		<h3>Medical Documents</h3>
+
+		<table class="table table-lg table-responsive table-hover table-documents">
+			<tbody>
+				<tr>
+					<td class="col-md-10"><i class="fa fa-file-text-o"></i> &nbsp; <a href="../assets/file_opinion-example2.pdf" target="_blank">Expert Opinion &ndash; Congestive Heart Failure</a> <div class="label label-warning bounceIn">NEW</div></td>
+					<td class="col-md-2 subtext"><script>var d = new Date(+new Date); document.write(d.toDateString());</script></td>
+				</tr>
+				<tr>
+					<td class="col-md-10"><i class="fa fa-file-text-o"></i> &nbsp; <a href="../assets/file_opinion-records.pdf" target="_blank">Indexed Medical Records</a></td>
+					<td class="col-md-2 subtext"><script>var d = new Date(+new Date - 12096e5); document.write(d.toDateString());</script></td>
+				</tr>
+				<tr>
+					<td class="col-md-10"><i class="fa fa-file-text-o"></i> &nbsp; <a href="../assets/file_opinion-release.pdf" target="_blank">Records Release Form</a></td>
+					<td class="col-md-2 subtext"><script>var d = new Date(+new Date - 12096e5); document.write(d.toDateString());</script></td>
+				</tr>
+			</tbody>
+		</table>
+
+
+	</div><!-- << Documents -->
+
+</div>
+
+
+		    </div><!-- << Tab 4 -->
+		    
+		</div><!-- << Tab Content -->
+	
+	</div><!-- << Tabbable -->
+</div><!-- << Page Container -->
+
+<!-- Add a Family Member Modal >> -->
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="addModalLabel">
+	<div class="modal-dialog modal-md" role="document">
+		<div class="modal-content modal-howwechoose">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h3 class="modal-title" id="addModalLabel">Add a Family Member</h3>
+			</div>
+			<div class="modal-body">
+				<div class="containter-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<form>
+								<div class="form-group">
+									<input type="email" class="form-control" id="addemail" placeholder="Email Address">
+								</div>				
+								<div class="form-group">
+									<p><a href="" data-dismiss="modal" aria-label="Close" type="button" class="btn btn-primary btn-md">Add</a></p>
+									<small class="subtext">Invite a family member or caregiver to your team, but keep in mind that they will have access to your case history, medical records, and team messages.</small>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- << Add a Family Member Modal -->
+		<!-- footer //-->
+<footer class="footer">
+	<div class="container">
+			<div class="row">
+				<!-- Desktop >> -->
+				<div class="col-md-12 hidden-xs hidden-sm">
+					<ul class="list-inline pull-left footer-gr">
+						<li>© Grand Rounds Health 2013-2015</li>
+					</ul>
+					<ul class="list-inline pull-right footer-gr">
+						<li><a href="#" class="subtext">Terms of Service</a></li>
+						<li><a href="#" class="subtext">Privacy Policy</a></li>
+						<li>Need Help? (800) 929-0926</li>
+					</ul>
+				</div>
+
+				<!-- Mobile >> -->
+				<div class="col-xs-12 hidden-lg hidden-md">
+					<ul class="list-unstyled text-center footer-gr">
+						<li>© Grand Rounds Health 2013-2015</li>
+						<li><a href="#" class="subtext">Terms of Service</a></li>
+						<li><a href="#" class="subtext">Privacy Policy</a></li>
+						<li>Need Help? (800) 929-0926</li>
+					</ul>
+				</div>
+
+			</div>
+	</div>
+</footer>
+<!-- \\ footer -->
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="../js/bootstrap.min.js"></script>
+
+		<!-- Custom Scripts -->
+		<script type="text/javascript" src="../js/retina.min.js"></script>
+		<script type="text/javascript" src="../js/noty/packaged/jquery.noty.packaged.min.js"></script>
+		<script type="text/javascript" src="../js/notification_html.js"></script>
+		<script type="text/javascript" src="../js/password-strength.js"></script>
+
+		<!-- Tool Tip? -->
+		<script>
+			$(document).ready(function () {
+			// initalize tooltips
+			$('[data-toggle="tooltip"]').tooltip();
+			// initalize popovers
+			$('[data-toggle="popover"]').popover();
+			});
+		</script>
+
+	</body>
+</html>
