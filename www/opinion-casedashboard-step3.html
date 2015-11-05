@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>Collecting Medical Records | Grand Rounds Sales Demo 2015</title>
+		<title>Grand Rounds | Grand Rounds Sales Demo 2015</title>
 		
 		<!-- Bootstrap -->
 		<link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/animate.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/awesome-bootstrap-checkbox.css">
 		<link rel="stylesheet" type="text/css" href="../css/signature-pad.css">
-
+		
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -27,7 +27,7 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body data-spy="scroll" data-target=".navbar-fixed-top">
+	<body>
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
@@ -48,13 +48,43 @@
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">						
 						<span class="fa-stack fa-large ">
 							<i class="fa fa-bell fa-inverse fa-2x fa-stack-2x"></i>
-							<span class="icon-fixed-width fa-stack-1x char-overlay"></span>
+							<span class="icon-fixed-width fa-stack-1x char-overlay">4</span>
 						</span>
 					</a>
 					<ul class="dropdown-menu" role="menu">
 						<li class="dropdown-header">Notifications</li>
 						<li role="separator" class="divider"></li>
-						<li class="disabled"><a href="#">No notifications</a></li>
+						<li>
+							<a href="visit-casedashboard-scheduled.html">
+								<i class="fa fa-calendar-o fa-fw"></i>
+								<span class="h6">Appointment Scheduled</span><br />
+								<small class="subtext">We've scheduled you an appointment with Dr Lidia Schapira</small>
+							</a>
+						</li>
+						<li role="separator" class="divider"></li>
+						<li>
+							<a href="visit-casedashboard-scheduled.html">
+								<i class="fa fa-file-pdf-o fa-fw"></i>
+								<span class="h6">Medical Records Ready</span><br />
+								<small class="subtext">We have indexed your medical records</small>
+							</a>
+						</li>
+						<li role="separator" class="divider"></li>
+						<li>
+							<a href="visit-casedashboard-scheduled.html">
+								<i class="fa fa-envelope-o fa-fw"></i>
+								<span class="h6">New Message</span><br />
+								<small class="subtext">from Staff Physician, Dr Shaundra Eichstadt</small>
+							</a>
+						</li>
+						<li role="separator" class="divider"></li>
+						<li>
+							<a href="visit-casedashboard.html">
+								<i class="fa fa-building-o fa-fw"></i>
+								<span class="h6">Appointment Requested</span><br />
+								<small class="subtext">You've requested an appointment</small>
+							</a>
+						</li>
 					</ul>
 				</li>
 				
@@ -136,7 +166,7 @@
 				<!-- Next Steps >> -->
 				<section class="dashboard">
 					<!-- Step 1 >> -->
-					<div class="well well-opinions-step-active">
+					<div class="well well-opinions-step-inactive">
 						<div class="row">
 							<table>
 								<tbody>
@@ -144,14 +174,14 @@
 										<td class="col-md-1 col-xs-1">
 											<span class="fa-stack fa-large">
 												<i class="fa fa-circle fa-inverse fa-2x fa-stack-2x"></i>
-												<span class="icon-fixed-width fa-stack-1x char-overlay-grey">1</span>
+												<span class="icon-fixed-width fa-stack-1x char-overlay-grey"><i class="fa fa-check-circle"></i></span>
 											</span>
 										</td>
 										<td class="col-md-1 hidden-xs">
-											<img src="../assets/icon_opinion-step1-on.png" alt="icon_opinion-step1">
+											<img src="../assets/icon_opinion-step1-off.png" alt="icon_opinion-step1">
 										</td>
 										<td class="col-md-7 col-xs-8">
-											<p class="h3">We're collecting and summarizing your medical records</p>
+											<p class="h3"><strike class="subtext">We're collecting and summarizing your medical records</strike></p>
 										</td>
 										<td class="col-md-1 col-xs-1">
 											<small class="subtext">Approx.<br>7 days</small>
@@ -171,14 +201,14 @@
 										<td class="col-md-1 col-xs-1">
 											<span class="fa-stack fa-large">
 												<i class="fa fa-circle fa-inverse fa-2x fa-stack-2x"></i>
-												<span class="icon-fixed-width fa-stack-1x char-overlay-grey">2</span>
+												<span class="icon-fixed-width fa-stack-1x char-overlay-grey"><i class="fa fa-check-circle"></i></span>
 											</span>
 										</td>
 										<td class="col-md-1 hidden-xs">
 											<img src="../assets/icon_opinion-step3-off.png" alt="icon_opinion-step2">
 										</td>
 										<td class="col-md-7 col-xs-8">
-											<p class="h3">We'll select an expert physician specializing in your condition</p>
+											<p class="h3"><strike class="subtext">We'll select an expert physician specializing in your condition</strike></p>
 										</td>
 										<td class="col-md-1 col-xs-1">
 											<small class="subtext">Approx.<br>24 hrs</small>
@@ -190,7 +220,7 @@
 					</div><!-- << Step 2 -->
 
 					<!-- Step 3 >> -->
-					<div class="well well-opinions-step-inactive">
+					<div class="well well-opinions-step-active">
 						<div class="row">
 							<table>
 								<tbody>
@@ -202,7 +232,7 @@
 											</span>
 										</td>
 										<td class="col-md-1 hidden-xs">
-											<img src="../assets/icon_opinion-step2-off.png" alt="icon_opinion-step2">
+											<img src="../assets/icon_opinion-step2-on.png" alt="icon_opinion-step2">
 										</td>
 										<td class="col-md-7 col-xs-8">
 											<p class="h3">The expert physician reviews your medical history and answers your questions</p>
@@ -246,12 +276,10 @@
 				</section><!-- << Next Steps -->
 
 
-
-
 				<!-- Advance to Opinion Ready >> -->
 				<div class="row">
 					<div class="col-md-12">
-						<p class="small text-right"><a href="opinion-casedashboard-step2.html" target="_self">Advance to Step 2</a></p>
+						<p class="small text-right"><a href="opinion-casedashboard-step4.html" target="_self">Advance to Step 4</a></p>
 						<p class="small text-right"><a href="opinion-casedashboard-delivered.html">Advance to Opinion Ready</a></p>
 					</div>
 				</div>
@@ -459,8 +487,6 @@
 		<script type="text/javascript" src="../js/noty/packaged/jquery.noty.packaged.min.js"></script>
 		<script type="text/javascript" src="../js/notification_html.js"></script>
 		<script type="text/javascript" src="../js/password-strength.js"></script>
-		<script src="../js/signature_pad/signature_pad.js"></script>
-		<script src="../js/signature_pad/signature_pad_app.js"></script>
 				
 		<!-- Tool Tip? -->
 		<script>
@@ -471,6 +497,6 @@
 			$('[data-toggle="popover"]').popover();
 			});
 		</script>
-
+		
 	</body>
 </html>
